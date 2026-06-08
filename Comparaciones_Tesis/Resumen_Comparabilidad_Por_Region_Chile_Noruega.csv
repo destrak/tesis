@@ -1,0 +1,10 @@
+﻿region_chile,region_noruega,total_semanas,semanas_comparables,promedio_dif_temp_C,promedio_dif_sal_PSU,porcentaje_comparabilidad,conclusion
+Aysén,Centro,549,399,2.011,1.169,72.68,No similar
+Aysén,Norte,549,214,3.527,1.414,38.98,No similar
+Aysén,Sur/Oeste,549,413,1.962,0.969,75.23,No similar
+Los Lagos,Centro,549,282,2.991,1.209,51.37,No similar
+Los Lagos,Norte,549,49,4.871,1.462,8.93,No similar
+Los Lagos,Sur/Oeste,549,322,2.571,1.031,58.65,No similar
+Magallanes,Centro,549,349,2.503,0.661,63.57,No similar
+Magallanes,Norte,549,504,1.205,0.698,91.8,Similar
+Magallanes,Sur/Oeste,549,305,3.088,1.005,55.56,No similar

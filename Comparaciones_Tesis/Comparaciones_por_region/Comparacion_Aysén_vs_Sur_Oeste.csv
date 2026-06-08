@@ -1,0 +1,550 @@
+﻿centro_chile,region_chile,centro_noruega,region_noruega,anio_chile,semana_chile,anio_noruega,semana_noruega,semana_noruega_equivalente,anio_noruega_equivalente,temperatura_chile_C,temperatura_noruega_C,dif_temperatura_C,salinidad_chile_PSU,salinidad_noruega_PSU,dif_salinidad_PSU,comparabilidad_temperatura,comparabilidad_salinidad,comparabilidad_general
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,1,2014,27,27,2014,11.579,9.932,1.647,33.566,33.317,0.249,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,2,2014,28,28,2014,12.063,12.774,0.711,33.586,32.679,0.907,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,3,2014,29,29,2014,13.511,15.229,1.718,33.472,32.441,1.031,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,4,2014,30,30,2014,12.662,17.774,5.112,33.529,32.034,1.495,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,5,2014,31,31,2014,12.076,18.677,6.601,33.591,31.748,1.843,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,6,2014,32,32,2014,11.976,18.308,6.332,33.598,31.266,2.332,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,7,2014,33,33,2014,12.448,16.647,4.199,33.5,31.412,2.088,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,8,2014,34,34,2014,12.719,14.938,2.219,33.497,31.923,1.574,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,9,2014,35,35,2014,12.549,14.54,1.991,33.575,32.042,1.533,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,10,2014,36,36,2014,13.129,15.417,2.288,33.544,31.042,2.502,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,11,2014,37,37,2014,12.18,15.592,3.412,33.591,30.679,2.912,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,12,2014,38,38,2014,11.099,15.746,4.647,33.693,30.893,2.8,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,13,2014,39,39,2014,11.077,14.775,3.698,33.663,31.423,2.24,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,14,2014,40,40,2014,10.721,14.221,3.5,33.6,31.857,1.743,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,15,2014,41,41,2014,11.074,13.689,2.615,33.561,32.296,1.265,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,16,2014,42,42,2014,10.477,13.174,2.697,33.613,32.571,1.042,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,17,2014,43,43,2014,10.667,13.288,2.621,33.512,32.715,0.797,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,18,2014,44,44,2014,10.602,12.715,2.113,33.541,32.738,0.803,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,19,2014,45,45,2014,10.49,12.208,1.718,33.497,32.401,1.096,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,20,2014,46,46,2014,10.176,11.669,1.493,33.434,32.034,1.4,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,21,2014,47,47,2014,9.772,11.267,1.495,33.272,32.094,1.178,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,22,2014,48,48,2014,9.855,10.714,0.859,33.454,32.457,0.997,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,23,2014,49,49,2014,9.49,10.164,0.674,33.26,32.756,0.504,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,24,2014,50,50,2014,9.522,9.641,0.119,33.389,32.879,0.51,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,25,2014,51,51,2014,9.481,8.978,0.503,33.313,33.044,0.269,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,26,2014,52,52,2014,9.645,8.19,1.455,33.362,33.066,0.296,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,27,2015,1,1,2015,9.64,8.164,1.476,33.416,33.504,0.088,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,28,2015,2,2,2015,9.2,8.271,0.929,33.293,33.59,0.297,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,29,2015,3,3,2015,9.243,8.158,1.085,33.293,33.505,0.212,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,30,2015,4,4,2015,9.017,7.809,1.208,33.274,33.426,0.152,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,31,2015,5,5,2015,9.01,7.409,1.601,33.268,33.369,0.101,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,32,2015,6,6,2015,9.218,7.245,1.973,33.316,33.413,0.097,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,33,2015,7,7,2015,9.041,7.004,2.037,33.291,33.436,0.145,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,34,2015,8,8,2015,9.254,7.036,2.218,33.214,33.725,0.511,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,35,2015,9,9,2015,9.49,6.562,2.928,33.147,33.711,0.564,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,36,2015,10,10,2015,9.829,6.238,3.591,33.169,33.627,0.458,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,37,2015,11,11,2015,9.746,6.237,3.509,33.192,33.563,0.371,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,38,2015,12,12,2015,9.694,6.217,3.477,33.161,33.415,0.254,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,39,2015,13,13,2015,9.644,6.16,3.484,33.144,33.357,0.213,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,40,2015,14,14,2015,10.028,6.22,3.808,32.973,33.347,0.374,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,41,2015,15,15,2015,10.18,6.35,3.83,33.071,33.293,0.222,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,42,2015,16,16,2015,10.266,6.462,3.804,33.076,33.153,0.077,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,43,2015,17,17,2015,10.967,6.879,4.088,33.02,33.182,0.162,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,44,2015,18,18,2015,10.804,7.213,3.591,33.077,33.119,0.042,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,45,2015,19,19,2015,10.785,7.573,3.212,33.128,32.892,0.236,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,46,2015,20,20,2015,11.168,8.066,3.102,33.14,32.605,0.535,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,47,2015,21,21,2015,11.721,8.59,3.131,33.092,32.457,0.635,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,48,2015,22,22,2015,12.125,9.203,2.922,33.087,32.318,0.769,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,49,2015,23,23,2015,12.874,9.779,3.095,33.078,32.268,0.81,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,50,2015,24,24,2015,12.676,10.127,2.549,33.162,32.129,1.033,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,51,2015,25,25,2015,11.849,10.929,0.92,33.341,31.637,1.704,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2014,52,2015,26,26,2015,11.695,11.375,0.32,33.421,31.755,1.666,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,1,2015,27,27,2015,12.519,12.406,0.113,33.291,31.552,1.739,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,2,2015,28,28,2015,12.002,11.771,0.231,33.428,31.622,1.806,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,3,2015,29,29,2015,11.999,12.032,0.033,33.479,31.973,1.506,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,4,2015,30,30,2015,12.857,12.986,0.129,33.438,32.013,1.425,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,5,2015,31,31,2015,13.867,12.249,1.618,33.332,32.451,0.881,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,6,2015,32,32,2015,13.913,13.484,0.429,33.302,32.526,0.776,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,7,2015,33,33,2015,12.453,14.673,2.22,33.496,32.065,1.431,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,8,2015,34,34,2015,11.579,15.615,4.036,33.614,31.506,2.108,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,9,2015,35,35,2015,11.144,16.452,5.308,33.679,30.07,3.609,No comparable,Diferente,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,10,2015,36,36,2015,11.73,15.792,4.062,33.623,30.22,3.403,Diferente,Diferente,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,11,2015,37,37,2015,12.517,14.372,1.855,33.522,31.315,2.207,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,12,2015,38,38,2015,12.317,14.599,2.282,33.452,30.925,2.527,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,13,2015,39,39,2015,12.516,14.183,1.667,33.322,30.78,2.542,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,14,2015,40,40,2015,12.027,13.991,1.964,33.416,30.513,2.903,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,15,2015,41,41,2015,12.147,13.592,1.445,33.329,30.514,2.815,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,16,2015,42,42,2015,12.157,13.223,1.066,33.23,30.546,2.684,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,17,2015,43,43,2015,11.661,12.627,0.966,33.297,30.641,2.656,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,18,2015,44,44,2015,11.74,11.935,0.195,33.233,31.15,2.083,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,19,2015,45,45,2015,11.121,11.796,0.675,33.285,31.838,1.447,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,20,2015,46,46,2015,11.258,11.249,0.009,33.227,32.36,0.867,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,21,2015,47,47,2015,11.119,10.451,0.668,33.295,32.42,0.875,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,22,2015,48,48,2015,10.693,9.875,0.818,33.251,32.487,0.764,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,23,2015,49,49,2015,10.609,9.337,1.272,33.183,32.592,0.591,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,24,2015,50,50,2015,10.318,8.957,1.361,33.134,32.966,0.168,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,25,2015,51,51,2015,10.018,8.655,1.363,33.189,33.084,0.105,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,26,2015,52,52,2015,9.764,8.869,0.895,33.188,33.267,0.079,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,27,2016,1,1,2016,9.496,7.98,1.516,33.179,33.4,0.221,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,28,2016,2,2,2016,9.312,7.463,1.849,33.152,33.476,0.324,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,29,2016,3,3,2016,9.069,7.02,2.049,33.181,33.506,0.325,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,30,2016,4,4,2016,8.961,7.028,1.933,33.152,33.593,0.441,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,31,2016,5,5,2016,9.259,6.768,2.491,33.168,33.642,0.474,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,32,2016,6,6,2016,9.356,6.582,2.774,33.204,33.643,0.439,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,33,2016,7,7,2016,9.165,6.292,2.873,33.082,33.718,0.636,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,34,2016,8,8,2016,9.127,6.015,3.112,33.109,33.723,0.614,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,35,2016,9,9,2016,9.46,5.758,3.702,33.157,33.66,0.503,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,36,2016,10,10,2016,9.41,5.756,3.654,33.132,33.682,0.55,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,37,2016,11,11,2016,9.103,6.07,3.033,33.142,33.712,0.57,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,38,2016,12,12,2016,8.785,6.067,2.718,33.152,33.719,0.567,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,39,2016,13,13,2016,9.314,5.784,3.53,33.062,33.368,0.306,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,40,2016,14,14,2016,9.412,6.152,3.26,33.006,33.229,0.223,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,41,2016,15,15,2016,9.61,6.563,3.047,33.043,33.253,0.21,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,42,2016,16,16,2016,10.008,6.51,3.498,33.003,33.256,0.253,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,43,2016,17,17,2016,10.2,6.788,3.412,32.99,33.352,0.362,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,44,2016,18,18,2016,10.697,7.373,3.324,33.005,33.207,0.202,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,45,2016,19,19,2016,10.337,8.195,2.142,33.142,33.183,0.041,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,46,2016,20,20,2016,11.142,8.126,3.016,33.095,33.154,0.059,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,47,2016,21,21,2016,11.495,9.503,1.992,33.1,32.817,0.283,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,48,2016,22,22,2016,12.601,9.545,3.056,33.009,32.974,0.035,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,49,2016,23,23,2016,13.186,10.246,2.94,32.938,32.943,0.005,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,50,2016,24,24,2016,12.275,11.001,1.274,33.11,32.773,0.337,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,51,2016,25,25,2016,12.041,11.668,0.373,33.18,32.675,0.505,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,52,2016,26,26,2016,12.554,13.192,0.638,33.164,32.192,0.972,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2015,53,2016,27,27,2016,14.388,13.87,0.518,33.027,31.809,1.218,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,1,2016,27,27,2016,13.231,13.87,0.639,33.15,31.809,1.341,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,2,2016,28,28,2016,13.072,14.314,1.242,33.313,31.527,1.786,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,3,2016,29,29,2016,15.231,15.105,0.126,33.138,31.314,1.824,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,4,2016,30,30,2016,15.332,15.955,0.623,33.148,31.221,1.927,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,5,2016,31,31,2016,15.355,15.933,0.578,33.092,30.942,2.15,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,6,2016,32,32,2016,14.162,14.706,0.544,33.282,31.035,2.247,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,7,2016,33,33,2016,13.767,14.703,0.936,33.359,30.995,2.364,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,8,2016,34,34,2016,13.821,15.708,1.887,33.379,31.092,2.287,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,9,2016,35,35,2016,14.087,15.512,1.425,33.259,31.467,1.792,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,10,2016,36,36,2016,12.562,15.467,2.905,33.436,31.76,1.676,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,11,2016,37,37,2016,12.145,15.8,3.655,33.467,31.538,1.929,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,12,2016,38,38,2016,11.952,15.859,3.907,33.495,30.982,2.513,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,13,2016,39,39,2016,12.637,15.436,2.799,33.342,30.735,2.607,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,14,2016,40,40,2016,12.346,14.326,1.98,33.25,30.846,2.404,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,15,2016,41,41,2016,11.757,13.694,1.937,33.289,30.9,2.389,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,16,2016,42,42,2016,10.961,13.144,2.183,33.309,30.941,2.368,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,17,2016,43,43,2016,10.791,12.482,1.691,33.12,31.682,1.438,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,18,2016,44,44,2016,10.782,11.701,0.919,32.867,31.946,0.921,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,19,2016,45,45,2016,10.847,10.415,0.432,32.691,32.429,0.262,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,20,2016,46,46,2016,10.617,9.861,0.756,32.633,32.732,0.099,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,21,2016,47,47,2016,10.103,9.203,0.9,32.72,32.702,0.018,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,22,2016,48,48,2016,9.909,8.674,1.235,32.781,32.94,0.159,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,23,2016,49,49,2016,9.676,8.359,1.317,32.947,33.134,0.187,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,24,2016,50,50,2016,9.592,8.24,1.352,32.953,33.131,0.178,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,25,2016,51,51,2016,9.402,8.316,1.086,32.937,33.248,0.311,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,26,2016,52,52,2016,9.235,8.11,1.125,32.929,33.371,0.442,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,27,2017,1,1,2017,9.247,7.744,1.503,32.911,33.498,0.587,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,28,2017,2,2,2017,9.263,7.468,1.795,32.838,33.618,0.78,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,29,2017,3,3,2017,9.32,7.049,2.271,32.986,33.693,0.707,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,30,2017,4,4,2017,9.201,7.082,2.119,32.9,33.801,0.901,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,31,2017,5,5,2017,9.389,6.933,2.456,32.967,33.871,0.904,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,32,2017,6,6,2017,9.489,6.754,2.735,33.0,34.014,1.014,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,33,2017,7,7,2017,9.285,6.521,2.764,32.877,33.999,1.122,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,34,2017,8,8,2017,9.4,6.303,3.097,32.913,33.888,0.975,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,35,2017,9,9,2017,9.537,6.042,3.495,32.993,33.524,0.531,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,36,2017,10,10,2017,9.69,5.961,3.729,32.927,33.15,0.223,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,37,2017,11,11,2017,9.834,5.956,3.878,32.848,33.046,0.198,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,38,2017,12,12,2017,10.158,6.0,4.158,32.838,33.015,0.177,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,39,2017,13,13,2017,10.484,6.208,4.276,32.769,32.952,0.183,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,40,2017,14,14,2017,10.677,6.501,4.176,32.813,32.824,0.011,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,41,2017,15,15,2017,10.414,6.655,3.759,32.842,32.88,0.038,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,42,2017,16,16,2017,11.197,6.759,4.438,32.658,33.021,0.363,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,43,2017,17,17,2017,12.112,6.992,5.12,32.587,33.411,0.824,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,44,2017,18,18,2017,11.565,7.925,3.64,32.69,33.599,0.909,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,45,2017,19,19,2017,11.459,8.09,3.369,32.737,33.711,0.974,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,46,2017,20,20,2017,11.316,9.294,2.022,32.841,33.353,0.512,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,47,2017,21,21,2017,12.766,10.218,2.548,32.732,33.238,0.506,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,48,2017,22,22,2017,13.553,10.911,2.642,32.688,33.034,0.346,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,49,2017,23,23,2017,13.813,11.589,2.224,32.589,32.736,0.147,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,50,2017,24,24,2017,12.682,12.31,0.372,32.839,31.913,0.926,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,51,2017,25,25,2017,13.31,12.444,0.866,32.803,31.362,1.441,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2016,52,2017,26,26,2017,13.714,12.498,1.216,32.763,31.46,1.303,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,1,2017,27,27,2017,13.649,12.79,0.859,32.811,31.796,1.015,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,2,2017,28,28,2017,13.514,13.769,0.255,32.835,31.465,1.37,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,3,2017,29,29,2017,13.977,15.023,1.046,32.785,31.28,1.505,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,4,2017,30,30,2017,14.814,16.127,1.313,32.697,31.104,1.593,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,5,2017,31,31,2017,14.826,16.308,1.482,32.668,31.516,1.152,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,6,2017,32,32,2017,14.88,15.955,1.075,32.656,31.444,1.212,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,7,2017,33,33,2017,15.132,15.619,0.487,32.598,31.018,1.58,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,8,2017,34,34,2017,14.841,15.682,0.841,32.591,30.884,1.707,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,9,2017,35,35,2017,14.461,15.596,1.135,32.671,30.513,2.158,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,10,2017,36,36,2017,14.068,15.379,1.311,32.624,30.61,2.014,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,11,2017,37,37,2017,14.062,15.014,0.952,32.665,30.702,1.963,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,12,2017,38,38,2017,14.534,14.812,0.278,32.632,31.138,1.494,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,13,2017,39,39,2017,14.523,14.994,0.471,32.456,31.386,1.07,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,14,2017,40,40,2017,13.79,14.387,0.597,32.648,31.576,1.072,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,15,2017,41,41,2017,12.635,13.46,0.825,32.888,31.844,1.044,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,16,2017,42,42,2017,12.712,12.751,0.039,32.893,31.692,1.201,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,17,2017,43,43,2017,12.209,12.277,0.068,32.939,31.478,1.461,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,18,2017,44,44,2017,12.164,11.382,0.782,32.851,31.885,0.966,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,19,2017,45,45,2017,11.953,10.807,1.146,32.572,32.083,0.489,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,20,2017,46,46,2017,11.665,10.059,1.606,32.783,32.441,0.342,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,21,2017,47,47,2017,11.003,9.401,1.602,32.788,32.557,0.231,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,22,2017,48,48,2017,10.674,8.743,1.931,32.71,32.69,0.02,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,23,2017,49,49,2017,10.383,8.596,1.787,32.825,33.056,0.231,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,24,2017,50,50,2017,9.796,7.957,1.839,32.904,33.095,0.191,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,25,2017,51,51,2017,9.385,8.012,1.373,32.905,33.347,0.442,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,26,2017,52,52,2017,9.107,7.669,1.438,32.897,33.391,0.494,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,27,2018,1,1,2018,9.245,7.307,1.938,33.057,33.464,0.407,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,28,2018,2,2,2018,8.896,7.045,1.851,33.103,33.602,0.499,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,29,2018,3,3,2018,8.588,6.78,1.808,33.031,33.504,0.473,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,30,2018,4,4,2018,8.815,6.592,2.223,33.157,33.386,0.229,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,31,2018,5,5,2018,8.883,6.373,2.51,33.141,33.269,0.128,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,32,2018,6,6,2018,9.345,6.079,3.266,33.234,33.031,0.203,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,33,2018,7,7,2018,9.282,5.804,3.478,33.213,32.618,0.595,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,34,2018,8,8,2018,9.2,5.541,3.659,33.172,32.27,0.902,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,35,2018,9,9,2018,9.229,4.933,4.296,33.131,32.273,0.858,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,36,2018,10,10,2018,9.18,3.929,5.251,33.109,31.83,1.279,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,37,2018,11,11,2018,9.099,3.724,5.375,33.099,31.549,1.55,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,38,2018,12,12,2018,9.211,3.871,5.34,33.054,31.408,1.646,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,39,2018,13,13,2018,9.422,4.141,5.281,33.015,31.229,1.786,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,40,2018,14,14,2018,9.575,4.333,5.242,33.019,31.193,1.826,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,41,2018,15,15,2018,9.909,5.291,4.618,33.047,31.303,1.744,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,42,2018,16,16,2018,10.26,6.149,4.111,33.022,31.715,1.307,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,43,2018,17,17,2018,10.489,6.49,3.999,32.971,31.884,1.087,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,44,2018,18,18,2018,11.697,6.896,4.801,32.667,31.83,0.837,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,45,2018,19,19,2018,12.501,8.123,4.378,32.611,31.796,0.815,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,46,2018,20,20,2018,12.046,9.314,2.732,32.679,31.665,1.014,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,47,2018,21,21,2018,11.129,9.978,1.151,32.921,31.297,1.624,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,48,2018,22,22,2018,11.801,12.125,0.324,32.929,31.294,1.635,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,49,2018,23,23,2018,11.775,10.838,0.937,33.053,31.643,1.41,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,50,2018,24,24,2018,12.394,9.809,2.585,33.041,31.907,1.134,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,51,2018,25,25,2018,12.383,10.608,1.775,33.095,31.624,1.471,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2017,52,2018,26,26,2018,12.54,11.152,1.388,33.081,31.959,1.122,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,1,2018,27,27,2018,12.574,12.368,0.206,33.042,32.35,0.692,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,2,2018,28,28,2018,13.488,12.204,1.284,32.936,32.776,0.16,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,3,2018,29,29,2018,13.522,14.051,0.529,32.954,32.979,0.025,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,4,2018,30,30,2018,13.449,14.885,1.436,33.013,33.06,0.047,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,5,2018,31,31,2018,13.674,16.181,2.507,33.026,32.706,0.32,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,6,2018,32,32,2018,14.195,16.26,2.065,33.013,32.793,0.22,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,7,2018,33,33,2018,13.79,16.123,2.333,33.027,32.616,0.411,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,8,2018,34,34,2018,14.429,15.876,1.447,32.888,32.243,0.645,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,9,2018,35,35,2018,14.529,15.833,1.304,32.811,31.583,1.228,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,10,2018,36,36,2018,14.39,15.918,1.528,32.822,30.742,2.08,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,11,2018,37,37,2018,13.495,15.483,1.988,32.89,30.512,2.378,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,12,2018,38,38,2018,12.847,14.618,1.771,32.961,30.859,2.102,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,13,2018,39,39,2018,12.674,13.132,0.458,32.957,31.375,1.582,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,14,2018,40,40,2018,12.412,11.95,0.462,32.901,31.669,1.232,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,15,2018,41,41,2018,11.815,11.641,0.174,32.843,32.242,0.601,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,16,2018,42,42,2018,11.722,11.709,0.013,32.769,32.606,0.163,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,17,2018,43,43,2018,11.508,10.96,0.548,32.787,32.702,0.085,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,18,2018,44,44,2018,11.215,10.05,1.165,32.684,32.935,0.251,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,19,2018,45,45,2018,10.96,10.224,0.736,32.583,33.221,0.638,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,20,2018,46,46,2018,10.63,10.313,0.317,32.484,33.213,0.729,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,21,2018,47,47,2018,10.449,10.009,0.44,32.657,33.32,0.663,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,22,2018,48,48,2018,9.876,9.608,0.268,32.665,33.342,0.677,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,23,2018,49,49,2018,9.569,9.216,0.353,32.736,33.427,0.691,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,24,2018,50,50,2018,9.091,8.546,0.545,32.735,33.606,0.871,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,25,2018,51,51,2018,8.959,7.89,1.069,32.842,33.354,0.512,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,26,2018,52,52,2018,8.758,7.472,1.286,32.919,33.216,0.297,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,27,2019,1,1,2019,8.329,7.086,1.243,32.821,33.12,0.299,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,28,2019,2,2,2019,8.185,6.625,1.56,32.697,33.304,0.607,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,29,2019,3,3,2019,7.987,6.313,1.674,32.555,33.644,1.089,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,30,2019,4,4,2019,8.002,6.315,1.687,32.656,33.851,1.195,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,31,2019,5,5,2019,8.109,5.95,2.159,32.726,33.875,1.149,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,32,2019,6,6,2019,8.224,5.71,2.514,32.686,33.851,1.165,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,33,2019,7,7,2019,8.396,5.828,2.568,32.714,33.9,1.186,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,34,2019,8,8,2019,8.491,6.2,2.291,32.594,34.048,1.454,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,35,2019,9,9,2019,8.571,6.408,2.163,32.454,34.243,1.789,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,36,2019,10,10,2019,8.624,6.133,2.491,32.358,34.033,1.675,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,37,2019,11,11,2019,8.891,5.291,3.6,32.26,33.361,1.101,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,38,2019,12,12,2019,9.233,5.326,3.907,32.069,33.106,1.037,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,39,2019,13,13,2019,9.504,5.394,4.11,31.898,32.98,1.082,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,40,2019,14,14,2019,9.331,5.547,3.784,32.122,32.969,0.847,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,41,2019,15,15,2019,9.46,5.837,3.623,32.114,32.722,0.608,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,42,2019,16,16,2019,10.072,6.5,3.572,31.934,32.454,0.52,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,43,2019,17,17,2019,11.156,7.622,3.534,31.679,32.219,0.54,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,44,2019,18,18,2019,11.355,7.825,3.53,31.732,32.362,0.63,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,45,2019,19,19,2019,11.583,6.813,4.77,31.769,33.093,1.324,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,46,2019,20,20,2019,11.99,8.184,3.806,31.773,33.133,1.36,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,47,2019,21,21,2019,11.785,9.841,1.944,31.92,32.851,0.931,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,48,2019,22,22,2019,12.141,8.578,3.563,31.918,32.993,1.075,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,49,2019,23,23,2019,12.138,9.583,2.555,32.035,32.916,0.881,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,50,2019,24,24,2019,12.658,11.184,1.474,32.036,32.578,0.542,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,51,2019,25,25,2019,12.671,12.534,0.137,32.132,31.14,0.992,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2018,52,2019,26,26,2019,13.177,13.614,0.437,32.172,30.296,1.876,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,1,2019,27,27,2019,13.043,13.982,0.939,32.094,30.59,1.504,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,2,2019,28,28,2019,12.79,12.993,0.203,32.098,31.777,0.321,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,3,2019,29,29,2019,13.586,12.051,1.535,31.964,32.752,0.788,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,4,2019,30,30,2019,13.157,15.377,2.22,31.865,32.111,0.246,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,5,2019,31,31,2019,13.435,17.893,4.458,31.822,31.306,0.516,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,6,2019,32,32,2019,14.932,17.7,2.768,31.702,31.232,0.47,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,7,2019,33,33,2019,14.096,17.084,2.988,31.955,31.25,0.705,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,8,2019,34,34,2019,13.914,16.371,2.457,31.822,30.85,0.972,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,9,2019,35,35,2019,12.302,16.96,4.658,32.164,30.484,1.68,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,10,2019,36,36,2019,12.74,16.146,3.406,31.886,30.181,1.705,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,11,2019,37,37,2019,13.438,14.896,1.458,31.755,30.371,1.384,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,12,2019,38,38,2019,12.683,13.837,1.154,31.99,30.879,1.111,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,13,2019,39,39,2019,12.914,13.883,0.969,31.886,30.914,0.972,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,14,2019,40,40,2019,12.684,12.676,0.008,31.726,31.257,0.469,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,15,2019,41,41,2019,12.36,12.036,0.324,31.58,32.277,0.697,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,16,2019,42,42,2019,11.717,11.343,0.374,31.666,32.437,0.771,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,17,2019,43,43,2019,11.398,11.778,0.38,31.705,32.615,0.91,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,18,2019,44,44,2019,10.848,11.234,0.386,31.714,32.514,0.8,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,19,2019,45,45,2019,10.628,10.332,0.296,31.699,31.878,0.179,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,20,2019,46,46,2019,10.53,9.434,1.096,31.833,31.721,0.112,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,21,2019,47,47,2019,10.026,9.037,0.989,31.821,32.233,0.412,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,22,2019,48,48,2019,9.614,8.767,0.847,31.801,32.523,0.722,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,23,2019,49,49,2019,9.756,9.0,0.756,31.699,32.907,1.208,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,24,2019,50,50,2019,9.276,8.858,0.418,31.661,33.047,1.386,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,25,2019,51,51,2019,9.339,8.438,0.901,31.76,33.11,1.35,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,26,2019,52,52,2019,8.866,7.944,0.922,31.625,33.005,1.38,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,27,2020,1,1,2020,8.521,7.7,0.821,31.671,32.31,0.639,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,28,2020,2,2,2020,8.69,7.246,1.444,31.618,32.016,0.398,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,29,2020,3,3,2020,8.617,7.095,1.522,31.603,31.873,0.27,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,30,2020,4,4,2020,8.25,7.081,1.169,31.693,31.992,0.299,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,31,2020,5,5,2020,8.41,6.796,1.614,31.771,32.266,0.495,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,32,2020,6,6,2020,8.368,6.361,2.007,31.457,32.419,0.962,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,33,2020,7,7,2020,8.452,6.047,2.405,31.556,32.614,1.058,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,34,2020,8,8,2020,8.797,6.27,2.527,31.805,32.91,1.105,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,35,2020,9,9,2020,8.768,5.955,2.813,31.697,32.871,1.174,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,36,2020,10,10,2020,8.704,5.746,2.958,31.657,32.644,0.987,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,37,2020,11,11,2020,8.893,5.974,2.919,31.589,32.438,0.849,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,38,2020,12,12,2020,8.994,5.868,3.126,31.851,32.477,0.626,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,39,2020,13,13,2020,9.205,5.751,3.454,31.446,32.668,1.222,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,40,2020,14,14,2020,9.132,5.761,3.371,31.409,32.57,1.161,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,41,2020,15,15,2020,9.434,6.146,3.288,31.362,32.447,1.085,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,42,2020,16,16,2020,10.3,6.304,3.996,31.563,32.711,1.148,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,43,2020,17,17,2020,10.669,7.374,3.295,31.54,32.859,1.319,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,44,2020,18,18,2020,10.86,7.446,3.414,31.403,33.092,1.689,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,45,2020,19,19,2020,11.016,7.685,3.331,31.54,33.199,1.659,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,46,2020,20,20,2020,11.9,7.461,4.439,31.544,33.452,1.908,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,47,2020,21,21,2020,12.074,8.005,4.069,31.533,33.497,1.964,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,48,2020,22,22,2020,12.287,9.844,2.443,31.465,33.144,1.679,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,49,2020,23,23,2020,12.589,11.85,0.739,31.459,32.652,1.193,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,50,2020,24,24,2020,12.82,11.118,1.702,31.623,32.793,1.17,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,51,2020,25,25,2020,13.537,14.338,0.801,31.371,32.214,0.843,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2019,52,2020,26,26,2020,13.707,15.665,1.958,31.53,30.374,1.156,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,1,2020,27,27,2020,14.722,15.619,0.897,31.379,30.047,1.332,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,2,2020,28,28,2020,14.077,14.3,0.223,31.559,30.822,0.737,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,3,2020,29,29,2020,13.819,14.208,0.389,31.404,31.007,0.397,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,4,2020,30,30,2020,14.239,14.498,0.259,31.675,30.666,1.009,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,5,2020,31,31,2020,14.157,15.723,1.566,31.465,29.801,1.664,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,6,2020,32,32,2020,14.503,15.76,1.257,31.263,30.116,1.147,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,7,2020,33,33,2020,14.627,16.48,1.853,31.337,30.152,1.185,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,8,2020,34,34,2020,14.396,17.073,2.677,31.387,30.678,0.709,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,9,2020,35,35,2020,14.52,15.87,1.35,31.516,31.05,0.466,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,10,2020,36,36,2020,15.213,15.212,0.001,31.505,31.348,0.157,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,11,2020,37,37,2020,14.331,14.665,0.334,31.367,31.022,0.345,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,12,2020,38,38,2020,14.063,13.605,0.458,31.401,30.715,0.686,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,13,2020,39,39,2020,14.062,13.226,0.836,31.356,30.521,0.835,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,14,2020,40,40,2020,13.695,13.162,0.533,31.531,30.934,0.597,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,15,2020,41,41,2020,13.143,13.432,0.289,31.724,31.56,0.164,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,16,2020,42,42,2020,12.776,12.824,0.048,31.515,32.1,0.585,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,17,2020,43,43,2020,12.351,12.412,0.061,31.418,32.515,1.097,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,18,2020,44,44,2020,12.277,12.115,0.162,31.483,32.521,1.038,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,19,2020,45,45,2020,12.052,11.74,0.312,31.284,32.108,0.824,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,20,2020,46,46,2020,11.764,11.083,0.681,31.224,30.822,0.402,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,21,2020,47,47,2020,11.441,10.338,1.103,31.185,30.817,0.368,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,22,2020,48,48,2020,10.859,9.827,1.032,31.092,31.401,0.309,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,23,2020,49,49,2020,10.723,9.696,1.027,31.444,32.1,0.656,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,24,2020,50,50,2020,10.329,9.437,0.892,31.404,32.583,1.179,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,25,2020,51,51,2020,10.096,9.259,0.837,31.504,32.999,1.495,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,26,2020,52,52,2020,9.771,9.223,0.548,31.456,33.213,1.757,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,27,2021,1,1,2021,9.426,7.858,1.568,31.617,33.325,1.708,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,28,2021,2,2,2021,9.153,6.763,2.39,31.757,32.898,1.141,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,29,2021,3,3,2021,8.67,5.979,2.691,31.451,32.153,0.702,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,30,2021,4,4,2021,8.737,5.213,3.524,31.431,31.831,0.4,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,31,2021,5,5,2021,8.547,4.377,4.17,31.159,31.721,0.562,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,32,2021,6,6,2021,8.473,3.428,5.045,30.829,31.62,0.791,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,33,2021,7,7,2021,8.543,3.433,5.11,31.281,31.622,0.341,No comparable,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,34,2021,8,8,2021,8.633,4.129,4.504,31.648,31.797,0.149,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,35,2021,9,9,2021,8.316,4.196,4.12,31.26,31.686,0.426,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,36,2021,10,10,2021,8.354,4.518,3.836,31.061,32.167,1.106,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,37,2021,11,11,2021,8.694,4.707,3.987,31.135,32.165,1.03,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,38,2021,12,12,2021,8.854,5.116,3.738,31.316,32.365,1.049,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,39,2021,13,13,2021,9.19,5.534,3.656,31.378,32.435,1.057,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,40,2021,14,14,2021,9.163,6.15,3.013,31.412,33.211,1.799,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,41,2021,15,15,2021,9.201,6.625,2.576,31.378,33.417,2.039,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,42,2021,16,16,2021,9.838,7.056,2.782,31.508,33.525,2.017,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,43,2021,17,17,2021,10.347,7.432,2.915,31.536,33.731,2.195,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,44,2021,18,18,2021,10.823,7.866,2.957,31.401,33.762,2.361,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,45,2021,19,19,2021,11.731,8.703,3.028,31.37,33.572,2.202,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,46,2021,20,20,2021,12.361,9.087,3.274,31.455,33.541,2.086,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,47,2021,21,21,2021,13.021,10.474,2.547,31.491,33.337,1.846,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,48,2021,22,22,2021,12.554,12.651,0.097,31.519,31.956,0.437,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,49,2021,23,23,2021,12.49,13.149,0.659,31.633,30.217,1.416,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,50,2021,24,24,2021,13.239,12.443,0.796,31.624,29.57,2.054,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,51,2021,25,25,2021,12.607,12.375,0.232,31.603,30.284,1.319,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,52,2021,26,26,2021,13.55,14.126,0.576,31.555,30.306,1.249,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2020,53,2021,27,27,2021,14.343,15.646,1.303,31.214,30.159,1.055,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,1,2021,27,27,2021,14.176,15.646,1.47,31.374,30.159,1.215,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,2,2021,28,28,2021,13.997,16.258,2.261,31.247,30.253,0.994,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,3,2021,29,29,2021,14.802,15.473,0.671,31.064,30.518,0.546,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,4,2021,30,30,2021,14.268,15.431,1.163,31.442,31.066,0.376,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,5,2021,31,31,2021,14.334,11.665,2.669,31.743,32.946,1.203,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,6,2021,32,32,2021,15.49,15.472,0.018,31.851,32.307,0.456,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,7,2021,33,33,2021,14.169,15.504,1.335,32.066,32.007,0.059,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,8,2021,34,34,2021,13.746,15.055,1.309,32.157,32.151,0.006,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,9,2021,35,35,2021,14.446,13.858,0.588,31.997,32.523,0.526,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,10,2021,36,36,2021,14.3,13.575,0.725,32.072,32.426,0.354,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,11,2021,37,37,2021,13.372,12.971,0.401,32.265,32.596,0.331,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,12,2021,38,38,2021,13.49,13.155,0.335,32.207,32.727,0.52,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,13,2021,39,39,2021,13.684,13.235,0.449,32.04,32.611,0.571,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,14,2021,40,40,2021,13.512,13.501,0.011,32.006,32.223,0.217,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,15,2021,41,41,2021,13.426,12.973,0.453,31.923,31.967,0.044,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,16,2021,42,42,2021,12.962,11.837,1.125,32.035,31.796,0.239,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,17,2021,43,43,2021,12.769,11.415,1.354,32.099,31.155,0.944,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,18,2021,44,44,2021,12.025,10.874,1.151,31.996,31.438,0.558,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,19,2021,45,45,2021,11.628,10.851,0.777,32.106,32.112,0.006,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,20,2021,46,46,2021,11.352,10.753,0.599,31.996,32.369,0.373,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,21,2021,47,47,2021,10.873,9.795,1.078,31.904,32.374,0.47,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,22,2021,48,48,2021,10.309,8.968,1.341,31.785,32.648,0.863,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,23,2021,49,49,2021,10.479,8.32,2.159,32.036,32.767,0.731,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,24,2021,50,50,2021,9.859,8.262,1.597,31.929,32.798,0.869,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,25,2021,51,51,2021,10.011,8.046,1.965,32.3,32.807,0.507,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,26,2021,52,52,2021,9.797,7.669,2.128,32.342,32.986,0.644,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,27,2022,1,1,2022,9.682,7.53,2.152,32.124,33.129,1.005,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,28,2022,2,2,2022,9.282,7.235,2.047,32.075,33.144,1.069,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,29,2022,3,3,2022,9.06,6.945,2.115,31.92,33.086,1.166,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,30,2022,4,4,2022,8.844,6.539,2.305,32.017,32.883,0.866,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,31,2022,5,5,2022,8.842,6.301,2.541,32.019,33.038,1.019,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,32,2022,6,6,2022,8.717,6.099,2.618,31.913,33.054,1.141,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,33,2022,7,7,2022,8.902,5.871,3.031,31.973,32.843,0.87,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,34,2022,8,8,2022,8.59,5.981,2.609,31.952,32.938,0.986,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,35,2022,9,9,2022,8.751,6.221,2.53,31.428,33.197,1.769,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,36,2022,10,10,2022,9.259,6.0,3.259,31.551,33.246,1.695,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,37,2022,11,11,2022,9.377,5.875,3.502,31.595,33.356,1.761,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,38,2022,12,12,2022,9.655,5.996,3.659,31.41,33.368,1.958,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,39,2022,13,13,2022,9.871,5.934,3.937,31.566,33.264,1.698,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,40,2022,14,14,2022,9.935,6.017,3.918,31.642,33.352,1.71,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,41,2022,15,15,2022,10.416,6.517,3.899,31.529,33.493,1.964,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,42,2022,16,16,2022,10.706,7.689,3.017,31.369,33.245,1.876,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,43,2022,17,17,2022,10.817,7.938,2.879,31.435,33.43,1.995,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,44,2022,18,18,2022,11.659,7.913,3.746,31.415,33.479,2.064,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,45,2022,19,19,2022,12.604,7.931,4.673,31.315,33.102,1.787,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,46,2022,20,20,2022,12.344,9.134,3.21,31.494,32.885,1.391,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,47,2022,21,21,2022,12.424,9.319,3.105,31.2,32.005,0.805,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,48,2022,22,22,2022,12.53,9.726,2.804,31.249,32.251,1.002,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,49,2022,23,23,2022,13.189,10.905,2.284,31.469,32.174,0.705,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,50,2022,24,24,2022,13.535,11.352,2.183,31.404,31.627,0.223,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,51,2022,25,25,2022,13.18,12.234,0.946,31.811,31.142,0.669,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2021,52,2022,26,26,2022,14.132,14.007,0.125,31.925,30.912,1.013,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,1,2022,27,27,2022,14.238,13.675,0.563,31.74,31.081,0.659,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,2,2022,28,28,2022,14.282,13.386,0.896,31.901,30.962,0.939,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,3,2022,29,29,2022,14.905,13.949,0.956,31.905,30.777,1.128,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,4,2022,30,30,2022,15.88,13.889,1.991,31.629,30.75,0.879,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,5,2022,31,31,2022,15.469,14.126,1.343,31.672,30.868,0.804,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,6,2022,32,32,2022,15.616,14.518,1.098,31.74,30.97,0.77,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,7,2022,33,33,2022,15.179,14.866,0.313,31.873,31.016,0.857,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,8,2022,34,34,2022,15.538,15.554,0.016,31.719,31.027,0.692,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,9,2022,35,35,2022,14.377,15.881,1.504,31.795,31.04,0.755,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,10,2022,36,36,2022,13.8,16.45,2.65,31.649,30.94,0.709,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,11,2022,37,37,2022,13.534,15.446,1.912,31.874,31.321,0.553,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,12,2022,38,38,2022,13.21,12.637,0.573,31.912,32.946,1.034,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,13,2022,39,39,2022,12.512,12.512,0.0,31.86,32.803,0.943,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,14,2022,40,40,2022,12.118,12.799,0.681,31.479,32.314,0.835,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,15,2022,41,41,2022,11.912,12.364,0.452,31.451,31.816,0.365,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,16,2022,42,42,2022,11.836,11.566,0.27,31.766,30.965,0.801,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,17,2022,43,43,2022,10.903,11.74,0.837,31.544,30.641,0.903,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,18,2022,44,44,2022,10.55,11.437,0.887,31.504,31.062,0.442,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,19,2022,45,45,2022,10.286,11.326,1.04,31.427,31.371,0.056,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,20,2022,46,46,2022,10.016,10.701,0.685,31.615,31.193,0.422,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,21,2022,47,47,2022,9.558,9.821,0.263,31.492,31.57,0.078,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,22,2022,48,48,2022,8.944,9.355,0.411,31.563,31.821,0.258,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,23,2022,49,49,2022,9.149,8.668,0.481,31.658,32.282,0.624,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,24,2022,50,50,2022,8.828,8.116,0.712,31.321,32.915,1.594,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,25,2022,51,51,2022,8.096,8.165,0.069,31.43,33.315,1.885,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,26,2022,52,52,2022,8.127,8.155,0.028,31.384,33.56,2.176,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,27,2023,1,1,2023,7.841,7.824,0.017,31.29,33.625,2.335,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,28,2023,2,2,2023,7.707,7.425,0.282,31.406,32.845,1.439,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,29,2023,3,3,2023,7.965,5.88,2.085,31.737,31.859,0.122,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,30,2023,4,4,2023,7.654,6.354,1.3,31.735,32.228,0.493,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,31,2023,5,5,2023,7.566,6.065,1.501,31.658,32.236,0.578,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,32,2023,6,6,2023,7.818,6.202,1.616,31.893,32.542,0.649,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,33,2023,7,7,2023,7.703,6.29,1.413,31.804,32.679,0.875,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,34,2023,8,8,2023,7.72,6.221,1.499,31.727,32.699,0.972,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,35,2023,9,9,2023,7.781,6.411,1.37,31.787,32.92,1.133,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,36,2023,10,10,2023,7.937,6.461,1.476,31.636,33.42,1.784,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,37,2023,11,11,2023,8.369,6.45,1.919,31.482,33.554,2.072,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,38,2023,12,12,2023,8.715,6.537,2.178,31.41,33.445,2.035,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,39,2023,13,13,2023,9.239,6.661,2.578,31.385,33.485,2.1,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,40,2023,14,14,2023,9.539,6.87,2.669,31.568,33.509,1.941,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,41,2023,15,15,2023,9.803,7.058,2.745,31.517,33.541,2.024,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,42,2023,16,16,2023,10.959,8.1,2.859,31.278,33.539,2.261,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,43,2023,17,17,2023,10.771,7.172,3.599,31.494,33.624,2.13,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,44,2023,18,18,2023,11.518,7.539,3.979,31.387,33.606,2.219,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,45,2023,19,19,2023,12.201,8.079,4.122,31.247,33.214,1.967,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,46,2023,20,20,2023,12.427,7.865,4.562,31.25,32.793,1.543,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,47,2023,21,21,2023,12.757,8.199,4.558,31.142,32.48,1.338,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,48,2023,22,22,2023,12.938,8.337,4.601,31.35,32.429,1.079,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,49,2023,23,23,2023,13.013,9.448,3.565,31.074,32.703,1.629,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,50,2023,24,24,2023,13.564,12.306,1.258,30.979,32.161,1.182,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,51,2023,25,25,2023,14.176,13.514,0.662,31.251,31.874,0.623,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2022,52,2023,26,26,2023,13.314,14.081,0.767,31.52,31.621,0.101,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,1,2023,27,27,2023,13.611,14.923,1.312,31.41,31.579,0.169,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,2,2023,28,28,2023,13.812,15.683,1.871,31.222,31.565,0.343,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,3,2023,29,29,2023,14.899,15.252,0.353,31.383,31.477,0.094,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,4,2023,30,30,2023,15.282,15.967,0.685,31.359,30.87,0.489,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,5,2023,31,31,2023,15.089,15.815,0.726,31.505,30.779,0.726,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,6,2023,32,32,2023,14.997,11.889,3.108,31.728,32.522,0.794,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,7,2023,33,33,2023,13.806,13.478,0.328,31.784,32.433,0.649,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,8,2023,34,34,2023,13.374,14.92,1.546,31.985,32.125,0.14,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,9,2023,35,35,2023,13.578,15.342,1.764,31.859,31.872,0.013,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,10,2023,36,36,2023,13.478,15.592,2.114,31.486,31.439,0.047,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,11,2023,37,37,2023,13.098,15.424,2.326,31.417,31.227,0.19,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,12,2023,38,38,2023,12.765,15.071,2.306,31.908,31.055,0.853,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,13,2023,39,39,2023,12.198,15.03,2.832,31.992,30.826,1.166,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,14,2023,40,40,2023,12.0,14.27,2.27,31.697,30.666,1.031,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,15,2023,41,41,2023,11.44,13.38,1.94,31.666,30.581,1.085,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,16,2023,42,42,2023,11.275,11.83,0.555,31.972,30.72,1.252,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,17,2023,43,43,2023,11.103,11.062,0.041,31.774,31.132,0.642,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,18,2023,44,44,2023,10.922,10.562,0.36,31.581,31.887,0.306,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,19,2023,45,45,2023,10.908,10.394,0.514,31.64,32.604,0.964,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,20,2023,46,46,2023,10.79,10.14,0.65,31.754,32.879,1.125,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,21,2023,47,47,2023,10.142,9.701,0.441,31.657,33.182,1.525,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,22,2023,48,48,2023,9.909,9.026,0.883,31.636,33.424,1.788,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,23,2023,49,49,2023,9.485,7.865,1.62,31.537,33.451,1.914,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,24,2023,50,50,2023,8.933,6.725,2.208,31.538,32.683,1.145,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,25,2023,51,51,2023,8.919,6.85,2.069,31.82,32.339,0.519,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,26,2023,52,52,2023,8.715,6.167,2.548,31.473,32.546,1.073,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,27,2024,1,1,2024,8.659,6.144,2.515,31.593,32.828,1.235,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,28,2024,2,2,2024,8.275,5.828,2.447,31.502,32.789,1.287,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,29,2024,3,3,2024,8.26,5.266,2.994,31.598,32.581,0.983,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,30,2024,4,4,2024,8.341,5.131,3.21,31.579,32.009,0.43,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,31,2024,5,5,2024,8.5,5.0,3.5,31.71,31.823,0.113,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,32,2024,6,6,2024,8.342,4.147,4.195,31.469,31.626,0.157,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,33,2024,7,7,2024,8.14,4.133,4.007,31.257,31.763,0.506,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,34,2024,8,8,2024,8.25,4.809,3.441,31.541,32.096,0.555,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,35,2024,9,9,2024,8.501,5.121,3.38,31.57,32.363,0.793,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,36,2024,10,10,2024,8.554,5.069,3.485,31.514,32.365,0.851,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,37,2024,11,11,2024,9.042,4.892,4.15,31.573,32.565,0.992,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,38,2024,12,12,2024,9.022,4.744,4.278,31.343,32.63,1.287,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,39,2024,13,13,2024,9.424,4.82,4.604,31.655,32.387,0.732,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,40,2024,14,14,2024,9.78,4.942,4.838,31.739,32.004,0.265,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,41,2024,15,15,2024,9.682,5.319,4.363,31.69,31.59,0.1,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,42,2024,16,16,2024,10.436,5.657,4.779,31.487,31.261,0.226,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,43,2024,17,17,2024,10.981,6.124,4.857,31.844,31.445,0.399,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,44,2024,18,18,2024,11.182,7.553,3.629,31.439,31.084,0.355,Diferente,Muy similar,No comparable / revisar
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,45,2024,19,19,2024,11.4,8.488,2.912,31.463,30.802,0.661,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,46,2024,20,20,2024,10.918,10.531,0.387,31.762,30.556,1.206,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,47,2024,21,21,2024,11.013,11.978,0.965,31.501,30.562,0.939,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,48,2024,22,22,2024,11.28,13.295,2.015,31.628,30.659,0.969,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,49,2024,23,23,2024,12.151,11.8,0.351,31.523,31.298,0.225,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,50,2024,24,24,2024,12.715,10.562,2.153,31.675,31.638,0.037,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,51,2024,25,25,2024,13.569,11.378,2.191,31.271,31.69,0.419,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2023,52,2024,26,26,2024,13.833,13.375,0.458,31.536,31.894,0.358,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,1,2024,27,27,2024,14.792,13.74,1.052,31.625,31.529,0.096,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,2,2024,28,28,2024,13.988,14.278,0.29,31.704,31.167,0.537,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,3,2024,29,29,2024,14.145,15.82,1.675,31.771,31.005,0.766,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,4,2024,30,30,2024,14.679,16.33,1.651,31.82,30.767,1.053,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,5,2024,31,31,2024,15.79,16.549,0.759,31.718,30.55,1.168,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,6,2024,32,32,2024,15.468,16.358,0.89,31.848,30.417,1.431,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,7,2024,33,33,2024,15.259,15.98,0.721,32.017,30.417,1.6,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,8,2024,34,34,2024,15.369,15.335,0.034,31.874,30.778,1.096,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,9,2024,35,35,2024,15.291,15.004,0.287,31.728,30.875,0.853,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,10,2024,36,36,2024,14.522,15.574,1.052,31.97,30.642,1.328,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,11,2024,37,37,2024,13.8,15.369,1.569,32.001,30.668,1.333,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,12,2024,38,38,2024,12.989,14.944,1.955,32.029,30.867,1.162,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,13,2024,39,39,2024,12.988,13.839,0.851,31.91,31.058,0.852,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,14,2024,40,40,2024,12.407,12.799,0.392,32.024,31.676,0.348,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,15,2024,41,41,2024,12.111,12.494,0.383,31.813,31.998,0.185,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,16,2024,42,42,2024,12.393,12.02,0.373,31.996,32.328,0.332,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,17,2024,43,43,2024,11.568,12.55,0.982,31.939,32.368,0.429,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,18,2024,44,44,2024,10.533,11.903,1.37,31.832,32.332,0.5,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,19,2024,45,45,2024,9.651,11.304,1.653,31.795,31.948,0.153,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,20,2024,46,46,2024,9.18,10.676,1.496,31.959,31.532,0.427,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,21,2024,47,47,2024,9.1,9.078,0.022,31.801,31.825,0.024,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,22,2024,48,48,2024,8.972,9.234,0.262,31.72,32.882,1.162,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,23,2024,49,49,2024,8.905,9.135,0.23,31.541,33.396,1.855,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,24,2024,50,50,2024,9.065,8.709,0.356,31.427,33.555,2.128,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,25,2024,51,51,2024,8.76,8.166,0.594,31.544,33.41,1.866,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,26,2024,52,52,2024,8.602,7.646,0.956,31.72,33.236,1.516,Muy similar,Muy similar,Comparable
+110758_Semanal_2014_2024,Aysén,33077_Semanal_2014_2024,Sur/Oeste,2024,27,2025,1,1,2025,8.309,7.261,1.048,31.783,33.237,1.454,Muy similar,Muy similar,Comparable

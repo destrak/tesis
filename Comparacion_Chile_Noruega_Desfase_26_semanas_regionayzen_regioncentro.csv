@@ -1,0 +1,550 @@
+﻿anio_chile,semana_chile,anio_noruega,semana_noruega,temperatura_chile_C,temperatura_noruega_C,dif_temperatura_C,salinidad_chile_PSU,salinidad_noruega_PSU,dif_salinidad_PSU,comparabilidad_temperatura,comparabilidad_salinidad,comparabilidad_general
+2014,1,2014,27,11.579,12.006,0.427,33.566,32.303,1.263,Muy similar,Muy similar,Comparable
+2014,2,2014,28,12.063,14.06,1.997,33.586,32.523,1.063,Muy similar,Muy similar,Comparable
+2014,3,2014,29,13.511,15.54,2.029,33.472,32.473,0.999,Muy similar,Muy similar,Comparable
+2014,4,2014,30,12.662,17.189,4.527,33.529,32.521,1.008,Diferente,Muy similar,No comparable / revisar
+2014,5,2014,31,12.076,16.487,4.411,33.591,32.675,0.916,Diferente,Muy similar,No comparable / revisar
+2014,6,2014,32,11.976,16.314,4.338,33.598,32.905,0.693,Diferente,Muy similar,No comparable / revisar
+2014,7,2014,33,12.448,15.637,3.189,33.5,32.905,0.595,Diferente,Muy similar,No comparable / revisar
+2014,8,2014,34,12.719,14.377,1.658,33.497,33.009,0.488,Muy similar,Muy similar,Comparable
+2014,9,2014,35,12.549,14.329,1.78,33.575,33.037,0.538,Muy similar,Muy similar,Comparable
+2014,10,2014,36,13.129,14.114,0.985,33.544,32.963,0.581,Muy similar,Muy similar,Comparable
+2014,11,2014,37,12.18,14.083,1.903,33.591,32.879,0.712,Muy similar,Muy similar,Comparable
+2014,12,2014,38,11.099,14.107,3.008,33.693,32.775,0.918,Diferente,Muy similar,No comparable / revisar
+2014,13,2014,39,11.077,13.462,2.385,33.663,32.66,1.003,Muy similar,Muy similar,Comparable
+2014,14,2014,40,10.721,12.801,2.08,33.6,32.644,0.956,Muy similar,Muy similar,Comparable
+2014,15,2014,41,11.074,12.268,1.194,33.561,32.671,0.89,Muy similar,Muy similar,Comparable
+2014,16,2014,42,10.477,11.708,1.231,33.613,32.643,0.97,Muy similar,Muy similar,Comparable
+2014,17,2014,43,10.667,11.794,1.127,33.512,32.726,0.786,Muy similar,Muy similar,Comparable
+2014,18,2014,44,10.602,11.593,0.991,33.541,32.76,0.781,Muy similar,Muy similar,Comparable
+2014,19,2014,45,10.49,10.938,0.448,33.497,32.865,0.632,Muy similar,Muy similar,Comparable
+2014,20,2014,46,10.176,10.488,0.312,33.434,32.983,0.451,Muy similar,Muy similar,Comparable
+2014,21,2014,47,9.772,10.153,0.381,33.272,33.092,0.18,Muy similar,Muy similar,Comparable
+2014,22,2014,48,9.855,10.045,0.19,33.454,33.196,0.258,Muy similar,Muy similar,Comparable
+2014,23,2014,49,9.49,9.894,0.404,33.26,33.203,0.057,Muy similar,Muy similar,Comparable
+2014,24,2014,50,9.522,9.317,0.205,33.389,33.131,0.258,Muy similar,Muy similar,Comparable
+2014,25,2014,51,9.481,8.607,0.874,33.313,33.236,0.077,Muy similar,Muy similar,Comparable
+2014,26,2014,52,9.645,7.707,1.938,33.362,33.266,0.096,Muy similar,Muy similar,Comparable
+2014,27,2015,1,9.64,7.634,2.006,33.416,33.597,0.181,Muy similar,Muy similar,Comparable
+2014,28,2015,2,9.2,7.609,1.591,33.293,33.987,0.694,Muy similar,Muy similar,Comparable
+2014,29,2015,3,9.243,7.194,2.049,33.293,34.072,0.779,Muy similar,Muy similar,Comparable
+2014,30,2015,4,9.017,6.714,2.303,33.274,34.136,0.862,Muy similar,Muy similar,Comparable
+2014,31,2015,5,9.01,6.787,2.223,33.268,34.174,0.906,Muy similar,Muy similar,Comparable
+2014,32,2015,6,9.218,6.448,2.77,33.316,34.222,0.906,Muy similar,Muy similar,Comparable
+2014,33,2015,7,9.041,6.821,2.22,33.291,34.253,0.962,Muy similar,Muy similar,Comparable
+2014,34,2015,8,9.254,6.78,2.474,33.214,34.143,0.929,Muy similar,Muy similar,Comparable
+2014,35,2015,9,9.49,6.751,2.739,33.147,34.136,0.989,Muy similar,Muy similar,Comparable
+2014,36,2015,10,9.829,6.92,2.909,33.169,34.173,1.004,Muy similar,Muy similar,Comparable
+2014,37,2015,11,9.746,6.73,3.016,33.192,34.063,0.871,Diferente,Muy similar,No comparable / revisar
+2014,38,2015,12,9.694,6.724,2.97,33.161,34.058,0.897,Muy similar,Muy similar,Comparable
+2014,39,2015,13,9.644,6.515,3.129,33.144,34.043,0.899,Diferente,Muy similar,No comparable / revisar
+2014,40,2015,14,10.028,6.516,3.512,32.973,34.061,1.088,Diferente,Muy similar,No comparable / revisar
+2014,41,2015,15,10.18,6.488,3.692,33.071,33.984,0.913,Diferente,Muy similar,No comparable / revisar
+2014,42,2015,16,10.266,6.573,3.693,33.076,33.921,0.845,Diferente,Muy similar,No comparable / revisar
+2014,43,2015,17,10.967,6.825,4.142,33.02,33.889,0.869,Diferente,Muy similar,No comparable / revisar
+2014,44,2015,18,10.804,7.172,3.632,33.077,33.933,0.856,Diferente,Muy similar,No comparable / revisar
+2014,45,2015,19,10.785,7.676,3.109,33.128,33.917,0.789,Diferente,Muy similar,No comparable / revisar
+2014,46,2015,20,11.168,7.997,3.171,33.14,33.905,0.765,Diferente,Muy similar,No comparable / revisar
+2014,47,2015,21,11.721,8.524,3.197,33.092,33.782,0.69,Diferente,Muy similar,No comparable / revisar
+2014,48,2015,22,12.125,9.081,3.044,33.087,33.599,0.512,Diferente,Muy similar,No comparable / revisar
+2014,49,2015,23,12.874,9.165,3.709,33.078,33.49,0.412,Diferente,Muy similar,No comparable / revisar
+2014,50,2015,24,12.676,9.104,3.572,33.162,33.463,0.301,Diferente,Muy similar,No comparable / revisar
+2014,51,2015,25,11.849,9.528,2.321,33.341,33.488,0.147,Muy similar,Muy similar,Comparable
+2014,52,2015,26,11.695,10.499,1.196,33.421,33.407,0.014,Muy similar,Muy similar,Comparable
+2015,1,2015,27,12.519,11.471,1.048,33.291,33.309,0.018,Muy similar,Muy similar,Comparable
+2015,2,2015,28,12.002,11.565,0.437,33.428,32.83,0.598,Muy similar,Muy similar,Comparable
+2015,3,2015,29,11.999,12.381,0.382,33.479,32.937,0.542,Muy similar,Muy similar,Comparable
+2015,4,2015,30,12.857,13.178,0.321,33.438,33.052,0.386,Muy similar,Muy similar,Comparable
+2015,5,2015,31,13.867,13.199,0.668,33.332,33.09,0.242,Muy similar,Muy similar,Comparable
+2015,6,2015,32,13.913,13.435,0.478,33.302,33.028,0.274,Muy similar,Muy similar,Comparable
+2015,7,2015,33,12.453,13.783,1.33,33.496,32.724,0.772,Muy similar,Muy similar,Comparable
+2015,8,2015,34,11.579,15.019,3.44,33.614,32.656,0.958,Diferente,Muy similar,No comparable / revisar
+2015,9,2015,35,11.144,15.105,3.961,33.679,32.522,1.157,Diferente,Muy similar,No comparable / revisar
+2015,10,2015,36,11.73,14.374,2.644,33.623,32.454,1.169,Muy similar,Muy similar,Comparable
+2015,11,2015,37,12.517,13.962,1.445,33.522,32.506,1.016,Muy similar,Muy similar,Comparable
+2015,12,2015,38,12.317,13.969,1.652,33.452,32.437,1.015,Muy similar,Muy similar,Comparable
+2015,13,2015,39,12.516,13.526,1.01,33.322,32.486,0.836,Muy similar,Muy similar,Comparable
+2015,14,2015,40,12.027,13.128,1.101,33.416,32.507,0.909,Muy similar,Muy similar,Comparable
+2015,15,2015,41,12.147,12.518,0.371,33.329,32.531,0.798,Muy similar,Muy similar,Comparable
+2015,16,2015,42,12.157,12.146,0.011,33.23,32.395,0.835,Muy similar,Muy similar,Comparable
+2015,17,2015,43,11.661,11.906,0.245,33.297,32.256,1.041,Muy similar,Muy similar,Comparable
+2015,18,2015,44,11.74,11.459,0.281,33.233,32.094,1.139,Muy similar,Muy similar,Comparable
+2015,19,2015,45,11.121,11.27,0.149,33.285,32.018,1.267,Muy similar,Muy similar,Comparable
+2015,20,2015,46,11.258,10.752,0.506,33.227,32.391,0.836,Muy similar,Muy similar,Comparable
+2015,21,2015,47,11.119,9.875,1.244,33.295,32.46,0.835,Muy similar,Muy similar,Comparable
+2015,22,2015,48,10.693,9.285,1.408,33.251,32.618,0.633,Muy similar,Muy similar,Comparable
+2015,23,2015,49,10.609,8.936,1.673,33.183,33.047,0.136,Muy similar,Muy similar,Comparable
+2015,24,2015,50,10.318,8.904,1.414,33.134,33.482,0.348,Muy similar,Muy similar,Comparable
+2015,25,2015,51,10.018,8.635,1.383,33.189,33.426,0.237,Muy similar,Muy similar,Comparable
+2015,26,2015,52,9.764,8.462,1.302,33.188,33.241,0.053,Muy similar,Muy similar,Comparable
+2015,27,2016,1,9.496,7.005,2.491,33.179,33.404,0.225,Muy similar,Muy similar,Comparable
+2015,28,2016,2,9.312,5.993,3.319,33.152,33.413,0.261,Diferente,Muy similar,No comparable / revisar
+2015,29,2016,3,9.069,5.729,3.34,33.181,33.485,0.304,Diferente,Muy similar,No comparable / revisar
+2015,30,2016,4,8.961,6.69,2.271,33.152,33.853,0.701,Muy similar,Muy similar,Comparable
+2015,31,2016,5,9.259,6.679,2.58,33.168,34.01,0.842,Muy similar,Muy similar,Comparable
+2015,32,2016,6,9.356,6.43,2.926,33.204,34.042,0.838,Muy similar,Muy similar,Comparable
+2015,33,2016,7,9.165,6.197,2.968,33.082,34.093,1.011,Muy similar,Muy similar,Comparable
+2015,34,2016,8,9.127,6.349,2.778,33.109,34.28,1.171,Muy similar,Muy similar,Comparable
+2015,35,2016,9,9.46,6.076,3.384,33.157,34.262,1.105,Diferente,Muy similar,No comparable / revisar
+2015,36,2016,10,9.41,6.027,3.383,33.132,34.236,1.104,Diferente,Muy similar,No comparable / revisar
+2015,37,2016,11,9.103,6.301,2.802,33.142,34.22,1.078,Muy similar,Muy similar,Comparable
+2015,38,2016,12,8.785,6.222,2.563,33.152,34.219,1.067,Muy similar,Muy similar,Comparable
+2015,39,2016,13,9.314,6.395,2.919,33.062,34.162,1.1,Muy similar,Muy similar,Comparable
+2015,40,2016,14,9.412,6.632,2.78,33.006,34.187,1.181,Muy similar,Muy similar,Comparable
+2015,41,2016,15,9.61,6.726,2.884,33.043,34.209,1.166,Muy similar,Muy similar,Comparable
+2015,42,2016,16,10.008,6.731,3.277,33.003,34.264,1.261,Diferente,Muy similar,No comparable / revisar
+2015,43,2016,17,10.2,6.941,3.259,32.99,34.316,1.326,Diferente,Muy similar,No comparable / revisar
+2015,44,2016,18,10.697,7.346,3.351,33.005,34.11,1.105,Diferente,Muy similar,No comparable / revisar
+2015,45,2016,19,10.337,7.811,2.526,33.142,34.066,0.924,Muy similar,Muy similar,Comparable
+2015,46,2016,20,11.142,7.987,3.155,33.095,34.015,0.92,Diferente,Muy similar,No comparable / revisar
+2015,47,2016,21,11.495,9.046,2.449,33.1,33.948,0.848,Muy similar,Muy similar,Comparable
+2015,48,2016,22,12.601,9.715,2.886,33.009,33.447,0.438,Muy similar,Muy similar,Comparable
+2015,49,2016,23,13.186,9.996,3.19,32.938,32.974,0.036,Diferente,Muy similar,No comparable / revisar
+2015,50,2016,24,12.275,10.061,2.214,33.11,32.713,0.397,Muy similar,Muy similar,Comparable
+2015,51,2016,25,12.041,10.349,1.692,33.18,32.757,0.423,Muy similar,Muy similar,Comparable
+2015,52,2016,26,12.554,11.342,1.212,33.164,33.104,0.06,Muy similar,Muy similar,Comparable
+2015,53,2016,27,14.388,12.066,2.322,33.027,33.51,0.483,Muy similar,Muy similar,Comparable
+2016,1,2016,27,13.231,12.066,1.165,33.15,33.51,0.36,Muy similar,Muy similar,Comparable
+2016,2,2016,28,13.072,13.136,0.064,33.313,33.626,0.313,Muy similar,Muy similar,Comparable
+2016,3,2016,29,15.231,14.152,1.079,33.138,33.603,0.465,Muy similar,Muy similar,Comparable
+2016,4,2016,30,15.332,14.992,0.34,33.148,33.473,0.325,Muy similar,Muy similar,Comparable
+2016,5,2016,31,15.355,15.184,0.171,33.092,33.077,0.015,Muy similar,Muy similar,Comparable
+2016,6,2016,32,14.162,14.29,0.128,33.282,32.484,0.798,Muy similar,Muy similar,Comparable
+2016,7,2016,33,13.767,14.586,0.819,33.359,32.255,1.104,Muy similar,Muy similar,Comparable
+2016,8,2016,34,13.821,14.85,1.029,33.379,32.148,1.231,Muy similar,Muy similar,Comparable
+2016,9,2016,35,14.087,14.134,0.047,33.259,32.107,1.152,Muy similar,Muy similar,Comparable
+2016,10,2016,36,12.562,13.831,1.269,33.436,32.0,1.436,Muy similar,Muy similar,Comparable
+2016,11,2016,37,12.145,13.894,1.749,33.467,32.103,1.364,Muy similar,Muy similar,Comparable
+2016,12,2016,38,11.952,14.47,2.518,33.495,32.394,1.101,Muy similar,Muy similar,Comparable
+2016,13,2016,39,12.637,14.496,1.859,33.342,32.608,0.734,Muy similar,Muy similar,Comparable
+2016,14,2016,40,12.346,13.7,1.354,33.25,32.639,0.611,Muy similar,Muy similar,Comparable
+2016,15,2016,41,11.757,12.933,1.176,33.289,32.422,0.867,Muy similar,Muy similar,Comparable
+2016,16,2016,42,10.961,12.399,1.438,33.309,32.437,0.872,Muy similar,Muy similar,Comparable
+2016,17,2016,43,10.791,12.035,1.244,33.12,32.283,0.837,Muy similar,Muy similar,Comparable
+2016,18,2016,44,10.782,11.506,0.724,32.867,32.256,0.611,Muy similar,Muy similar,Comparable
+2016,19,2016,45,10.847,9.906,0.941,32.691,32.403,0.288,Muy similar,Muy similar,Comparable
+2016,20,2016,46,10.617,9.662,0.955,32.633,32.786,0.153,Muy similar,Muy similar,Comparable
+2016,21,2016,47,10.103,9.098,1.005,32.72,32.852,0.132,Muy similar,Muy similar,Comparable
+2016,22,2016,48,9.909,8.33,1.579,32.781,32.943,0.162,Muy similar,Muy similar,Comparable
+2016,23,2016,49,9.676,7.946,1.73,32.947,33.019,0.072,Muy similar,Muy similar,Comparable
+2016,24,2016,50,9.592,7.654,1.938,32.953,33.32,0.367,Muy similar,Muy similar,Comparable
+2016,25,2016,51,9.402,7.989,1.413,32.937,33.729,0.792,Muy similar,Muy similar,Comparable
+2016,26,2016,52,9.235,7.755,1.48,32.929,33.596,0.667,Muy similar,Muy similar,Comparable
+2016,27,2017,1,9.247,7.354,1.893,32.911,33.696,0.785,Muy similar,Muy similar,Comparable
+2016,28,2017,2,9.263,7.363,1.9,32.838,33.951,1.113,Muy similar,Muy similar,Comparable
+2016,29,2017,3,9.32,7.103,2.217,32.986,34.013,1.027,Muy similar,Muy similar,Comparable
+2016,30,2017,4,9.201,7.192,2.009,32.9,34.05,1.15,Muy similar,Muy similar,Comparable
+2016,31,2017,5,9.389,6.977,2.412,32.967,34.088,1.121,Muy similar,Muy similar,Comparable
+2016,32,2017,6,9.489,6.489,3.0,33.0,34.174,1.174,Diferente,Muy similar,No comparable / revisar
+2016,33,2017,7,9.285,6.599,2.686,32.877,34.234,1.357,Muy similar,Muy similar,Comparable
+2016,34,2017,8,9.4,6.334,3.066,32.913,34.292,1.379,Diferente,Muy similar,No comparable / revisar
+2016,35,2017,9,9.537,6.006,3.531,32.993,34.292,1.299,Diferente,Muy similar,No comparable / revisar
+2016,36,2017,10,9.69,5.675,4.015,32.927,34.282,1.355,Diferente,Muy similar,No comparable / revisar
+2016,37,2017,11,9.834,6.11,3.724,32.848,34.275,1.427,Diferente,Muy similar,No comparable / revisar
+2016,38,2017,12,10.158,6.151,4.007,32.838,34.31,1.472,Diferente,Muy similar,No comparable / revisar
+2016,39,2017,13,10.484,6.589,3.895,32.769,34.477,1.708,Diferente,Muy similar,No comparable / revisar
+2016,40,2017,14,10.677,6.718,3.959,32.813,34.434,1.621,Diferente,Muy similar,No comparable / revisar
+2016,41,2017,15,10.414,6.827,3.587,32.842,34.452,1.61,Diferente,Muy similar,No comparable / revisar
+2016,42,2017,16,11.197,6.874,4.323,32.658,34.404,1.746,Diferente,Muy similar,No comparable / revisar
+2016,43,2017,17,12.112,6.988,5.124,32.587,34.434,1.847,No comparable,Muy similar,No comparable / revisar
+2016,44,2017,18,11.565,7.526,4.039,32.69,34.375,1.685,Diferente,Muy similar,No comparable / revisar
+2016,45,2017,19,11.459,7.464,3.995,32.737,34.197,1.46,Diferente,Muy similar,No comparable / revisar
+2016,46,2017,20,11.316,8.453,2.863,32.841,34.128,1.287,Muy similar,Muy similar,Comparable
+2016,47,2017,21,12.766,9.308,3.458,32.732,33.982,1.25,Diferente,Muy similar,No comparable / revisar
+2016,48,2017,22,13.553,9.26,4.293,32.688,33.968,1.28,Diferente,Muy similar,No comparable / revisar
+2016,49,2017,23,13.813,10.381,3.432,32.589,33.939,1.35,Diferente,Muy similar,No comparable / revisar
+2016,50,2017,24,12.682,11.723,0.959,32.839,33.799,0.96,Muy similar,Muy similar,Comparable
+2016,51,2017,25,13.31,11.536,1.774,32.803,33.748,0.945,Muy similar,Muy similar,Comparable
+2016,52,2017,26,13.714,11.779,1.935,32.763,33.747,0.984,Muy similar,Muy similar,Comparable
+2017,1,2017,27,13.649,12.602,1.047,32.811,33.688,0.877,Muy similar,Muy similar,Comparable
+2017,2,2017,28,13.514,13.266,0.248,32.835,33.596,0.761,Muy similar,Muy similar,Comparable
+2017,3,2017,29,13.977,13.647,0.33,32.785,33.552,0.767,Muy similar,Muy similar,Comparable
+2017,4,2017,30,14.814,15.118,0.304,32.697,33.38,0.683,Muy similar,Muy similar,Comparable
+2017,5,2017,31,14.826,15.52,0.694,32.668,33.285,0.617,Muy similar,Muy similar,Comparable
+2017,6,2017,32,14.88,15.118,0.238,32.656,33.098,0.442,Muy similar,Muy similar,Comparable
+2017,7,2017,33,15.132,14.785,0.347,32.598,32.658,0.06,Muy similar,Muy similar,Comparable
+2017,8,2017,34,14.841,14.776,0.065,32.591,32.573,0.018,Muy similar,Muy similar,Comparable
+2017,9,2017,35,14.461,14.457,0.004,32.671,32.479,0.192,Muy similar,Muy similar,Comparable
+2017,10,2017,36,14.068,14.444,0.376,32.624,32.407,0.217,Muy similar,Muy similar,Comparable
+2017,11,2017,37,14.062,14.507,0.445,32.665,32.264,0.401,Muy similar,Muy similar,Comparable
+2017,12,2017,38,14.534,14.144,0.39,32.632,32.139,0.493,Muy similar,Muy similar,Comparable
+2017,13,2017,39,14.523,13.983,0.54,32.456,31.806,0.65,Muy similar,Muy similar,Comparable
+2017,14,2017,40,13.79,13.595,0.195,32.648,32.025,0.623,Muy similar,Muy similar,Comparable
+2017,15,2017,41,12.635,13.09,0.455,32.888,32.158,0.73,Muy similar,Muy similar,Comparable
+2017,16,2017,42,12.712,12.402,0.31,32.893,32.523,0.37,Muy similar,Muy similar,Comparable
+2017,17,2017,43,12.209,11.505,0.704,32.939,32.488,0.451,Muy similar,Muy similar,Comparable
+2017,18,2017,44,12.164,10.613,1.551,32.851,32.745,0.106,Muy similar,Muy similar,Comparable
+2017,19,2017,45,11.953,10.277,1.676,32.572,32.925,0.353,Muy similar,Muy similar,Comparable
+2017,20,2017,46,11.665,9.638,2.027,32.783,33.092,0.309,Muy similar,Muy similar,Comparable
+2017,21,2017,47,11.003,9.23,1.773,32.788,33.095,0.307,Muy similar,Muy similar,Comparable
+2017,22,2017,48,10.674,8.805,1.869,32.71,33.188,0.478,Muy similar,Muy similar,Comparable
+2017,23,2017,49,10.383,8.257,2.126,32.825,33.26,0.435,Muy similar,Muy similar,Comparable
+2017,24,2017,50,9.796,7.537,2.259,32.904,33.165,0.261,Muy similar,Muy similar,Comparable
+2017,25,2017,51,9.385,7.227,2.158,32.905,33.255,0.35,Muy similar,Muy similar,Comparable
+2017,26,2017,52,9.107,6.825,2.282,32.897,33.413,0.516,Muy similar,Muy similar,Comparable
+2017,27,2018,1,9.245,6.386,2.859,33.057,33.394,0.337,Muy similar,Muy similar,Comparable
+2017,28,2018,2,8.896,6.103,2.793,33.103,33.477,0.374,Muy similar,Muy similar,Comparable
+2017,29,2018,3,8.588,6.297,2.291,33.031,33.753,0.722,Muy similar,Muy similar,Comparable
+2017,30,2018,4,8.815,6.256,2.559,33.157,33.821,0.664,Muy similar,Muy similar,Comparable
+2017,31,2018,5,8.883,6.104,2.779,33.141,33.899,0.758,Muy similar,Muy similar,Comparable
+2017,32,2018,6,9.345,6.067,3.278,33.234,33.957,0.723,Diferente,Muy similar,No comparable / revisar
+2017,33,2018,7,9.282,6.072,3.21,33.213,33.926,0.713,Diferente,Muy similar,No comparable / revisar
+2017,34,2018,8,9.2,5.938,3.262,33.172,33.857,0.685,Diferente,Muy similar,No comparable / revisar
+2017,35,2018,9,9.229,5.592,3.637,33.131,33.889,0.758,Diferente,Muy similar,No comparable / revisar
+2017,36,2018,10,9.18,5.333,3.847,33.109,33.878,0.769,Diferente,Muy similar,No comparable / revisar
+2017,37,2018,11,9.099,5.322,3.777,33.099,33.881,0.782,Diferente,Muy similar,No comparable / revisar
+2017,38,2018,12,9.211,5.128,4.083,33.054,33.747,0.693,Diferente,Muy similar,No comparable / revisar
+2017,39,2018,13,9.422,5.118,4.304,33.015,33.657,0.642,Diferente,Muy similar,No comparable / revisar
+2017,40,2018,14,9.575,5.035,4.54,33.019,33.454,0.435,Diferente,Muy similar,No comparable / revisar
+2017,41,2018,15,9.909,5.34,4.569,33.047,33.255,0.208,Diferente,Muy similar,No comparable / revisar
+2017,42,2018,16,10.26,5.808,4.452,33.022,32.75,0.272,Diferente,Muy similar,No comparable / revisar
+2017,43,2018,17,10.489,6.236,4.253,32.971,32.598,0.373,Diferente,Muy similar,No comparable / revisar
+2017,44,2018,18,11.697,6.721,4.976,32.667,32.559,0.108,Diferente,Muy similar,No comparable / revisar
+2017,45,2018,19,12.501,8.045,4.456,32.611,32.68,0.069,Diferente,Muy similar,No comparable / revisar
+2017,46,2018,20,12.046,9.298,2.748,32.679,32.675,0.004,Muy similar,Muy similar,Comparable
+2017,47,2018,21,11.129,9.621,1.508,32.921,32.616,0.305,Muy similar,Muy similar,Comparable
+2017,48,2018,22,11.801,10.738,1.063,32.929,32.575,0.354,Muy similar,Muy similar,Comparable
+2017,49,2018,23,11.775,10.439,1.336,33.053,32.446,0.607,Muy similar,Muy similar,Comparable
+2017,50,2018,24,12.394,10.591,1.803,33.041,32.485,0.556,Muy similar,Muy similar,Comparable
+2017,51,2018,25,12.383,10.373,2.01,33.095,32.946,0.149,Muy similar,Muy similar,Comparable
+2017,52,2018,26,12.54,10.585,1.955,33.081,32.961,0.12,Muy similar,Muy similar,Comparable
+2018,1,2018,27,12.574,11.652,0.922,33.042,32.851,0.191,Muy similar,Muy similar,Comparable
+2018,2,2018,28,13.488,12.597,0.891,32.936,32.555,0.381,Muy similar,Muy similar,Comparable
+2018,3,2018,29,13.522,14.337,0.815,32.954,32.532,0.422,Muy similar,Muy similar,Comparable
+2018,4,2018,30,13.449,14.949,1.5,33.013,32.662,0.351,Muy similar,Muy similar,Comparable
+2018,5,2018,31,13.674,16.06,2.386,33.026,32.441,0.585,Muy similar,Muy similar,Comparable
+2018,6,2018,32,14.195,15.514,1.319,33.013,32.763,0.25,Muy similar,Muy similar,Comparable
+2018,7,2018,33,13.79,14.88,1.09,33.027,33.102,0.075,Muy similar,Muy similar,Comparable
+2018,8,2018,34,14.429,13.797,0.632,32.888,33.604,0.716,Muy similar,Muy similar,Comparable
+2018,9,2018,35,14.529,13.826,0.703,32.811,33.586,0.775,Muy similar,Muy similar,Comparable
+2018,10,2018,36,14.39,14.156,0.234,32.822,33.531,0.709,Muy similar,Muy similar,Comparable
+2018,11,2018,37,13.495,14.065,0.57,32.89,33.36,0.47,Muy similar,Muy similar,Comparable
+2018,12,2018,38,12.847,13.855,1.008,32.961,33.057,0.096,Muy similar,Muy similar,Comparable
+2018,13,2018,39,12.674,12.719,0.045,32.957,32.984,0.027,Muy similar,Muy similar,Comparable
+2018,14,2018,40,12.412,11.625,0.787,32.901,33.125,0.224,Muy similar,Muy similar,Comparable
+2018,15,2018,41,11.815,10.96,0.855,32.843,33.095,0.252,Muy similar,Muy similar,Comparable
+2018,16,2018,42,11.722,10.71,1.012,32.769,33.236,0.467,Muy similar,Muy similar,Comparable
+2018,17,2018,43,11.508,10.163,1.345,32.787,33.347,0.56,Muy similar,Muy similar,Comparable
+2018,18,2018,44,11.215,9.587,1.628,32.684,33.227,0.543,Muy similar,Muy similar,Comparable
+2018,19,2018,45,10.96,9.741,1.219,32.583,33.068,0.485,Muy similar,Muy similar,Comparable
+2018,20,2018,46,10.63,9.706,0.924,32.484,32.876,0.392,Muy similar,Muy similar,Comparable
+2018,21,2018,47,10.449,9.408,1.041,32.657,32.855,0.198,Muy similar,Muy similar,Comparable
+2018,22,2018,48,9.876,8.924,0.952,32.665,32.797,0.132,Muy similar,Muy similar,Comparable
+2018,23,2018,49,9.569,8.711,0.858,32.736,32.987,0.251,Muy similar,Muy similar,Comparable
+2018,24,2018,50,9.091,7.913,1.178,32.735,32.859,0.124,Muy similar,Muy similar,Comparable
+2018,25,2018,51,8.959,7.191,1.768,32.842,33.139,0.297,Muy similar,Muy similar,Comparable
+2018,26,2018,52,8.758,7.205,1.553,32.919,33.637,0.718,Muy similar,Muy similar,Comparable
+2018,27,2019,1,8.329,7.175,1.154,32.821,33.935,1.114,Muy similar,Muy similar,Comparable
+2018,28,2019,2,8.185,6.805,1.38,32.697,34.028,1.331,Muy similar,Muy similar,Comparable
+2018,29,2019,3,7.987,6.083,1.904,32.555,34.171,1.616,Muy similar,Muy similar,Comparable
+2018,30,2019,4,8.002,5.53,2.472,32.656,34.118,1.462,Muy similar,Muy similar,Comparable
+2018,31,2019,5,8.109,5.468,2.641,32.726,34.291,1.565,Muy similar,Muy similar,Comparable
+2018,32,2019,6,8.224,5.466,2.758,32.686,34.39,1.704,Muy similar,Muy similar,Comparable
+2018,33,2019,7,8.396,5.545,2.851,32.714,34.208,1.494,Muy similar,Muy similar,Comparable
+2018,34,2019,8,8.491,5.543,2.948,32.594,34.003,1.409,Muy similar,Muy similar,Comparable
+2018,35,2019,9,8.571,5.888,2.683,32.454,33.928,1.474,Muy similar,Muy similar,Comparable
+2018,36,2019,10,8.624,5.528,3.096,32.358,34.053,1.695,Diferente,Muy similar,No comparable / revisar
+2018,37,2019,11,8.891,5.019,3.872,32.26,34.084,1.824,Diferente,Muy similar,No comparable / revisar
+2018,38,2019,12,9.233,5.254,3.979,32.069,34.08,2.011,Diferente,Muy similar,No comparable / revisar
+2018,39,2019,13,9.504,5.761,3.743,31.898,34.18,2.282,Diferente,Muy similar,No comparable / revisar
+2018,40,2019,14,9.331,5.935,3.396,32.122,34.24,2.118,Diferente,Muy similar,No comparable / revisar
+2018,41,2019,15,9.46,5.874,3.586,32.114,34.255,2.141,Diferente,Muy similar,No comparable / revisar
+2018,42,2019,16,10.072,6.467,3.605,31.934,34.189,2.255,Diferente,Muy similar,No comparable / revisar
+2018,43,2019,17,11.156,7.629,3.527,31.679,34.168,2.489,Diferente,Muy similar,No comparable / revisar
+2018,44,2019,18,11.355,7.994,3.361,31.732,34.174,2.442,Diferente,Muy similar,No comparable / revisar
+2018,45,2019,19,11.583,7.512,4.071,31.769,34.199,2.43,Diferente,Muy similar,No comparable / revisar
+2018,46,2019,20,11.99,8.151,3.839,31.773,34.155,2.382,Diferente,Muy similar,No comparable / revisar
+2018,47,2019,21,11.785,9.426,2.359,31.92,34.066,2.146,Muy similar,Muy similar,Comparable
+2018,48,2019,22,12.141,9.029,3.112,31.918,33.965,2.047,Diferente,Muy similar,No comparable / revisar
+2018,49,2019,23,12.138,9.985,2.153,32.035,33.705,1.67,Muy similar,Muy similar,Comparable
+2018,50,2019,24,12.658,10.807,1.851,32.036,33.644,1.608,Muy similar,Muy similar,Comparable
+2018,51,2019,25,12.671,11.996,0.675,32.132,33.452,1.32,Muy similar,Muy similar,Comparable
+2018,52,2019,26,13.177,11.676,1.501,32.172,33.527,1.355,Muy similar,Muy similar,Comparable
+2019,1,2019,27,13.043,11.971,1.072,32.094,33.499,1.405,Muy similar,Muy similar,Comparable
+2019,2,2019,28,12.79,13.156,0.366,32.098,33.185,1.087,Muy similar,Muy similar,Comparable
+2019,3,2019,29,13.586,14.244,0.658,31.964,32.823,0.859,Muy similar,Muy similar,Comparable
+2019,4,2019,30,13.157,15.955,2.798,31.865,33.021,1.156,Muy similar,Muy similar,Comparable
+2019,5,2019,31,13.435,17.279,3.844,31.822,33.071,1.249,Diferente,Muy similar,No comparable / revisar
+2019,6,2019,32,14.932,15.528,0.596,31.702,33.104,1.402,Muy similar,Muy similar,Comparable
+2019,7,2019,33,14.096,15.053,0.957,31.955,32.973,1.018,Muy similar,Muy similar,Comparable
+2019,8,2019,34,13.914,14.946,1.032,31.822,32.847,1.025,Muy similar,Muy similar,Comparable
+2019,9,2019,35,12.302,15.306,3.004,32.164,32.538,0.374,Diferente,Muy similar,No comparable / revisar
+2019,10,2019,36,12.74,14.766,2.026,31.886,32.303,0.417,Muy similar,Muy similar,Comparable
+2019,11,2019,37,13.438,14.243,0.805,31.755,32.062,0.307,Muy similar,Muy similar,Comparable
+2019,12,2019,38,12.683,13.458,0.775,31.99,31.978,0.012,Muy similar,Muy similar,Comparable
+2019,13,2019,39,12.914,13.794,0.88,31.886,31.962,0.076,Muy similar,Muy similar,Comparable
+2019,14,2019,40,12.684,13.084,0.4,31.726,31.893,0.167,Muy similar,Muy similar,Comparable
+2019,15,2019,41,12.36,11.664,0.696,31.58,31.729,0.149,Muy similar,Muy similar,Comparable
+2019,16,2019,42,11.717,10.865,0.852,31.666,31.884,0.218,Muy similar,Muy similar,Comparable
+2019,17,2019,43,11.398,10.842,0.556,31.705,32.373,0.668,Muy similar,Muy similar,Comparable
+2019,18,2019,44,10.848,10.144,0.704,31.714,32.627,0.913,Muy similar,Muy similar,Comparable
+2019,19,2019,45,10.628,8.906,1.722,31.699,32.69,0.991,Muy similar,Muy similar,Comparable
+2019,20,2019,46,10.53,7.911,2.619,31.833,32.694,0.861,Muy similar,Muy similar,Comparable
+2019,21,2019,47,10.026,8.303,1.723,31.821,33.04,1.219,Muy similar,Muy similar,Comparable
+2019,22,2019,48,9.614,7.971,1.643,31.801,33.128,1.327,Muy similar,Muy similar,Comparable
+2019,23,2019,49,9.756,7.641,2.115,31.699,33.213,1.514,Muy similar,Muy similar,Comparable
+2019,24,2019,50,9.276,7.155,2.121,31.661,33.282,1.621,Muy similar,Muy similar,Comparable
+2019,25,2019,51,9.339,7.083,2.256,31.76,33.345,1.585,Muy similar,Muy similar,Comparable
+2019,26,2019,52,8.866,7.127,1.739,31.625,33.378,1.753,Muy similar,Muy similar,Comparable
+2019,27,2020,1,8.521,7.298,1.223,31.671,33.417,1.746,Muy similar,Muy similar,Comparable
+2019,28,2020,2,8.69,7.094,1.596,31.618,33.498,1.88,Muy similar,Muy similar,Comparable
+2019,29,2020,3,8.617,7.092,1.525,31.603,33.58,1.977,Muy similar,Muy similar,Comparable
+2019,30,2020,4,8.25,7.266,0.984,31.693,33.578,1.885,Muy similar,Muy similar,Comparable
+2019,31,2020,5,8.41,6.93,1.48,31.771,33.609,1.838,Muy similar,Muy similar,Comparable
+2019,32,2020,6,8.368,6.586,1.782,31.457,33.569,2.112,Muy similar,Muy similar,Comparable
+2019,33,2020,7,8.452,6.347,2.105,31.556,33.525,1.969,Muy similar,Muy similar,Comparable
+2019,34,2020,8,8.797,6.195,2.602,31.805,33.424,1.619,Muy similar,Muy similar,Comparable
+2019,35,2020,9,8.768,5.714,3.054,31.697,33.379,1.682,Diferente,Muy similar,No comparable / revisar
+2019,36,2020,10,8.704,5.253,3.451,31.657,33.439,1.782,Diferente,Muy similar,No comparable / revisar
+2019,37,2020,11,8.893,5.253,3.64,31.589,33.354,1.765,Diferente,Muy similar,No comparable / revisar
+2019,38,2020,12,8.994,5.411,3.583,31.851,33.503,1.652,Diferente,Muy similar,No comparable / revisar
+2019,39,2020,13,9.205,5.654,3.551,31.446,33.557,2.111,Diferente,Muy similar,No comparable / revisar
+2019,40,2020,14,9.132,5.665,3.467,31.409,33.665,2.256,Diferente,Muy similar,No comparable / revisar
+2019,41,2020,15,9.434,5.824,3.61,31.362,33.618,2.256,Diferente,Muy similar,No comparable / revisar
+2019,42,2020,16,10.3,5.801,4.499,31.563,33.624,2.061,Diferente,Muy similar,No comparable / revisar
+2019,43,2020,17,10.669,6.376,4.293,31.54,33.571,2.031,Diferente,Muy similar,No comparable / revisar
+2019,44,2020,18,10.86,6.57,4.29,31.403,33.436,2.033,Diferente,Muy similar,No comparable / revisar
+2019,45,2020,19,11.016,6.642,4.374,31.54,33.493,1.953,Diferente,Muy similar,No comparable / revisar
+2019,46,2020,20,11.9,6.659,5.241,31.544,33.577,2.033,No comparable,Muy similar,No comparable / revisar
+2019,47,2020,21,12.074,7.64,4.434,31.533,33.546,2.013,Diferente,Muy similar,No comparable / revisar
+2019,48,2020,22,12.287,8.705,3.582,31.465,33.462,1.997,Diferente,Muy similar,No comparable / revisar
+2019,49,2020,23,12.589,9.986,2.603,31.459,33.421,1.962,Muy similar,Muy similar,Comparable
+2019,50,2020,24,12.82,10.328,2.492,31.623,33.147,1.524,Muy similar,Muy similar,Comparable
+2019,51,2020,25,13.537,12.645,0.892,31.371,32.915,1.544,Muy similar,Muy similar,Comparable
+2019,52,2020,26,13.707,13.966,0.259,31.53,32.685,1.155,Muy similar,Muy similar,Comparable
+2020,1,2020,27,14.722,13.308,1.414,31.379,32.95,1.571,Muy similar,Muy similar,Comparable
+2020,2,2020,28,14.077,12.611,1.466,31.559,33.343,1.784,Muy similar,Muy similar,Comparable
+2020,3,2020,29,13.819,13.744,0.075,31.404,33.556,2.152,Muy similar,Muy similar,Comparable
+2020,4,2020,30,14.239,13.723,0.516,31.675,33.495,1.82,Muy similar,Muy similar,Comparable
+2020,5,2020,31,14.157,14.647,0.49,31.465,33.386,1.921,Muy similar,Muy similar,Comparable
+2020,6,2020,32,14.503,14.942,0.439,31.263,33.031,1.768,Muy similar,Muy similar,Comparable
+2020,7,2020,33,14.627,15.261,0.634,31.337,32.339,1.002,Muy similar,Muy similar,Comparable
+2020,8,2020,34,14.396,15.188,0.792,31.387,31.77,0.383,Muy similar,Muy similar,Comparable
+2020,9,2020,35,14.52,14.527,0.007,31.516,31.59,0.074,Muy similar,Muy similar,Comparable
+2020,10,2020,36,15.213,14.446,0.767,31.505,31.663,0.158,Muy similar,Muy similar,Comparable
+2020,11,2020,37,14.331,13.961,0.37,31.367,32.153,0.786,Muy similar,Muy similar,Comparable
+2020,12,2020,38,14.063,13.095,0.968,31.401,32.425,1.024,Muy similar,Muy similar,Comparable
+2020,13,2020,39,14.062,12.338,1.724,31.356,32.646,1.29,Muy similar,Muy similar,Comparable
+2020,14,2020,40,13.695,12.13,1.565,31.531,32.374,0.843,Muy similar,Muy similar,Comparable
+2020,15,2020,41,13.143,11.805,1.338,31.724,32.47,0.746,Muy similar,Muy similar,Comparable
+2020,16,2020,42,12.776,10.851,1.925,31.515,32.743,1.228,Muy similar,Muy similar,Comparable
+2020,17,2020,43,12.351,9.854,2.497,31.418,32.772,1.354,Muy similar,Muy similar,Comparable
+2020,18,2020,44,12.277,9.742,2.535,31.483,32.475,0.992,Muy similar,Muy similar,Comparable
+2020,19,2020,45,12.052,10.257,1.795,31.284,32.766,1.482,Muy similar,Muy similar,Comparable
+2020,20,2020,46,11.764,10.483,1.281,31.224,33.037,1.813,Muy similar,Muy similar,Comparable
+2020,21,2020,47,11.441,10.151,1.29,31.185,33.194,2.009,Muy similar,Muy similar,Comparable
+2020,22,2020,48,10.859,9.762,1.097,31.092,33.214,2.122,Muy similar,Muy similar,Comparable
+2020,23,2020,49,10.723,9.196,1.527,31.444,32.985,1.541,Muy similar,Muy similar,Comparable
+2020,24,2020,50,10.329,8.611,1.718,31.404,32.955,1.551,Muy similar,Muy similar,Comparable
+2020,25,2020,51,10.096,8.496,1.6,31.504,32.875,1.371,Muy similar,Muy similar,Comparable
+2020,26,2020,52,9.771,8.05,1.721,31.456,32.848,1.392,Muy similar,Muy similar,Comparable
+2020,27,2021,1,9.426,6.697,2.729,31.617,33.066,1.449,Muy similar,Muy similar,Comparable
+2020,28,2021,2,9.153,6.142,3.011,31.757,33.288,1.531,Diferente,Muy similar,No comparable / revisar
+2020,29,2021,3,8.67,5.568,3.102,31.451,33.355,1.904,Diferente,Muy similar,No comparable / revisar
+2020,30,2021,4,8.737,5.814,2.923,31.431,33.673,2.242,Muy similar,Muy similar,Comparable
+2020,31,2021,5,8.547,5.387,3.16,31.159,33.93,2.771,Diferente,Muy similar,No comparable / revisar
+2020,32,2021,6,8.473,4.912,3.561,30.829,33.94,3.111,Diferente,Diferente,No comparable / revisar
+2020,33,2021,7,8.543,4.906,3.637,31.281,33.693,2.412,Diferente,Muy similar,No comparable / revisar
+2020,34,2021,8,8.633,5.147,3.486,31.648,33.334,1.686,Diferente,Muy similar,No comparable / revisar
+2020,35,2021,9,8.316,5.338,2.978,31.26,33.182,1.922,Muy similar,Muy similar,Comparable
+2020,36,2021,10,8.354,5.155,3.199,31.061,33.311,2.25,Diferente,Muy similar,No comparable / revisar
+2020,37,2021,11,8.694,5.157,3.537,31.135,33.285,2.15,Diferente,Muy similar,No comparable / revisar
+2020,38,2021,12,8.854,5.526,3.328,31.316,33.354,2.038,Diferente,Muy similar,No comparable / revisar
+2020,39,2021,13,9.19,5.553,3.637,31.378,33.284,1.906,Diferente,Muy similar,No comparable / revisar
+2020,40,2021,14,9.163,5.437,3.726,31.412,33.396,1.984,Diferente,Muy similar,No comparable / revisar
+2020,41,2021,15,9.201,5.644,3.557,31.378,33.391,2.013,Diferente,Muy similar,No comparable / revisar
+2020,42,2021,16,9.838,5.997,3.841,31.508,33.329,1.821,Diferente,Muy similar,No comparable / revisar
+2020,43,2021,17,10.347,6.094,4.253,31.536,33.338,1.802,Diferente,Muy similar,No comparable / revisar
+2020,44,2021,18,10.823,6.268,4.555,31.401,33.383,1.982,Diferente,Muy similar,No comparable / revisar
+2020,45,2021,19,11.731,7.334,4.397,31.37,33.226,1.856,Diferente,Muy similar,No comparable / revisar
+2020,46,2021,20,12.361,8.364,3.997,31.455,33.176,1.721,Diferente,Muy similar,No comparable / revisar
+2020,47,2021,21,13.021,9.121,3.9,31.491,32.933,1.442,Diferente,Muy similar,No comparable / revisar
+2020,48,2021,22,12.554,10.998,1.556,31.519,32.966,1.447,Muy similar,Muy similar,Comparable
+2020,49,2021,23,12.49,12.069,0.421,31.633,33.295,1.662,Muy similar,Muy similar,Comparable
+2020,50,2021,24,13.239,11.38,1.859,31.624,33.844,2.22,Muy similar,Muy similar,Comparable
+2020,51,2021,25,12.607,11.874,0.733,31.603,33.898,2.295,Muy similar,Muy similar,Comparable
+2020,52,2021,26,13.55,12.402,1.148,31.555,33.73,2.175,Muy similar,Muy similar,Comparable
+2020,53,2021,27,14.343,14.224,0.119,31.214,33.451,2.237,Muy similar,Muy similar,Comparable
+2021,1,2021,27,14.176,14.224,0.048,31.374,33.451,2.077,Muy similar,Muy similar,Comparable
+2021,2,2021,28,13.997,14.275,0.278,31.247,33.175,1.928,Muy similar,Muy similar,Comparable
+2021,3,2021,29,14.802,13.651,1.151,31.064,33.186,2.122,Muy similar,Muy similar,Comparable
+2021,4,2021,30,14.268,14.591,0.323,31.442,33.089,1.647,Muy similar,Muy similar,Comparable
+2021,5,2021,31,14.334,14.753,0.419,31.743,32.978,1.235,Muy similar,Muy similar,Comparable
+2021,6,2021,32,15.49,15.36,0.13,31.851,32.826,0.975,Muy similar,Muy similar,Comparable
+2021,7,2021,33,14.169,14.55,0.381,32.066,32.936,0.87,Muy similar,Muy similar,Comparable
+2021,8,2021,34,13.746,13.945,0.199,32.157,33.205,1.048,Muy similar,Muy similar,Comparable
+2021,9,2021,35,14.446,13.561,0.885,31.997,33.197,1.2,Muy similar,Muy similar,Comparable
+2021,10,2021,36,14.3,13.186,1.114,32.072,33.196,1.124,Muy similar,Muy similar,Comparable
+2021,11,2021,37,13.372,12.95,0.422,32.265,33.336,1.071,Muy similar,Muy similar,Comparable
+2021,12,2021,38,13.49,12.529,0.961,32.207,33.185,0.978,Muy similar,Muy similar,Comparable
+2021,13,2021,39,13.684,12.117,1.567,32.04,33.267,1.227,Muy similar,Muy similar,Comparable
+2021,14,2021,40,13.512,11.925,1.587,32.006,33.125,1.119,Muy similar,Muy similar,Comparable
+2021,15,2021,41,13.426,11.645,1.781,31.923,32.989,1.066,Muy similar,Muy similar,Comparable
+2021,16,2021,42,12.962,10.999,1.963,32.035,33.038,1.003,Muy similar,Muy similar,Comparable
+2021,17,2021,43,12.769,10.837,1.932,32.099,33.04,0.941,Muy similar,Muy similar,Comparable
+2021,18,2021,44,12.025,10.587,1.438,31.996,32.807,0.811,Muy similar,Muy similar,Comparable
+2021,19,2021,45,11.628,10.3,1.328,32.106,32.551,0.445,Muy similar,Muy similar,Comparable
+2021,20,2021,46,11.352,9.934,1.418,31.996,32.316,0.32,Muy similar,Muy similar,Comparable
+2021,21,2021,47,10.873,9.246,1.627,31.904,32.552,0.648,Muy similar,Muy similar,Comparable
+2021,22,2021,48,10.309,7.902,2.407,31.785,32.576,0.791,Muy similar,Muy similar,Comparable
+2021,23,2021,49,10.479,7.247,3.232,32.036,32.972,0.936,Diferente,Muy similar,No comparable / revisar
+2021,24,2021,50,9.859,7.578,2.281,31.929,33.124,1.195,Muy similar,Muy similar,Comparable
+2021,25,2021,51,10.011,7.227,2.784,32.3,33.226,0.926,Muy similar,Muy similar,Comparable
+2021,26,2021,52,9.797,6.683,3.114,32.342,33.243,0.901,Diferente,Muy similar,No comparable / revisar
+2021,27,2022,1,9.682,6.546,3.136,32.124,33.438,1.314,Diferente,Muy similar,No comparable / revisar
+2021,28,2022,2,9.282,6.501,2.781,32.075,33.5,1.425,Muy similar,Muy similar,Comparable
+2021,29,2022,3,9.06,6.688,2.372,31.92,33.782,1.862,Muy similar,Muy similar,Comparable
+2021,30,2022,4,8.844,6.644,2.2,32.017,33.86,1.843,Muy similar,Muy similar,Comparable
+2021,31,2022,5,8.842,6.223,2.619,32.019,33.951,1.932,Muy similar,Muy similar,Comparable
+2021,32,2022,6,8.717,6.134,2.583,31.913,33.92,2.007,Muy similar,Muy similar,Comparable
+2021,33,2022,7,8.902,5.734,3.168,31.973,33.85,1.877,Diferente,Muy similar,No comparable / revisar
+2021,34,2022,8,8.59,5.515,3.075,31.952,33.735,1.783,Diferente,Muy similar,No comparable / revisar
+2021,35,2022,9,8.751,5.498,3.253,31.428,33.665,2.237,Diferente,Muy similar,No comparable / revisar
+2021,36,2022,10,9.259,5.563,3.696,31.551,33.724,2.173,Diferente,Muy similar,No comparable / revisar
+2021,37,2022,11,9.377,5.633,3.744,31.595,33.78,2.185,Diferente,Muy similar,No comparable / revisar
+2021,38,2022,12,9.655,6.03,3.625,31.41,33.875,2.465,Diferente,Muy similar,No comparable / revisar
+2021,39,2022,13,9.871,6.074,3.797,31.566,33.903,2.337,Diferente,Muy similar,No comparable / revisar
+2021,40,2022,14,9.935,6.076,3.859,31.642,33.897,2.255,Diferente,Muy similar,No comparable / revisar
+2021,41,2022,15,10.416,6.343,4.073,31.529,33.927,2.398,Diferente,Muy similar,No comparable / revisar
+2021,42,2022,16,10.706,7.126,3.58,31.369,33.862,2.493,Diferente,Muy similar,No comparable / revisar
+2021,43,2022,17,10.817,6.975,3.842,31.435,33.773,2.338,Diferente,Muy similar,No comparable / revisar
+2021,44,2022,18,11.659,7.031,4.628,31.415,34.002,2.587,Diferente,Muy similar,No comparable / revisar
+2021,45,2022,19,12.604,7.392,5.212,31.315,34.063,2.748,No comparable,Muy similar,No comparable / revisar
+2021,46,2022,20,12.344,8.057,4.287,31.494,34.095,2.601,Diferente,Muy similar,No comparable / revisar
+2021,47,2022,21,12.424,9.087,3.337,31.2,34.019,2.819,Diferente,Muy similar,No comparable / revisar
+2021,48,2022,22,12.53,9.766,2.764,31.249,33.978,2.729,Muy similar,Muy similar,Comparable
+2021,49,2022,23,13.189,9.722,3.467,31.469,33.985,2.516,Diferente,Muy similar,No comparable / revisar
+2021,50,2022,24,13.535,10.008,3.527,31.404,33.748,2.344,Diferente,Muy similar,No comparable / revisar
+2021,51,2022,25,13.18,10.948,2.232,31.811,33.478,1.667,Muy similar,Muy similar,Comparable
+2021,52,2022,26,14.132,12.176,1.956,31.925,33.251,1.326,Muy similar,Muy similar,Comparable
+2022,1,2022,27,14.238,11.905,2.333,31.74,33.01,1.27,Muy similar,Muy similar,Comparable
+2022,2,2022,28,14.282,11.979,2.303,31.901,32.987,1.086,Muy similar,Muy similar,Comparable
+2022,3,2022,29,14.905,12.409,2.496,31.905,32.887,0.982,Muy similar,Muy similar,Comparable
+2022,4,2022,30,15.88,12.991,2.889,31.629,32.8,1.171,Muy similar,Muy similar,Comparable
+2022,5,2022,31,15.469,13.429,2.04,31.672,32.742,1.07,Muy similar,Muy similar,Comparable
+2022,6,2022,32,15.616,13.694,1.922,31.74,32.723,0.983,Muy similar,Muy similar,Comparable
+2022,7,2022,33,15.179,14.071,1.108,31.873,32.6,0.727,Muy similar,Muy similar,Comparable
+2022,8,2022,34,15.538,13.705,1.833,31.719,32.033,0.314,Muy similar,Muy similar,Comparable
+2022,9,2022,35,14.377,13.351,1.026,31.795,32.014,0.219,Muy similar,Muy similar,Comparable
+2022,10,2022,36,13.8,13.293,0.507,31.649,32.047,0.398,Muy similar,Muy similar,Comparable
+2022,11,2022,37,13.534,13.087,0.447,31.874,32.053,0.179,Muy similar,Muy similar,Comparable
+2022,12,2022,38,13.21,12.608,0.602,31.912,32.19,0.278,Muy similar,Muy similar,Comparable
+2022,13,2022,39,12.512,12.428,0.084,31.86,32.516,0.656,Muy similar,Muy similar,Comparable
+2022,14,2022,40,12.118,12.17,0.052,31.479,33.329,1.85,Muy similar,Muy similar,Comparable
+2022,15,2022,41,11.912,11.871,0.041,31.451,33.414,1.963,Muy similar,Muy similar,Comparable
+2022,16,2022,42,11.836,11.395,0.441,31.766,33.241,1.475,Muy similar,Muy similar,Comparable
+2022,17,2022,43,10.903,11.03,0.127,31.544,32.998,1.454,Muy similar,Muy similar,Comparable
+2022,18,2022,44,10.55,10.91,0.36,31.504,32.623,1.119,Muy similar,Muy similar,Comparable
+2022,19,2022,45,10.286,10.756,0.47,31.427,32.227,0.8,Muy similar,Muy similar,Comparable
+2022,20,2022,46,10.016,10.168,0.152,31.615,32.176,0.561,Muy similar,Muy similar,Comparable
+2022,21,2022,47,9.558,9.293,0.265,31.492,32.574,1.082,Muy similar,Muy similar,Comparable
+2022,22,2022,48,8.944,9.566,0.622,31.563,32.943,1.38,Muy similar,Muy similar,Comparable
+2022,23,2022,49,9.149,8.684,0.465,31.658,32.947,1.289,Muy similar,Muy similar,Comparable
+2022,24,2022,50,8.828,7.328,1.5,31.321,32.898,1.577,Muy similar,Muy similar,Comparable
+2022,25,2022,51,8.096,7.025,1.071,31.43,32.925,1.495,Muy similar,Muy similar,Comparable
+2022,26,2022,52,8.127,6.831,1.296,31.384,33.134,1.75,Muy similar,Muy similar,Comparable
+2022,27,2023,1,7.841,6.706,1.135,31.29,33.342,2.052,Muy similar,Muy similar,Comparable
+2022,28,2023,2,7.707,6.978,0.729,31.406,33.489,2.083,Muy similar,Muy similar,Comparable
+2022,29,2023,3,7.965,6.444,1.521,31.737,33.485,1.748,Muy similar,Muy similar,Comparable
+2022,30,2023,4,7.654,7.046,0.608,31.735,33.793,2.058,Muy similar,Muy similar,Comparable
+2022,31,2023,5,7.566,6.824,0.742,31.658,33.89,2.232,Muy similar,Muy similar,Comparable
+2022,32,2023,6,7.818,6.73,1.088,31.893,33.774,1.881,Muy similar,Muy similar,Comparable
+2022,33,2023,7,7.703,6.728,0.975,31.804,33.677,1.873,Muy similar,Muy similar,Comparable
+2022,34,2023,8,7.72,6.255,1.465,31.727,33.695,1.968,Muy similar,Muy similar,Comparable
+2022,35,2023,9,7.781,6.175,1.606,31.787,33.749,1.962,Muy similar,Muy similar,Comparable
+2022,36,2023,10,7.937,5.428,2.509,31.636,33.735,2.099,Muy similar,Muy similar,Comparable
+2022,37,2023,11,8.369,5.341,3.028,31.482,33.788,2.306,Diferente,Muy similar,No comparable / revisar
+2022,38,2023,12,8.715,5.464,3.251,31.41,33.797,2.387,Diferente,Muy similar,No comparable / revisar
+2022,39,2023,13,9.239,5.28,3.959,31.385,33.808,2.423,Diferente,Muy similar,No comparable / revisar
+2022,40,2023,14,9.539,5.71,3.829,31.568,33.795,2.227,Diferente,Muy similar,No comparable / revisar
+2022,41,2023,15,9.803,6.144,3.659,31.517,33.767,2.25,Diferente,Muy similar,No comparable / revisar
+2022,42,2023,16,10.959,6.94,4.019,31.278,33.778,2.5,Diferente,Muy similar,No comparable / revisar
+2022,43,2023,17,10.771,6.349,4.422,31.494,33.932,2.438,Diferente,Muy similar,No comparable / revisar
+2022,44,2023,18,11.518,6.865,4.653,31.387,33.902,2.515,Diferente,Muy similar,No comparable / revisar
+2022,45,2023,19,12.201,8.135,4.066,31.247,33.896,2.649,Diferente,Muy similar,No comparable / revisar
+2022,46,2023,20,12.427,8.237,4.19,31.25,33.892,2.642,Diferente,Muy similar,No comparable / revisar
+2022,47,2023,21,12.757,8.394,4.363,31.142,33.878,2.736,Diferente,Muy similar,No comparable / revisar
+2022,48,2023,22,12.938,8.113,4.825,31.35,33.866,2.516,Diferente,Muy similar,No comparable / revisar
+2022,49,2023,23,13.013,8.813,4.2,31.074,33.895,2.821,Diferente,Muy similar,No comparable / revisar
+2022,50,2023,24,13.564,10.06,3.504,30.979,33.742,2.763,Diferente,Muy similar,No comparable / revisar
+2022,51,2023,25,14.176,11.155,3.021,31.251,33.526,2.275,Diferente,Muy similar,No comparable / revisar
+2022,52,2023,26,13.314,12.215,1.099,31.52,33.679,2.159,Muy similar,Muy similar,Comparable
+2023,1,2023,27,13.611,12.979,0.632,31.41,33.737,2.327,Muy similar,Muy similar,Comparable
+2023,2,2023,28,13.812,13.939,0.127,31.222,33.64,2.418,Muy similar,Muy similar,Comparable
+2023,3,2023,29,14.899,13.726,1.173,31.383,33.601,2.218,Muy similar,Muy similar,Comparable
+2023,4,2023,30,15.282,14.022,1.26,31.359,33.601,2.242,Muy similar,Muy similar,Comparable
+2023,5,2023,31,15.089,14.601,0.488,31.505,33.498,1.993,Muy similar,Muy similar,Comparable
+2023,6,2023,32,14.997,13.891,1.106,31.728,33.253,1.525,Muy similar,Muy similar,Comparable
+2023,7,2023,33,13.806,14.253,0.447,31.784,33.301,1.517,Muy similar,Muy similar,Comparable
+2023,8,2023,34,13.374,14.243,0.869,31.985,33.132,1.147,Muy similar,Muy similar,Comparable
+2023,9,2023,35,13.578,13.815,0.237,31.859,33.103,1.244,Muy similar,Muy similar,Comparable
+2023,10,2023,36,13.478,13.822,0.344,31.486,32.841,1.355,Muy similar,Muy similar,Comparable
+2023,11,2023,37,13.098,13.652,0.554,31.417,32.776,1.359,Muy similar,Muy similar,Comparable
+2023,12,2023,38,12.765,13.311,0.546,31.908,32.675,0.767,Muy similar,Muy similar,Comparable
+2023,13,2023,39,12.198,13.535,1.337,31.992,32.401,0.409,Muy similar,Muy similar,Comparable
+2023,14,2023,40,12.0,13.432,1.432,31.697,32.376,0.679,Muy similar,Muy similar,Comparable
+2023,15,2023,41,11.44,12.515,1.075,31.666,32.447,0.781,Muy similar,Muy similar,Comparable
+2023,16,2023,42,11.275,11.447,0.172,31.972,32.591,0.619,Muy similar,Muy similar,Comparable
+2023,17,2023,43,11.103,10.471,0.632,31.774,32.503,0.729,Muy similar,Muy similar,Comparable
+2023,18,2023,44,10.922,9.298,1.624,31.581,32.563,0.982,Muy similar,Muy similar,Comparable
+2023,19,2023,45,10.908,9.376,1.532,31.64,32.59,0.95,Muy similar,Muy similar,Comparable
+2023,20,2023,46,10.79,9.096,1.694,31.754,32.67,0.916,Muy similar,Muy similar,Comparable
+2023,21,2023,47,10.142,8.85,1.292,31.657,32.863,1.206,Muy similar,Muy similar,Comparable
+2023,22,2023,48,9.909,7.928,1.981,31.636,33.088,1.452,Muy similar,Muy similar,Comparable
+2023,23,2023,49,9.485,7.24,2.245,31.537,33.163,1.626,Muy similar,Muy similar,Comparable
+2023,24,2023,50,8.933,7.327,1.606,31.538,33.449,1.911,Muy similar,Muy similar,Comparable
+2023,25,2023,51,8.919,7.233,1.686,31.82,33.554,1.734,Muy similar,Muy similar,Comparable
+2023,26,2023,52,8.715,6.503,2.212,31.473,33.636,2.163,Muy similar,Muy similar,Comparable
+2023,27,2024,1,8.659,6.095,2.564,31.593,33.759,2.166,Muy similar,Muy similar,Comparable
+2023,28,2024,2,8.275,6.528,1.747,31.502,33.843,2.341,Muy similar,Muy similar,Comparable
+2023,29,2024,3,8.26,6.084,2.176,31.598,33.786,2.188,Muy similar,Muy similar,Comparable
+2023,30,2024,4,8.341,6.066,2.275,31.579,33.578,1.999,Muy similar,Muy similar,Comparable
+2023,31,2024,5,8.5,6.096,2.404,31.71,33.484,1.774,Muy similar,Muy similar,Comparable
+2023,32,2024,6,8.342,5.689,2.653,31.469,33.557,2.088,Muy similar,Muy similar,Comparable
+2023,33,2024,7,8.14,5.528,2.612,31.257,33.645,2.388,Muy similar,Muy similar,Comparable
+2023,34,2024,8,8.25,5.517,2.733,31.541,33.588,2.047,Muy similar,Muy similar,Comparable
+2023,35,2024,9,8.501,5.516,2.985,31.57,33.472,1.902,Muy similar,Muy similar,Comparable
+2023,36,2024,10,8.554,5.406,3.148,31.514,33.418,1.904,Diferente,Muy similar,No comparable / revisar
+2023,37,2024,11,9.042,5.318,3.724,31.573,33.372,1.799,Diferente,Muy similar,No comparable / revisar
+2023,38,2024,12,9.022,5.318,3.704,31.343,33.288,1.945,Diferente,Muy similar,No comparable / revisar
+2023,39,2024,13,9.424,5.375,4.049,31.655,33.278,1.623,Diferente,Muy similar,No comparable / revisar
+2023,40,2024,14,9.78,5.113,4.667,31.739,33.322,1.583,Diferente,Muy similar,No comparable / revisar
+2023,41,2024,15,9.682,5.396,4.286,31.69,33.256,1.566,Diferente,Muy similar,No comparable / revisar
+2023,42,2024,16,10.436,5.756,4.68,31.487,33.359,1.872,Diferente,Muy similar,No comparable / revisar
+2023,43,2024,17,10.981,6.17,4.811,31.844,33.375,1.531,Diferente,Muy similar,No comparable / revisar
+2023,44,2024,18,11.182,7.221,3.961,31.439,33.363,1.924,Diferente,Muy similar,No comparable / revisar
+2023,45,2024,19,11.4,7.598,3.802,31.463,33.147,1.684,Diferente,Muy similar,No comparable / revisar
+2023,46,2024,20,10.918,9.215,1.703,31.762,32.805,1.043,Muy similar,Muy similar,Comparable
+2023,47,2024,21,11.013,10.303,0.71,31.501,32.776,1.275,Muy similar,Muy similar,Comparable
+2023,48,2024,22,11.28,11.4,0.12,31.628,32.75,1.122,Muy similar,Muy similar,Comparable
+2023,49,2024,23,12.151,11.215,0.936,31.523,32.695,1.172,Muy similar,Muy similar,Comparable
+2023,50,2024,24,12.715,11.386,1.329,31.675,32.66,0.985,Muy similar,Muy similar,Comparable
+2023,51,2024,25,13.569,11.952,1.617,31.271,32.616,1.345,Muy similar,Muy similar,Comparable
+2023,52,2024,26,13.833,12.229,1.604,31.536,32.509,0.973,Muy similar,Muy similar,Comparable
+2024,1,2024,27,14.792,12.267,2.525,31.625,32.456,0.831,Muy similar,Muy similar,Comparable
+2024,2,2024,28,13.988,12.962,1.026,31.704,32.452,0.748,Muy similar,Muy similar,Comparable
+2024,3,2024,29,14.145,14.14,0.005,31.771,32.197,0.426,Muy similar,Muy similar,Comparable
+2024,4,2024,30,14.679,14.853,0.174,31.82,32.169,0.349,Muy similar,Muy similar,Comparable
+2024,5,2024,31,15.79,15.197,0.593,31.718,32.383,0.665,Muy similar,Muy similar,Comparable
+2024,6,2024,32,15.468,16.001,0.533,31.848,32.307,0.459,Muy similar,Muy similar,Comparable
+2024,7,2024,33,15.259,15.272,0.013,32.017,32.297,0.28,Muy similar,Muy similar,Comparable
+2024,8,2024,34,15.369,14.803,0.566,31.874,32.282,0.408,Muy similar,Muy similar,Comparable
+2024,9,2024,35,15.291,14.465,0.826,31.728,32.054,0.326,Muy similar,Muy similar,Comparable
+2024,10,2024,36,14.522,14.569,0.047,31.97,31.929,0.041,Muy similar,Muy similar,Comparable
+2024,11,2024,37,13.8,14.205,0.405,32.001,31.849,0.152,Muy similar,Muy similar,Comparable
+2024,12,2024,38,12.989,13.78,0.791,32.029,32.097,0.068,Muy similar,Muy similar,Comparable
+2024,13,2024,39,12.988,12.843,0.145,31.91,32.007,0.097,Muy similar,Muy similar,Comparable
+2024,14,2024,40,12.407,12.108,0.299,32.024,32.058,0.034,Muy similar,Muy similar,Comparable
+2024,15,2024,41,12.111,11.253,0.858,31.813,32.119,0.306,Muy similar,Muy similar,Comparable
+2024,16,2024,42,12.393,10.582,1.811,31.996,32.478,0.482,Muy similar,Muy similar,Comparable
+2024,17,2024,43,11.568,10.859,0.709,31.939,32.854,0.915,Muy similar,Muy similar,Comparable
+2024,18,2024,44,10.533,10.49,0.043,31.832,32.875,1.043,Muy similar,Muy similar,Comparable
+2024,19,2024,45,9.651,10.477,0.826,31.795,33.127,1.332,Muy similar,Muy similar,Comparable
+2024,20,2024,46,9.18,10.24,1.06,31.959,33.189,1.23,Muy similar,Muy similar,Comparable
+2024,21,2024,47,9.1,8.972,0.128,31.801,33.285,1.484,Muy similar,Muy similar,Comparable
+2024,22,2024,48,8.972,8.53,0.442,31.72,33.153,1.433,Muy similar,Muy similar,Comparable
+2024,23,2024,49,8.905,8.329,0.576,31.541,33.148,1.607,Muy similar,Muy similar,Comparable
+2024,24,2024,50,9.065,7.917,1.148,31.427,33.038,1.611,Muy similar,Muy similar,Comparable
+2024,25,2024,51,8.76,7.558,1.202,31.544,33.041,1.497,Muy similar,Muy similar,Comparable
+2024,26,2024,52,8.602,7.418,1.184,31.72,33.381,1.661,Muy similar,Muy similar,Comparable
+2024,27,2025,1,8.309,7.468,0.841,31.783,33.896,2.113,Muy similar,Muy similar,Comparable
