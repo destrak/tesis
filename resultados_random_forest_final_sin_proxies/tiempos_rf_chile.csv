@@ -1,0 +1,2 @@
+﻿modelo,tiempo_entrenamiento_s,tiempo_prediccion_s,tiempo_importancia_permutacion_s,tiempo_shap_s,tiempo_total_modelo_s,tiempo_entrenamiento,tiempo_prediccion,tiempo_importancia_permutacion,tiempo_shap,tiempo_total_modelo
+chile,0.35547429975122213,0.014537000097334385,3.805714000016451,1.6189908999949694,6.632988499943167,0.36 s,0.01 s,3.81 s,1.62 s,6.63 s

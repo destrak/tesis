@@ -1,0 +1,2 @@
+﻿modelo,n_train,n_test,n_variables_preprocesadas,n_arboles_B,m_try_aprox,profundidad_efectiva_d,complejidad_entrenamiento_teorica,operaciones_entrenamiento_aprox,complejidad_prediccion_teorica,operaciones_prediccion_aprox,complejidad_permutacion_teorica,n_repeats_permutacion,complejidad_shap_teorica_aprox,n_muestra_shap,operaciones_shap_aprox
+chile,714,144,48,300,5,10,O(B * n * m_try * d * log(n)),101528446.62775165,O(B * n_test * d),432000,O(R * p * B * n_test * d),5,O(n_shap * B * d^2),144,4320000

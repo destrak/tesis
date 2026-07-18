@@ -1,0 +1,78 @@
+REPORTE DE TIEMPO Y COMPLEJIDAD - MODELOS LSTM
+============================================================
+Dispositivo utilizado: CPU
+Tiempo de carga del dataset: 0.021079 segundos (0:00:00)
+Tiempo de preprocesamiento general: 0.021133 segundos (0:00:00)
+Tiempo total del script: 25.719852 segundos (0:00:26)
+
+COMPLEJIDAD COMPUTACIONAL
+------------------------------------------------------------
+Complejidad temporal dominante:
+O(E*S*W*U*(F+U))
+
+E = épocas efectivamente entrenadas.
+S = número de secuencias.
+W = longitud de la ventana temporal.
+U = unidades de la capa LSTM.
+F = número de variables de entrada.
+
+Ordenación de los datos: O(N log N).
+Creación de secuencias: O(S*W*F).
+Imputación y escalamiento: O(S*W*F).
+Entrenamiento LSTM: O(E*S*W*U*(F+U)).
+Predicción: O(S_test*W*U*(F+U)).
+Complejidad espacial: O(S*W*F + U*(F+U)).
+
+TIEMPOS POR MODELO
+------------------------------------------------------------
+Base: conjunto_chile_noruega
+  Dispositivo: CPU
+  Secuencias totales: 1692
+  Secuencias de entrenamiento: 1144
+  Secuencias de validación: 285
+  Secuencias de prueba: 263
+  Épocas entrenadas: 44
+  Tiempo de creación de secuencias: 1.649863 s
+  Tiempo de escalamiento: 0.004208 s
+  Tiempo de entrenamiento: 5.736822 s (0:00:06)
+  Promedio por época: 0.130382 s
+  Tiempo estimado para 200 épocas: 26.076463 s (0:00:26)
+  Tiempo de predicción: 0.189189 s
+  Tiempo total del modelo: 8.819077 s (0:00:09)
+  Complejidad temporal: O(E*S*W*U*(F+U))
+  Factor relativo de entrenamiento: 3.380e+08
+
+Base: chile
+  Dispositivo: CPU
+  Secuencias totales: 802
+  Secuencias de entrenamiento: 532
+  Secuencias de validación: 132
+  Secuencias de prueba: 138
+  Épocas entrenadas: 42
+  Tiempo de creación de secuencias: 0.585764 s
+  Tiempo de escalamiento: 0.001643 s
+  Tiempo de entrenamiento: 4.243276 s (0:00:04)
+  Promedio por época: 0.101030 s
+  Tiempo estimado para 200 épocas: 20.206078 s (0:00:20)
+  Tiempo de predicción: 0.178235 s
+  Tiempo total del modelo: 5.736284 s (0:00:06)
+  Complejidad temporal: O(E*S*W*U*(F+U))
+  Factor relativo de entrenamiento: 4.284e+07
+
+Base: noruega
+  Dispositivo: CPU
+  Secuencias totales: 890
+  Secuencias de entrenamiento: 612
+  Secuencias de validación: 153
+  Secuencias de prueba: 125
+  Épocas entrenadas: 39
+  Tiempo de creación de secuencias: 0.682979 s
+  Tiempo de escalamiento: 0.001524 s
+  Tiempo de entrenamiento: 4.187161 s (0:00:04)
+  Promedio por época: 0.107363 s
+  Tiempo estimado para 200 épocas: 21.472618 s (0:00:21)
+  Tiempo de predicción: 0.186080 s
+  Tiempo total del modelo: 5.818261 s (0:00:06)
+  Complejidad temporal: O(E*S*W*U*(F+U))
+  Factor relativo de entrenamiento: 1.528e+08
+

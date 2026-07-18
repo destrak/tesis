@@ -11,7 +11,7 @@ from sklearn.metrics import silhouette_score
 
 # ============================================================
 # CLUSTERING NO SUPERVISADO
-# Chile completo, Noruega completo y Chile + Noruega
+# Chile completo, Noruega completo y Chile-Noruega
 # Piojo de mar + temperatura + salinidad
 # ============================================================
 
@@ -19,10 +19,10 @@ from sklearn.metrics import silhouette_score
 # 1. Rutas
 # ------------------------------------------------------------
 
-carpeta_chile = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\dataset\datasetchile"
-carpeta_noruega = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\dataset\datasetnoruega"
+carpeta_chile = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\tesis\dataset\datasetchile"
+carpeta_noruega = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\tesis\dataset\datasetnoruega"
 
-carpeta_salida = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\Clustering_General"
+carpeta_salida = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\tesis\Clustering_General"
 os.makedirs(carpeta_salida, exist_ok=True)
 
 # ------------------------------------------------------------
@@ -73,6 +73,7 @@ def normalizar_columnas(df):
     )
     return df
 
+
 def renombrar_columnas(df):
     renombres = {
         "año": "anio",
@@ -90,6 +91,11 @@ def renombrar_columnas(df):
 
         "juveniles": "juveniles",
         "stuck_lice": "juveniles",
+
+        "parasitos_totales": "parasitos_totales",
+        "parasites_total": "parasitos_totales",
+        "total_lice": "parasitos_totales",
+        "carga_total_piojos": "parasitos_totales",
 
         "temperatura_(°c)": "temperatura",
         "temperatura_c": "temperatura",
@@ -142,6 +148,7 @@ def cargar_pais(carpeta, pais):
             "hembras_ovigeras",
             "adultos_moviles",
             "juveniles",
+            "parasitos_totales",
             "temperatura",
             "salinidad"
         ]
@@ -169,7 +176,7 @@ def cargar_pais(carpeta, pais):
     return pd.concat(lista, ignore_index=True)
 
 # ------------------------------------------------------------
-# 5. Crear variables adicionales
+# 5. Ordenar registros y crear índice temporal
 # ------------------------------------------------------------
 
 def preparar_variables(df):
@@ -177,48 +184,93 @@ def preparar_variables(df):
 
     df = df.sort_values(["pais", "region", "anio", "semana"]).reset_index(drop=True)
 
-    df["carga_total_piojos"] = (
-        df["hembras_ovigeras"] +
-        df["adultos_moviles"] +
-        df["juveniles"]
-    )
-
-    df["adultos_totales"] = (
-        df["hembras_ovigeras"] +
-        df["adultos_moviles"]
-    )
-
     df["indice_temporal"] = range(1, len(df) + 1)
 
     return df
 
 # ------------------------------------------------------------
-# 6. Función general de clustering
+# 6. Reordenar clusters según carga parasitaria
 # ------------------------------------------------------------
 
-def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
+def reordenar_clusters_por_carga(labels, df_modelo):
+    """
+    Reordena las etiquetas de clusters para que:
+
+    Cluster 0 = mayor promedio de parásitos totales
+    Cluster 1 = segundo mayor promedio de parásitos totales
+    ...
+    Cluster k-1 = menor promedio de parásitos totales
+
+    Esto se hace porque KMeans asigna etiquetas arbitrarias.
+    """
+
+    temp = df_modelo.copy()
+    temp["cluster_original"] = labels
+
+    resumen_carga = (
+        temp
+        .groupby("cluster_original")["parasitos_totales"]
+        .mean()
+        .sort_values(ascending=False)
+    )
+
+    mapa_clusters = {
+        cluster_original: cluster_nuevo
+        for cluster_nuevo, cluster_original in enumerate(resumen_carga.index)
+    }
+
+    labels_reordenados = (
+        pd.Series(labels)
+        .map(mapa_clusters)
+        .astype(int)
+        .to_numpy()
+    )
+
+    tabla_mapa = pd.DataFrame({
+        "cluster_original": resumen_carga.index,
+        "cluster_nuevo": [mapa_clusters[c] for c in resumen_carga.index],
+        "promedio_parasitos_totales": resumen_carga.values
+    })
+
+    return labels_reordenados, mapa_clusters, tabla_mapa
+
+# ------------------------------------------------------------
+# 7. Función general de clustering
+# ------------------------------------------------------------
+
+def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida, k_seleccionado):
     print("\n====================================================")
     print(f" EJECUTANDO CLUSTERING: {nombre_analisis}")
     print("====================================================")
 
-    carpeta_out = os.path.join(carpeta_base_salida, nombre_analisis.replace(" ", "_"))
+    # Nombre limpio para carpeta de salida
+    nombre_carpeta = (
+        nombre_analisis
+        .replace(" ", "-")
+        .replace("_", "-")
+    )
+
+    carpeta_out = os.path.join(carpeta_base_salida, nombre_carpeta)
     os.makedirs(carpeta_out, exist_ok=True)
 
     variables_cluster = [
         "hembras_ovigeras",
         "adultos_moviles",
         "juveniles",
-        "carga_total_piojos",
-        "adultos_totales",
         "temperatura",
         "salinidad"
     ]
 
-    datos = df[variables_cluster].copy()
-    datos = datos.replace([np.inf, -np.inf], np.nan)
-    datos = datos.dropna()
+    # Se exige información completa en las variables del modelo y en
+    # parasitos_totales, que se usa para ordenar e interpretar los clústeres.
+    columnas_completas = variables_cluster + ["parasitos_totales"]
 
-    df_modelo = df.loc[datos.index].copy()
+    datos_completos = df[columnas_completas].copy()
+    datos_completos = datos_completos.replace([np.inf, -np.inf], np.nan)
+    datos_completos = datos_completos.dropna()
+
+    df_modelo = df.loc[datos_completos.index].copy()
+    datos = datos_completos[variables_cluster]
 
     print(f"Filas usadas para clustering: {len(df_modelo)}")
 
@@ -233,11 +285,12 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
     # Evaluar k con codo y silhouette
     # --------------------------------------------------------
 
-    inercias = []
-    silhouettes = []
-    k_values = range(2, 9)
+    resultados_k = []
 
-    for k in k_values:
+    k_values_codo = range(1, 9)
+    k_values_silhouette = range(2, 9)
+
+    for k in k_values_codo:
         kmeans = KMeans(
             n_clusters=k,
             random_state=42,
@@ -246,14 +299,71 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
 
         labels = kmeans.fit_predict(X_scaled)
 
-        inercias.append(kmeans.inertia_)
-        silhouettes.append(silhouette_score(X_scaled, labels))
+        silhouette = (
+            silhouette_score(X_scaled, labels)
+            if k >= 2 else np.nan
+        )
 
-    # Gráfico codo
+        tamanos = pd.Series(labels).value_counts().sort_index()
+
+        resultados_k.append({
+            "k": k,
+            "inercia": kmeans.inertia_,
+            "silhouette_promedio": silhouette,
+            "tamano_minimo": int(tamanos.min()),
+            "tamano_maximo": int(tamanos.max()),
+            "tamanos_clusters": "; ".join(
+                f"cluster_{cluster}={cantidad}"
+                for cluster, cantidad in tamanos.items()
+            )
+        })
+
+    tabla_validacion = pd.DataFrame(resultados_k)
+
+    tabla_silhouette = tabla_validacion.dropna(
+        subset=["silhouette_promedio"]
+    )
+
+    k_max_silhouette = int(
+        tabla_silhouette.loc[
+            tabla_silhouette["silhouette_promedio"].idxmax(),
+            "k"
+        ]
+    )
+
+    if k_seleccionado not in k_values_silhouette:
+        raise ValueError("k_seleccionado debe encontrarse entre 2 y 8")
+
+    tabla_validacion["seleccionado_final"] = (
+        tabla_validacion["k"] == k_seleccionado
+    )
+
+    tabla_validacion["maximo_silhouette"] = (
+        tabla_validacion["k"] == k_max_silhouette
+    )
+
+    ruta_validacion = os.path.join(carpeta_out, "00_validacion_k.csv")
+
+    tabla_validacion.round(6).to_csv(
+        ruta_validacion,
+        index=False,
+        encoding="utf-8-sig"
+    )
+
+    # --------------------------------------------------------
+    # Gráfico del codo
+    # --------------------------------------------------------
+
     plt.figure(figsize=(10, 5))
-    plt.plot(k_values, inercias, marker="o")
+
+    plt.plot(
+        tabla_validacion["k"],
+        tabla_validacion["inercia"],
+        marker="o"
+    )
+
     plt.title(f"Método del codo - {nombre_analisis}")
-    plt.xlabel("Número de clusters (k)")
+    plt.xlabel("Número de clústeres (k)")
     plt.ylabel("Inercia")
     plt.grid(True, alpha=0.3)
 
@@ -261,37 +371,87 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
     plt.savefig(ruta_codo, dpi=300, bbox_inches="tight")
     plt.close()
 
-    # Gráfico silhouette
+    # --------------------------------------------------------
+    # Gráfico Silhouette
+    # --------------------------------------------------------
+
     plt.figure(figsize=(10, 5))
-    plt.plot(k_values, silhouettes, marker="o")
+
+    plt.plot(
+        tabla_silhouette["k"],
+        tabla_silhouette["silhouette_promedio"],
+        marker="o"
+    )
+
     plt.title(f"Coeficiente Silhouette - {nombre_analisis}")
-    plt.xlabel("Número de clusters (k)")
-    plt.ylabel("Silhouette score")
+    plt.xlabel("Número de clústeres (k)")
+    plt.ylabel("Coeficiente Silhouette")
     plt.grid(True, alpha=0.3)
 
     ruta_silhouette = os.path.join(carpeta_out, "02_silhouette_score.png")
     plt.savefig(ruta_silhouette, dpi=300, bbox_inches="tight")
     plt.close()
 
-    k_optimo = list(k_values)[np.argmax(silhouettes)]
+    print("\nResultados de validación:")
 
-    print("\nResultados silhouette:")
-    for k, s in zip(k_values, silhouettes):
-        print(f"k = {k}: silhouette = {s:.3f}")
+    for _, fila in tabla_silhouette.iterrows():
+        print(
+            f"k = {int(fila['k'])}: "
+            f"silhouette = {fila['silhouette_promedio']:.3f}; "
+            f"tamaños = {fila['tamanos_clusters']}"
+        )
 
-    print(f"k óptimo sugerido: {k_optimo}")
+    print(f"k con mayor silhouette: {k_max_silhouette}")
+    print(f"k seleccionado finalmente: {k_seleccionado}")
 
     # --------------------------------------------------------
     # Aplicar K-Means final
     # --------------------------------------------------------
 
     kmeans_final = KMeans(
-        n_clusters=k_optimo,
+        n_clusters=k_seleccionado,
         random_state=42,
         n_init=20
     )
 
-    df_modelo["cluster"] = kmeans_final.fit_predict(X_scaled)
+    labels_originales = kmeans_final.fit_predict(X_scaled)
+
+    # Reordenar clusters por carga parasitaria:
+    # Cluster 0 = mayor carga
+    # Cluster k-1 = menor carga
+    labels_reordenados, mapa_clusters, tabla_mapa_clusters = reordenar_clusters_por_carga(
+        labels_originales,
+        df_modelo
+    )
+
+    df_modelo["cluster_original"] = labels_originales
+    df_modelo["cluster"] = labels_reordenados
+
+    print("\nReordenamiento de clusters según carga parasitaria:")
+    print("Cluster original -> Cluster nuevo")
+
+    for _, fila in tabla_mapa_clusters.iterrows():
+        original = int(fila["cluster_original"])
+        nuevo = int(fila["cluster_nuevo"])
+        promedio = fila["promedio_parasitos_totales"]
+        cantidad = int(np.sum(labels_originales == original))
+
+        print(
+            f"{original} -> {nuevo} | "
+            f"promedio parásitos totales = {promedio:.3f} | "
+            f"n = {cantidad}"
+        )
+
+    ruta_mapa_clusters = os.path.join(
+        carpeta_out,
+        "00_mapa_reordenamiento_clusters.csv"
+    )
+
+    tabla_mapa_clusters.to_csv(
+        ruta_mapa_clusters,
+        index=False,
+        encoding="utf-8-sig"
+    )
 
     # --------------------------------------------------------
     # PCA para visualización
@@ -299,6 +459,25 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
 
     pca = PCA(n_components=2)
     X_pca = pca.fit_transform(X_scaled)
+
+    varianza_explicada = pca.explained_variance_ratio_
+
+    resumen_pca = pd.DataFrame({
+        "componente": ["PCA1", "PCA2"],
+        "proporcion_varianza_explicada": varianza_explicada,
+        "porcentaje_varianza_explicada": varianza_explicada * 100
+    }).round(4)
+
+    ruta_resumen_pca = os.path.join(
+        carpeta_out,
+        "03_varianza_explicada_pca.csv"
+    )
+
+    resumen_pca.to_csv(
+        ruta_resumen_pca,
+        index=False,
+        encoding="utf-8-sig"
+    )
 
     df_modelo["PCA1"] = X_pca[:, 0]
     df_modelo["PCA2"] = X_pca[:, 1]
@@ -316,8 +495,8 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
         )
 
     plt.title(f"Clusters PCA - {nombre_analisis}")
-    plt.xlabel("Componente principal 1")
-    plt.ylabel("Componente principal 2")
+    plt.xlabel(f"Componente principal 1 ({varianza_explicada[0] * 100:.1f} %)")
+    plt.ylabel(f"Componente principal 2 ({varianza_explicada[1] * 100:.1f} %)")
     plt.legend()
     plt.grid(True, alpha=0.3)
 
@@ -342,8 +521,8 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
         )
 
     plt.title(f"Distribución por región/macrozona - {nombre_analisis}")
-    plt.xlabel("Componente principal 1")
-    plt.ylabel("Componente principal 2")
+    plt.xlabel(f"Componente principal 1 ({varianza_explicada[0] * 100:.1f} %)")
+    plt.ylabel(f"Componente principal 2 ({varianza_explicada[1] * 100:.1f} %)")
     plt.legend()
     plt.grid(True, alpha=0.3)
 
@@ -363,34 +542,41 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
             promedio_hembras_ovigeras=("hembras_ovigeras", "mean"),
             promedio_adultos_moviles=("adultos_moviles", "mean"),
             promedio_juveniles=("juveniles", "mean"),
-            promedio_adultos_totales=("adultos_totales", "mean"),
-            promedio_carga_total=("carga_total_piojos", "mean"),
+            promedio_parasitos_totales=("parasitos_totales", "mean"),
             promedio_temperatura=("temperatura", "mean"),
             promedio_salinidad=("salinidad", "mean")
         )
         .reset_index()
+        .sort_values("cluster")
     )
 
     for col in resumen_cluster.select_dtypes(include="number").columns:
         resumen_cluster[col] = resumen_cluster[col].round(3)
 
-    q25 = resumen_cluster["promedio_carga_total"].quantile(0.25)
-    q75 = resumen_cluster["promedio_carga_total"].quantile(0.75)
+    # Como los clusters ya están ordenados por carga:
+    # Cluster 0 = carga más alta
+    # Cluster k-1 = carga más baja
+    resumen_cluster["orden_carga"] = resumen_cluster["cluster"] + 1
 
-    def interpretar_cluster(row):
-        carga = row["promedio_carga_total"]
-
-        if carga >= q75:
-            return "Alta carga parasitaria"
-        elif carga <= q25:
-            return "Baja carga parasitaria"
-        else:
-            return "Carga parasitaria intermedia"
-
-    resumen_cluster["interpretacion"] = resumen_cluster.apply(interpretar_cluster, axis=1)
+    resumen_cluster["interpretacion"] = resumen_cluster["cluster"].apply(
+        lambda c: (
+            "Mayor carga parasitaria"
+            if c == resumen_cluster["cluster"].min()
+            else (
+                "Menor carga parasitaria"
+                if c == resumen_cluster["cluster"].max()
+                else "Carga parasitaria intermedia"
+            )
+        )
+    )
 
     ruta_resumen = os.path.join(carpeta_out, "05_resumen_clusters.csv")
-    resumen_cluster.to_csv(ruta_resumen, index=False, encoding="utf-8-sig")
+
+    resumen_cluster.to_csv(
+        ruta_resumen,
+        index=False,
+        encoding="utf-8-sig"
+    )
 
     print("\nResumen por cluster:")
     print(resumen_cluster)
@@ -405,15 +591,29 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
         margins=True
     )
 
-    ruta_region_cluster = os.path.join(carpeta_out, "06_tabla_region_cluster.csv")
-    tabla_region_cluster.to_csv(ruta_region_cluster, encoding="utf-8-sig")
+    ruta_region_cluster = os.path.join(
+        carpeta_out,
+        "06_tabla_region_cluster.csv"
+    )
+
+    tabla_region_cluster.to_csv(
+        ruta_region_cluster,
+        encoding="utf-8-sig"
+    )
 
     # --------------------------------------------------------
-    # Serie temporal de carga total por cluster
+    # Serie temporal de parásitos totales por clúster
     # --------------------------------------------------------
 
-    df_modelo = df_modelo.sort_values(["pais", "region", "anio", "semana"]).reset_index(drop=True)
-    df_modelo["indice_temporal"] = range(1, len(df_modelo) + 1)
+    df_modelo = (
+        df_modelo
+        .sort_values(["pais", "region", "anio", "semana"])
+        .reset_index(drop=True)
+    )
+
+    df_modelo["tiempo_decimal"] = (
+        df_modelo["anio"] + (df_modelo["semana"] - 1) / 53
+    )
 
     plt.figure(figsize=(15, 6))
 
@@ -421,22 +621,26 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
         sub = df_modelo[df_modelo["cluster"] == cluster]
 
         plt.scatter(
-            sub["indice_temporal"],
-            sub["carga_total_piojos"],
+            sub["tiempo_decimal"],
+            sub["parasitos_totales"],
             label=f"Cluster {cluster}",
             s=25
         )
 
-    plt.plot(
-        df_modelo["indice_temporal"],
-        df_modelo["carga_total_piojos"],
-        linewidth=0.8,
-        alpha=0.5
-    )
+    # Las líneas se trazan separadamente para evitar unir regiones distintas.
+    for region in sorted(df_modelo["region"].unique()):
+        sub_region = df_modelo[df_modelo["region"] == region]
 
-    plt.title(f"Evolución temporal de la carga total por cluster - {nombre_analisis}")
-    plt.xlabel("Índice temporal")
-    plt.ylabel("Carga total de piojos")
+        plt.plot(
+            sub_region["tiempo_decimal"],
+            sub_region["parasitos_totales"],
+            linewidth=0.7,
+            alpha=0.35
+        )
+
+    plt.title(f"Evolución temporal de parásitos totales por clúster - {nombre_analisis}")
+    plt.xlabel("Año")
+    plt.ylabel("Parásitos totales")
     plt.legend()
     plt.grid(True, alpha=0.3)
 
@@ -445,25 +649,26 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
     plt.close()
 
     # --------------------------------------------------------
-    # Boxplot de carga total por cluster
+    # Boxplot de parásitos totales por clúster
     # --------------------------------------------------------
 
     clusters_ordenados = sorted(df_modelo["cluster"].unique())
 
     datos_boxplot = [
-        df_modelo[df_modelo["cluster"] == c]["carga_total_piojos"]
+        df_modelo[df_modelo["cluster"] == c]["parasitos_totales"]
         for c in clusters_ordenados
     ]
 
     plt.figure(figsize=(10, 6))
+
     plt.boxplot(
         datos_boxplot,
-        labels=[f"Cluster {c}" for c in clusters_ordenados]
+        tick_labels=[f"Clúster {c}" for c in clusters_ordenados]
     )
 
-    plt.title(f"Distribución de carga total por cluster - {nombre_analisis}")
+    plt.title(f"Distribución de parásitos totales por clúster - {nombre_analisis}")
     plt.xlabel("Cluster")
-    plt.ylabel("Carga total de piojos")
+    plt.ylabel("Parásitos totales")
     plt.grid(True, alpha=0.3)
 
     ruta_boxplot = os.path.join(carpeta_out, "08_boxplot_carga_total.png")
@@ -478,14 +683,18 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
         "promedio_hembras_ovigeras",
         "promedio_adultos_moviles",
         "promedio_juveniles",
-        "promedio_adultos_totales",
-        "promedio_carga_total"
+        "promedio_parasitos_totales"
     ]
 
     resumen_parasitos = resumen_cluster.set_index("cluster")[variables_parasitarias]
 
     plt.figure(figsize=(12, 6))
-    resumen_parasitos.plot(kind="bar", figsize=(12, 6))
+
+    resumen_parasitos.plot(
+        kind="bar",
+        figsize=(12, 6)
+    )
+
     plt.title(f"Promedio de variables parasitarias por cluster - {nombre_analisis}")
     plt.xlabel("Cluster")
     plt.ylabel("Valor promedio")
@@ -493,7 +702,11 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
     plt.grid(True, alpha=0.3)
     plt.legend(bbox_to_anchor=(1.05, 1), loc="upper left")
 
-    ruta_barras_parasitos = os.path.join(carpeta_out, "09_promedios_parasitarios.png")
+    ruta_barras_parasitos = os.path.join(
+        carpeta_out,
+        "09_promedios_parasitarios.png"
+    )
+
     plt.savefig(ruta_barras_parasitos, dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -509,7 +722,12 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
     resumen_ambiental = resumen_cluster.set_index("cluster")[variables_ambientales]
 
     plt.figure(figsize=(10, 6))
-    resumen_ambiental.plot(kind="bar", figsize=(10, 6))
+
+    resumen_ambiental.plot(
+        kind="bar",
+        figsize=(10, 6)
+    )
+
     plt.title(f"Promedio de temperatura y salinidad por cluster - {nombre_analisis}")
     plt.xlabel("Cluster")
     plt.ylabel("Valor promedio")
@@ -517,7 +735,11 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
     plt.grid(True, alpha=0.3)
     plt.legend(["Temperatura (°C)", "Salinidad (PSU)"])
 
-    ruta_barras_ambiente = os.path.join(carpeta_out, "10_promedios_ambientales.png")
+    ruta_barras_ambiente = os.path.join(
+        carpeta_out,
+        "10_promedios_ambientales.png"
+    )
+
     plt.savefig(ruta_barras_ambiente, dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -525,13 +747,21 @@ def ejecutar_clustering(df, nombre_analisis, carpeta_base_salida):
     # Guardar dataset con clusters
     # --------------------------------------------------------
 
-    ruta_dataset_cluster = os.path.join(carpeta_out, "11_dataset_con_clusters.csv")
-    df_modelo.to_csv(ruta_dataset_cluster, index=False, encoding="utf-8-sig")
+    ruta_dataset_cluster = os.path.join(
+        carpeta_out,
+        "11_dataset_con_clusters.csv"
+    )
+
+    df_modelo.to_csv(
+        ruta_dataset_cluster,
+        index=False,
+        encoding="utf-8-sig"
+    )
 
     print(f"\nArchivos guardados en: {carpeta_out}")
 
 # ============================================================
-# 7. Cargar datos
+# 8. Cargar datos
 # ============================================================
 
 chile = cargar_pais(carpeta_chile, "Chile")
@@ -543,31 +773,51 @@ noruega = preparar_variables(noruega)
 todo = pd.concat([chile, noruega], ignore_index=True)
 todo = preparar_variables(todo)
 
+# ------------------------------------------------------------
 # Guardar bases unificadas
-chile.to_csv(os.path.join(carpeta_salida, "Base_Chile_Clustering.csv"), index=False, encoding="utf-8-sig")
-noruega.to_csv(os.path.join(carpeta_salida, "Base_Noruega_Clustering.csv"), index=False, encoding="utf-8-sig")
-todo.to_csv(os.path.join(carpeta_salida, "Base_Chile_Noruega_Clustering.csv"), index=False, encoding="utf-8-sig")
+# ------------------------------------------------------------
+
+chile.to_csv(
+    os.path.join(carpeta_salida, "Base_Chile_Clustering.csv"),
+    index=False,
+    encoding="utf-8-sig"
+)
+
+noruega.to_csv(
+    os.path.join(carpeta_salida, "Base_Noruega_Clustering.csv"),
+    index=False,
+    encoding="utf-8-sig"
+)
+
+todo.to_csv(
+    os.path.join(carpeta_salida, "Base_Chile_Noruega_Clustering.csv"),
+    index=False,
+    encoding="utf-8-sig"
+)
 
 # ============================================================
-# 8. Ejecutar clustering en 3 niveles
+# 9. Ejecutar clustering en 3 niveles
 # ============================================================
 
 ejecutar_clustering(
     df=chile,
-    nombre_analisis="01_Chile_completo",
-    carpeta_base_salida=carpeta_salida
+    nombre_analisis="Chile",
+    carpeta_base_salida=carpeta_salida,
+    k_seleccionado=2
 )
 
 ejecutar_clustering(
     df=noruega,
-    nombre_analisis="02_Noruega_completo",
-    carpeta_base_salida=carpeta_salida
+    nombre_analisis="Noruega",
+    carpeta_base_salida=carpeta_salida,
+    k_seleccionado=3
 )
 
 ejecutar_clustering(
     df=todo,
-    nombre_analisis="03_Chile_Noruega_conjunto",
-    carpeta_base_salida=carpeta_salida
+    nombre_analisis="Chile-Noruega",
+    carpeta_base_salida=carpeta_salida,
+    k_seleccionado=3
 )
 
 print("\n====================================================")

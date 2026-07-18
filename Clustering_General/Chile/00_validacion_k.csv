@@ -1,0 +1,9 @@
+﻿k,inercia,silhouette_promedio,tamano_minimo,tamano_maximo,tamanos_clusters,seleccionado_final,maximo_silhouette
+1,4540.0,,908,908,cluster_0=908,False,False
+2,3379.047219,0.441399,123,785,cluster_0=123; cluster_1=785,True,True
+3,2633.971421,0.294563,54,540,cluster_0=540; cluster_1=54; cluster_2=314,False,False
+4,2215.392705,0.280939,54,332,cluster_0=332; cluster_1=54; cluster_2=241; cluster_3=281,False,False
+5,1865.218442,0.295724,10,306,cluster_0=233; cluster_1=92; cluster_2=306; cluster_3=267; cluster_4=10,False,False
+6,1563.300839,0.30801,8,292,cluster_0=219; cluster_1=121; cluster_2=292; cluster_3=17; cluster_4=8; cluster_5=251,False,False
+7,1386.407881,0.312211,8,295,cluster_0=9; cluster_1=214; cluster_2=295; cluster_3=148; cluster_4=84; cluster_5=8; cluster_6=150,False,False
+8,1271.862888,0.311185,8,258,cluster_0=97; cluster_1=258; cluster_2=39; cluster_3=156; cluster_4=205; cluster_5=8; cluster_6=9; cluster_7=136,False,False

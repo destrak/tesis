@@ -1,19 +1,35 @@
 import pandas as pd
-import os
 
 # ============================================================
 # COMPARACIÓN CHILE - NORUEGA CON DESFASE HEMISFÉRICO
-# Chile: Fiordo Blanco 100660
-# Noruega: Verpeide 13837
-# Desfase: 26 semanas
+# Chile: Los Lagos, centro 102424
+# Noruega: Sur/Oeste, centro 33077
+# Desfase temporal: 26 semanas
+# Periodo: 2014 - semana 26 de 2024
 # ============================================================
 
 # Archivos de entrada
-archivo_chile = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\102424_Semanal_2014_2024.csv"
-archivo_noruega = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\33077_Semanal_2014_2024.csv"
+archivo_chile = (
+    r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\tesis"
+    r"\102424_Semanal_2014_2024.csv"
+)
 
-# Archivo de salida
-archivo_salida = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\Comparacion_Chile_Noruega_Desfase_26_semanas regionlagos_regionsuroeste.csv"
+archivo_noruega = (
+    r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\tesis"
+    r"\33077_Semanal_2014_2024.csv"
+)
+
+# Archivos de salida
+archivo_salida = (
+    r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\tesis"
+    r"\Comparacion_Chile_Noruega_Desfase_26_semanas_"
+    r"regionlagos_regionsuroeste.csv"
+)
+
+archivo_resumen = (
+    r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\tesis"
+    r"\Resumen_Comparabilidad_Los_Lagos_Sur_Oeste.csv"
+)
 
 # ============================================================
 # 1. Cargar datos
@@ -22,7 +38,15 @@ archivo_salida = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\Comparacion_Ch
 chile = pd.read_csv(archivo_chile)
 noruega = pd.read_csv(archivo_noruega)
 
-# Asegurar que año y semana sean enteros
+# Convertir año y semana a valores numéricos
+for df in [chile, noruega]:
+    df["anio"] = pd.to_numeric(df["anio"], errors="coerce")
+    df["semana"] = pd.to_numeric(df["semana"], errors="coerce")
+
+# Eliminar registros sin año o semana
+chile = chile.dropna(subset=["anio", "semana"]).copy()
+noruega = noruega.dropna(subset=["anio", "semana"]).copy()
+
 chile["anio"] = chile["anio"].astype(int)
 chile["semana"] = chile["semana"].astype(int)
 
@@ -30,100 +54,145 @@ noruega["anio"] = noruega["anio"].astype(int)
 noruega["semana"] = noruega["semana"].astype(int)
 
 # ============================================================
-# 2. Crear semana equivalente para Noruega
+# 2. Definir periodo de análisis
 # ============================================================
-# Para cada semana chilena, buscamos la semana noruega equivalente
-# desplazada 26 semanas.
+# Se emplean ciclos de 52 semanas:
+# - 2014 a 2023: semanas 1 a 52
+# - 2024: semanas 1 a 26
+#
+# Total esperado:
+# 10 años x 52 semanas + 26 semanas = 546 semanas.
+
+chile = chile[
+    (chile["semana"].between(1, 52))
+    & (
+        (chile["anio"].between(2014, 2023))
+        | (
+            (chile["anio"] == 2024)
+            & (chile["semana"].between(1, 26))
+        )
+    )
+].copy()
+
+# Eliminar semanas 53 y datos fuera del periodo requerido
+noruega = noruega[
+    (noruega["anio"].between(2014, 2024))
+    & (noruega["semana"].between(1, 52))
+].copy()
+
+# ============================================================
+# 3. Crear semana equivalente para Noruega
+# ============================================================
 
 chile["semana_noruega_equivalente"] = chile["semana"] + 26
-
-# Si pasa de 52, vuelve al inicio
-chile.loc[chile["semana_noruega_equivalente"] > 52, "semana_noruega_equivalente"] -= 52
-
-# ============================================================
-# 3. Ajustar año equivalente de Noruega
-# ============================================================
-# Si la semana chilena + 26 pasa de 52, la semana equivalente noruega
-# cae al inicio del año siguiente.
-
 chile["anio_noruega_equivalente"] = chile["anio"]
 
-chile.loc[chile["semana"] + 26 > 52, "anio_noruega_equivalente"] = chile["anio"] + 1
+# Identificar semanas que pasan al año siguiente
+cambio_anio = chile["semana_noruega_equivalente"] > 52
 
-# Como tenemos datos solo hasta 2024, se eliminarán comparaciones que pidan Noruega 2025.
+chile.loc[
+    cambio_anio,
+    "semana_noruega_equivalente"
+] -= 52
 
-# ============================================================
-# 4. Renombrar columnas para evitar confusión
-# ============================================================
-
-chile_comp = chile.rename(columns={
-    "anio": "anio_chile",
-    "semana": "semana_chile",
-    "temperatura_media_C": "temperatura_chile_C",
-    "salinidad_media_PSU": "salinidad_chile_PSU"
-})
-
-noruega_comp = noruega.rename(columns={
-    "anio": "anio_noruega",
-    "semana": "semana_noruega",
-    "temperatura_media_C": "temperatura_noruega_C",
-    "salinidad_media_PSU": "salinidad_noruega_PSU"
-})
+chile.loc[
+    cambio_anio,
+    "anio_noruega_equivalente"
+] += 1
 
 # ============================================================
-# 5. Unir Chile con Noruega usando año y semana equivalente
+# 4. Renombrar columnas
+# ============================================================
+
+chile_comp = chile.rename(
+    columns={
+        "anio": "anio_chile",
+        "semana": "semana_chile",
+        "temperatura_media_C": "temperatura_chile_C",
+        "salinidad_media_PSU": "salinidad_chile_PSU"
+    }
+)
+
+noruega_comp = noruega.rename(
+    columns={
+        "anio": "anio_noruega",
+        "semana": "semana_noruega",
+        "temperatura_media_C": "temperatura_noruega_C",
+        "salinidad_media_PSU": "salinidad_noruega_PSU"
+    }
+)
+
+# ============================================================
+# 5. Homologar Chile y Noruega
 # ============================================================
 
 comparacion = pd.merge(
     chile_comp,
     noruega_comp,
-    left_on=["anio_noruega_equivalente", "semana_noruega_equivalente"],
-    right_on=["anio_noruega", "semana_noruega"],
+    left_on=[
+        "anio_noruega_equivalente",
+        "semana_noruega_equivalente"
+    ],
+    right_on=[
+        "anio_noruega",
+        "semana_noruega"
+    ],
     how="inner"
 )
+
+# Ordenar cronológicamente
+comparacion = comparacion.sort_values(
+    ["anio_chile", "semana_chile"]
+).reset_index(drop=True)
 
 # ============================================================
 # 6. Calcular diferencias ambientales
 # ============================================================
 
-comparacion["dif_temperatura_C"] = (
-    comparacion["temperatura_chile_C"] - comparacion["temperatura_noruega_C"]
-).abs()
-
-comparacion["dif_salinidad_PSU"] = (
-    comparacion["salinidad_chile_PSU"] - comparacion["salinidad_noruega_PSU"]
-).abs()
-
-# ============================================================
-# 7. Clasificar comparabilidad
-# ============================================================
-
-def clasificar_temp(dif):
-    if dif <= 3:
-        return "Muy similar"
-    elif dif <= 5:
-        return "Diferente"
-    else:
-        return "No comparable"
-
-def clasificar_sal(dif):
-    if dif <= 3:
-        return "Muy similar"
-    elif dif <= 5:
-        return "Diferente"
-    else:
-        return "No comparable"
-
-comparacion["comparabilidad_temperatura"] = comparacion["dif_temperatura_C"].apply(clasificar_temp)
-comparacion["comparabilidad_salinidad"] = comparacion["dif_salinidad_PSU"].apply(clasificar_sal)
-
-# Criterio general
-comparacion["comparabilidad_general"] = comparacion.apply(
-    lambda row: "Comparable"
-    if row["dif_temperatura_C"] <= 3 and row["dif_salinidad_PSU"] <= 3
-    else "No comparable / revisar",
-    axis=1
+# Diferencias con signo
+comparacion["delta_temperatura_C"] = (
+    comparacion["temperatura_chile_C"]
+    - comparacion["temperatura_noruega_C"]
 )
+
+comparacion["delta_salinidad_PSU"] = (
+    comparacion["salinidad_chile_PSU"]
+    - comparacion["salinidad_noruega_PSU"]
+)
+
+# Diferencias absolutas
+comparacion["delta_temperatura_abs_C"] = (
+    comparacion["delta_temperatura_C"].abs()
+)
+
+comparacion["delta_salinidad_abs_PSU"] = (
+    comparacion["delta_salinidad_PSU"].abs()
+)
+
+# ============================================================
+# 7. Evaluar los criterios operacionales
+# ============================================================
+
+comparacion["cumple_temperatura"] = (
+    comparacion["delta_temperatura_abs_C"] <= 3
+)
+
+comparacion["cumple_salinidad"] = (
+    comparacion["delta_salinidad_abs_PSU"] <= 3
+)
+
+# Una semana es comparable solo si cumple ambos criterios
+comparacion["cumple_ambos_criterios"] = (
+    comparacion["cumple_temperatura"]
+    & comparacion["cumple_salinidad"]
+)
+
+comparacion["comparabilidad_general"] = comparacion[
+    "cumple_ambos_criterios"
+].map({
+    True: "Comparable",
+    False: "No comparable"
+})
 
 # ============================================================
 # 8. Seleccionar columnas finales
@@ -136,84 +205,177 @@ columnas_finales = [
     "semana_noruega",
     "temperatura_chile_C",
     "temperatura_noruega_C",
-    "dif_temperatura_C",
+    "delta_temperatura_C",
+    "delta_temperatura_abs_C",
     "salinidad_chile_PSU",
     "salinidad_noruega_PSU",
-    "dif_salinidad_PSU",
-    "comparabilidad_temperatura",
-    "comparabilidad_salinidad",
+    "delta_salinidad_PSU",
+    "delta_salinidad_abs_PSU",
+    "cumple_temperatura",
+    "cumple_salinidad",
+    "cumple_ambos_criterios",
     "comparabilidad_general"
 ]
 
-# Mantener solo columnas que existan
-columnas_finales = [col for col in columnas_finales if col in comparacion.columns]
+comparacion_final = comparacion[columnas_finales].copy()
 
-comparacion_final = comparacion[columnas_finales]
+# Redondear variables continuas
+columnas_decimales = [
+    "temperatura_chile_C",
+    "temperatura_noruega_C",
+    "delta_temperatura_C",
+    "delta_temperatura_abs_C",
+    "salinidad_chile_PSU",
+    "salinidad_noruega_PSU",
+    "delta_salinidad_PSU",
+    "delta_salinidad_abs_PSU"
+]
 
-# Redondear valores numéricos
-for col in comparacion_final.select_dtypes(include="number").columns:
-    comparacion_final[col] = comparacion_final[col].round(3)
-
-# ============================================================
-# 9. Guardar resultado semanal
-# ============================================================
-
-comparacion_final.to_csv(archivo_salida, index=False, encoding="utf-8-sig")
-
-print("====================================================")
-print(" COMPARACIÓN CHILE - NORUEGA FINALIZADA")
-print("====================================================")
-print(f"Archivo guardado en:")
-print(archivo_salida)
-print(f"\nTotal de semanas comparadas: {len(comparacion_final)}")
-
-print("\nVista previa:")
-print(comparacion_final.head(15))
-
-print("\nResumen de comparabilidad general:")
-print(comparacion_final["comparabilidad_general"].value_counts())
+comparacion_final[columnas_decimales] = (
+    comparacion_final[columnas_decimales].round(3)
+)
 
 # ============================================================
-# 10. Calcular porcentaje de comparabilidad
+# 9. Verificar cantidad de pares
 # ============================================================
 
 total_semanas = len(comparacion_final)
+total_esperado = 546
 
-semanas_comparables = (
-    comparacion_final["comparabilidad_general"] == "Comparable"
-).sum()
-
-porcentaje_comparabilidad = (semanas_comparables / total_semanas) * 100
-
-if porcentaje_comparabilidad >= 90:
-    conclusion_comparabilidad = "Similar"
+if total_semanas != total_esperado:
+    print(
+        f"ADVERTENCIA: se esperaban {total_esperado} pares, "
+        f"pero se obtuvieron {total_semanas}."
+    )
 else:
-    conclusion_comparabilidad = "No similar"
+    print(f"Verificación correcta: {total_semanas} pares homologados.")
+
+# ============================================================
+# 10. Calcular resumen de comparabilidad
+# ============================================================
+
+semanas_cumple_temperatura = int(
+    comparacion_final["cumple_temperatura"].sum()
+)
+
+semanas_cumple_salinidad = int(
+    comparacion_final["cumple_salinidad"].sum()
+)
+
+semanas_comparables = int(
+    comparacion_final["cumple_ambos_criterios"].sum()
+)
+
+porcentaje_temperatura = (
+    semanas_cumple_temperatura / total_semanas
+) * 100
+
+porcentaje_salinidad = (
+    semanas_cumple_salinidad / total_semanas
+) * 100
+
+porcentaje_comparabilidad = (
+    semanas_comparables / total_semanas
+) * 100
+
+diferencia_temperatura_media = (
+    comparacion_final["delta_temperatura_C"].mean()
+)
+
+diferencia_temperatura_abs_media = (
+    comparacion_final["delta_temperatura_abs_C"].mean()
+)
+
+diferencia_salinidad_abs_media = (
+    comparacion_final["delta_salinidad_abs_PSU"].mean()
+)
+
+# ============================================================
+# 11. Guardar resultados
+# ============================================================
+
+comparacion_final.to_csv(
+    archivo_salida,
+    index=False,
+    encoding="utf-8-sig"
+)
+
+df_resumen = pd.DataFrame({
+    "comparacion": ["Los_Lagos_vs_Sur_Oeste"],
+    "total_semanas": [total_semanas],
+    "semanas_cumple_temperatura": [
+        semanas_cumple_temperatura
+    ],
+    "porcentaje_cumple_temperatura": [
+        round(porcentaje_temperatura, 2)
+    ],
+    "semanas_cumple_salinidad": [
+        semanas_cumple_salinidad
+    ],
+    "porcentaje_cumple_salinidad": [
+        round(porcentaje_salinidad, 2)
+    ],
+    "semanas_cumplen_ambos": [
+        semanas_comparables
+    ],
+    "porcentaje_comparabilidad_ambiental": [
+        round(porcentaje_comparabilidad, 2)
+    ],
+    "diferencia_temperatura_media_C": [
+        round(diferencia_temperatura_media, 4)
+    ],
+    "diferencia_temperatura_abs_media_C": [
+        round(diferencia_temperatura_abs_media, 4)
+    ],
+    "diferencia_salinidad_abs_media_PSU": [
+        round(diferencia_salinidad_abs_media, 4)
+    ]
+})
+
+df_resumen.to_csv(
+    archivo_resumen,
+    index=False,
+    encoding="utf-8-sig"
+)
+
+# ============================================================
+# 12. Mostrar resultados
+# ============================================================
+
+print("\n====================================================")
+print(" COMPARACIÓN CHILE - NORUEGA FINALIZADA")
+print("====================================================")
+print(f"Archivo semanal: {archivo_salida}")
+print(f"Archivo resumen: {archivo_resumen}")
 
 print("\n====================================================")
 print(" RESUMEN DE COMPARABILIDAD AMBIENTAL")
 print("====================================================")
-print(f"Total de semanas comparadas      : {total_semanas}")
-print(f"Semanas comparables              : {semanas_comparables}")
-print(f"Porcentaje de comparabilidad     : {porcentaje_comparabilidad:.2f} %")
-print(f"Criterio                         : >= 90 %")
-print(f"Conclusión                       : {conclusion_comparabilidad}")
-
-# ============================================================
-# 11. Guardar resumen de comparabilidad
-# ============================================================
-
-archivo_resumen = r"C:\Users\jarpa\OneDrive\Escritorio\datos tesis\Resumen_Comparabilidad_Chile_Noruega.csv"
-
-df_resumen = pd.DataFrame({
-    "total_semanas_comparadas": [total_semanas],
-    "semanas_comparables": [semanas_comparables],
-    "porcentaje_comparabilidad": [round(porcentaje_comparabilidad, 2)],
-    "criterio_similitud": [">= 90 %"],
-    "conclusion": [conclusion_comparabilidad]
-})
-
-df_resumen.to_csv(archivo_resumen, index=False, encoding="utf-8-sig")
-
-print(f"\nResumen guardado en:")
-print(archivo_resumen)
+print(f"Total de semanas homologadas : {total_semanas}")
+print(
+    f"Cumplen temperatura          : "
+    f"{semanas_cumple_temperatura} "
+    f"({porcentaje_temperatura:.2f} %)"
+)
+print(
+    f"Cumplen salinidad            : "
+    f"{semanas_cumple_salinidad} "
+    f"({porcentaje_salinidad:.2f} %)"
+)
+print(
+    f"Cumplen ambos criterios      : "
+    f"{semanas_comparables} "
+    f"({porcentaje_comparabilidad:.2f} %)"
+)
+print(
+    f"Diferencia media temperatura : "
+    f"{diferencia_temperatura_media:.4f} °C"
+)
+print(
+    f"Diferencia absoluta media T  : "
+    f"{diferencia_temperatura_abs_media:.4f} °C"
+)
+print(
+    f"Diferencia absoluta media S  : "
+    f"{diferencia_salinidad_abs_media:.4f} PSU"
+)

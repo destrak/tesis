@@ -1,0 +1,2 @@
+﻿modelo,n_entrenamiento,n_prueba,mejor_RMSE_validacion,MAE_RF,RMSE_RF,R2_RF,MAE_base_persistencia,RMSE_base_persistencia,R2_base_persistencia,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+chile,714,144,2.0242051142574016,2.336021112619557,4.1720641552205,0.5081463951842513,2.528611111111111,4.970217830012864,0.3019528657251843,300,20,2,2,log2,True

@@ -4,64 +4,257 @@ import matplotlib.dates as mdates
 import os
 import numpy as np
 from matplotlib.patches import Patch
+import re
 
-# ==============================
-# RUTA DEL DATASET
-# ==============================
+# ============================================================
+# RUTAS
+# ============================================================
 
-ruta = "dataset/base_chile_noruega_completa.csv"
+# Carpeta donde está guardado este script .py
+carpeta_script = os.path.dirname(os.path.abspath(__file__))
 
-# ==============================
-# CARPETAS DE SALIDA
-# ==============================
+# Dataset ubicado dentro de la misma carpeta del script
+carpeta_base = os.path.join(carpeta_script, "dataset")
+carpeta_chile = os.path.join(carpeta_base, "datasetchile")
+carpeta_noruega = os.path.join(carpeta_base, "datasetnoruega")
 
-carpeta_boxplots = "boxplots_parasitos"
-carpeta_lineas = "lineas_parasitos_homologadas"
+# Carpetas de salida
+carpeta_boxplots = os.path.join(carpeta_script, "boxplots_parasitos")
+carpeta_lineas = os.path.join(carpeta_script, "lineas_parasitos_homologadas")
 
 os.makedirs(carpeta_boxplots, exist_ok=True)
 os.makedirs(carpeta_lineas, exist_ok=True)
 
-# ==============================
-# CARGAR DATASET
-# ==============================
+print("Carpeta script:", carpeta_script)
+print("Carpeta base:", carpeta_base)
+print("Carpeta Chile:", carpeta_chile)
+print("Carpeta Noruega:", carpeta_noruega)
 
-df = pd.read_csv(ruta, na_values=["NA", ""])
+# ============================================================
+# FUNCIONES AUXILIARES
+# ============================================================
 
-# ==============================
-# ASEGURAR FORMATOS
-# ==============================
+def normalizar_columnas(df):
+    df = df.copy()
 
-df["año"] = pd.to_numeric(df["año"], errors="coerce")
-df["semana"] = pd.to_numeric(df["semana"], errors="coerce")
-df["parasitos_totales"] = pd.to_numeric(df["parasitos_totales"], errors="coerce")
-df["localidad"] = df["localidad"].astype(str)
+    df.columns = (
+        df.columns
+        .str.strip()
+        .str.lower()
+        .str.replace("á", "a", regex=False)
+        .str.replace("é", "e", regex=False)
+        .str.replace("í", "i", regex=False)
+        .str.replace("ó", "o", regex=False)
+        .str.replace("ú", "u", regex=False)
+        .str.replace("ñ", "n", regex=False)
+        .str.replace("°", "", regex=False)
+        .str.replace("(", "", regex=False)
+        .str.replace(")", "", regex=False)
+        .str.replace("/", "_", regex=False)
+        .str.replace(" ", "_", regex=False)
+    )
 
-df = df.dropna(subset=["año", "semana", "pais", "parasitos_totales"])
+    renombres = {
+        "año": "anio",
+        "ano": "anio",
+        "year": "anio",
 
-df["año"] = df["año"].astype(int)
-df["semana"] = df["semana"].astype(int)
+        "week": "semana",
+        "sem": "semana",
 
-# ==============================
-# ASIGNAR REGIÓN / MACROZONA
-# ==============================
+        "localidad": "localidad",
+        "codigo": "localidad",
+        "codigo_localidad": "localidad",
+        "centro": "localidad",
 
-mapa_zonas = {
-    # Chile
-    "102424": "Los Lagos",
-    "110758": "Aysén",
-    "120128": "Magallanes",
+        "hembras_ovigeras": "hembras_ovigeras",
+        "adult_female_lice": "hembras_ovigeras",
+        "adult_female": "hembras_ovigeras",
 
-    # Noruega
-    "33077": "Sur/Oeste Noruega",
-    "32677": "Centro Noruega",
-    "24175": "Norte Noruega"
-}
+        "adultos_moviles": "adultos_moviles",
+        "lice_in_moving_stages": "adultos_moviles",
+        "moving_lice": "adultos_moviles",
 
-df["zona"] = df["localidad"].map(mapa_zonas)
+        "juveniles": "juveniles",
+        "stuck_lice": "juveniles",
 
-# ==============================
-# ESTACIÓN BASE CHILE
-# ==============================
+        "parasitos_totales": "parasitos_totales",
+        "total_piojos": "parasitos_totales",
+        "parasites_total": "parasitos_totales",
+        "total_lice": "parasitos_totales",
+        "carga_total_piojos": "parasitos_totales",
+
+        "temperatura_c": "temperatura",
+        "temperatura": "temperatura",
+        "temperatura_c_": "temperatura",
+        "temperatura_celsius": "temperatura",
+        "sea_temperature": "temperatura",
+        "temperature": "temperatura",
+
+        "salinidad_psu": "salinidad",
+        "salinidad": "salinidad",
+        "salinity": "salinidad",
+
+        "pais": "pais",
+        "country": "pais",
+
+        "estacion": "estacion",
+        "season": "estacion"
+    }
+
+    df = df.rename(columns={k: v for k, v in renombres.items() if k in df.columns})
+
+    return df
+
+
+def inferir_localidad_desde_archivo(nombre_archivo):
+    """
+    Extrae códigos conocidos desde el nombre del archivo.
+    """
+
+    codigos = ["102424", "110758", "120128", "24175", "32677", "33077"]
+
+    for codigo in codigos:
+        if codigo in nombre_archivo:
+            return codigo
+
+    # Si no encuentra los códigos conocidos, intenta encontrar un número de 5 o 6 dígitos
+    match = re.search(r"\d{5,6}", nombre_archivo)
+    if match:
+        return match.group(0)
+
+    return np.nan
+
+
+def cargar_archivos(carpeta, pais):
+    if not os.path.exists(carpeta):
+        raise FileNotFoundError(f"No existe la carpeta: {carpeta}")
+
+    archivos = [
+        os.path.join(carpeta, archivo)
+        for archivo in os.listdir(carpeta)
+        if archivo.lower().endswith(".csv")
+    ]
+
+    # Evita cargar bases generales si ya existen
+    archivos = [
+        archivo for archivo in archivos
+        if not os.path.basename(archivo).lower().startswith("base_")
+    ]
+
+    if len(archivos) == 0:
+        raise FileNotFoundError(f"No se encontraron archivos CSV en: {carpeta}")
+
+    bases = []
+
+    for archivo in archivos:
+        print(f"Cargando {pais}: {archivo}")
+
+        try:
+            df = pd.read_csv(archivo, na_values=["NA", ""], encoding="utf-8-sig")
+        except UnicodeDecodeError:
+            df = pd.read_csv(archivo, na_values=["NA", ""], encoding="latin1")
+
+        df = normalizar_columnas(df)
+
+        nombre_archivo = os.path.basename(archivo)
+
+        # Asegurar columna país
+        df["pais"] = pais
+
+        # Asegurar columna localidad
+        if "localidad" not in df.columns:
+            df["localidad"] = inferir_localidad_desde_archivo(nombre_archivo)
+
+        df["localidad"] = (
+            df["localidad"]
+            .astype(str)
+            .str.strip()
+            .str.replace(r"\.0$", "", regex=True)
+        )
+
+        # Convertir columnas numéricas
+        columnas_numericas = [
+            "anio",
+            "semana",
+            "hembras_ovigeras",
+            "adultos_moviles",
+            "juveniles",
+            "temperatura",
+            "salinidad",
+            "parasitos_totales"
+        ]
+
+        for col in columnas_numericas:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors="coerce")
+
+        # Verificar columnas mínimas
+        columnas_minimas = [
+            "anio",
+            "semana",
+            "localidad",
+            "hembras_ovigeras",
+            "adultos_moviles",
+            "juveniles",
+            "temperatura",
+            "salinidad"
+        ]
+
+        faltantes = [col for col in columnas_minimas if col not in df.columns]
+
+        if faltantes:
+            print("Archivo omitido por columnas faltantes:")
+            print(archivo)
+            print("Faltan:", faltantes)
+            print("Columnas disponibles:", df.columns.tolist())
+            continue
+
+        # Calcular parásitos totales si no existe
+        columnas_parasitos = [
+            "hembras_ovigeras",
+            "adultos_moviles",
+            "juveniles"
+        ]
+
+        if "parasitos_totales" not in df.columns:
+            df["parasitos_totales"] = df[columnas_parasitos].sum(axis=1, skipna=True)
+
+            # Si las tres columnas son NA, deja parasitos_totales como NA
+            df["parasitos_totales"] = df["parasitos_totales"].where(
+                df[columnas_parasitos].notna().any(axis=1),
+                np.nan
+            )
+
+        bases.append(df)
+
+    if len(bases) == 0:
+        raise ValueError(f"No se pudo cargar ningún archivo válido desde: {carpeta}")
+
+    return pd.concat(bases, ignore_index=True)
+
+
+def guardar_csv(df, ruta):
+    """
+    Guarda el dataframe usando 'año' en vez de 'anio' para mantener formato de tesis.
+    """
+
+    df_guardar = df.copy()
+
+    if "anio" in df_guardar.columns:
+        df_guardar = df_guardar.rename(columns={"anio": "año"})
+
+    df_guardar.to_csv(
+        ruta,
+        index=False,
+        encoding="utf-8-sig",
+        na_rep="NA"
+    )
+
+
+# ============================================================
+# FUNCIONES DE ESTACIÓN
+# ============================================================
 
 def estacion_chile(semana):
     if pd.isna(semana):
@@ -80,27 +273,113 @@ def estacion_chile(semana):
     else:
         return np.nan
 
-# ==============================
+
+def estacion_noruega(semana):
+    if pd.isna(semana):
+        return np.nan
+
+    semana = int(semana)
+
+    if 1 <= semana <= 13:
+        return "Invierno"
+    elif 14 <= semana <= 26:
+        return "Primavera"
+    elif 27 <= semana <= 39:
+        return "Verano"
+    elif 40 <= semana <= 52:
+        return "Otoño"
+    else:
+        return np.nan
+
+
+# ============================================================
+# CARGAR DATASETS ORIGINALES
+# ============================================================
+
+base_chile = cargar_archivos(carpeta_chile, "Chile")
+base_noruega = cargar_archivos(carpeta_noruega, "Noruega")
+
+df = pd.concat([base_chile, base_noruega], ignore_index=True)
+
+# ============================================================
+# ASEGURAR FORMATOS
+# ============================================================
+
+df["anio"] = pd.to_numeric(df["anio"], errors="coerce")
+df["semana"] = pd.to_numeric(df["semana"], errors="coerce")
+df["parasitos_totales"] = pd.to_numeric(df["parasitos_totales"], errors="coerce")
+
+df["pais"] = df["pais"].astype(str).str.strip()
+df["localidad"] = (
+    df["localidad"]
+    .astype(str)
+    .str.strip()
+    .str.replace(r"\.0$", "", regex=True)
+)
+
+df = df.dropna(subset=["anio", "semana", "pais", "parasitos_totales"])
+
+df["anio"] = df["anio"].astype(int)
+df["semana"] = df["semana"].astype(int)
+
+# Mantener solo semanas válidas para homologación de 52 semanas
+df = df[(df["semana"] >= 1) & (df["semana"] <= 52)].copy()
+
+# ============================================================
+# ASIGNAR REGIÓN / MACROZONA
+# ============================================================
+
+mapa_zonas = {
+    # Chile
+    "102424": "Los Lagos",
+    "110758": "Aysén",
+    "120128": "Magallanes",
+
+    # Noruega
+    "33077": "Sur/Oeste Noruega",
+    "32677": "Centro Noruega",
+    "24175": "Norte Noruega"
+}
+
+df["zona"] = df["localidad"].map(mapa_zonas)
+
+# ============================================================
+# ASIGNAR ESTACIÓN ORIGINAL
+# ============================================================
+
+df["estacion"] = np.where(
+    df["pais"] == "Chile",
+    df["semana"].apply(estacion_chile),
+    df["semana"].apply(estacion_noruega)
+)
+
+# ============================================================
 # HOMOLOGACIÓN TEMPORAL
-# ==============================
+# ============================================================
 
 def homologar_semana(row):
     """
-    Chile mantiene su semana original.
-    Noruega se desplaza 26 semanas hacia atrás para comparar estaciones equivalentes.
+    Criterio metodológico:
+
+    Noruega mantiene su semana original.
+    Chile se desplaza 26 semanas hacia adelante.
+
+    S_N = S_C + 26
+
+    Si S_C + 26 > 52, se resta 52.
     """
 
     semana = int(row["semana"])
     pais = row["pais"]
 
-    if pais == "Chile":
+    if pais == "Noruega":
         return semana
 
-    elif pais == "Noruega":
-        semana_homologada = semana - 26
+    elif pais == "Chile":
+        semana_homologada = semana + 26
 
-        if semana_homologada <= 0:
-            semana_homologada += 52
+        if semana_homologada > 52:
+            semana_homologada -= 52
 
         return semana_homologada
 
@@ -109,21 +388,22 @@ def homologar_semana(row):
 
 def homologar_anio(row):
     """
-    Ajusta el año homologado para Noruega.
-    Si al restar 26 semanas queda una semana menor o igual a cero,
-    el registro se mueve al año anterior en el eje homologado.
+    Ajusta el año homologado para Chile.
+
+    Si S_C + 26 > 52, el registro chileno pasa al año siguiente
+    en el eje homologado.
     """
 
-    anio = int(row["año"])
+    anio = int(row["anio"])
     semana = int(row["semana"])
     pais = row["pais"]
 
-    if pais == "Chile":
+    if pais == "Noruega":
         return anio
 
-    elif pais == "Noruega":
-        if semana - 26 <= 0:
-            return anio - 1
+    elif pais == "Chile":
+        if semana + 26 > 52:
+            return anio + 1
         else:
             return anio
 
@@ -131,19 +411,23 @@ def homologar_anio(row):
 
 
 df["semana_homologada"] = df.apply(homologar_semana, axis=1)
-df["año_homologado"] = df.apply(homologar_anio, axis=1)
+df["anio_homologado"] = df.apply(homologar_anio, axis=1)
+
+df = df.dropna(subset=["semana_homologada", "anio_homologado"])
 
 df["semana_homologada"] = df["semana_homologada"].astype(int)
-df["año_homologado"] = df["año_homologado"].astype(int)
+df["anio_homologado"] = df["anio_homologado"].astype(int)
 
-df["estacion_homologada"] = df["semana_homologada"].apply(estacion_chile)
+# Como el eje homologado queda en referencia noruega,
+# la estación homologada se calcula con calendario noruego.
+df["estacion_homologada"] = df["semana_homologada"].apply(estacion_noruega)
 
-# ==============================
+# ============================================================
 # FECHA HOMOLOGADA
-# ==============================
+# ============================================================
 
 df["fecha_homologada"] = pd.to_datetime(
-    df["año_homologado"].astype(str)
+    df["anio_homologado"].astype(str)
     + "-W"
     + df["semana_homologada"].astype(str).str.zfill(2)
     + "-1",
@@ -153,18 +437,48 @@ df["fecha_homologada"] = pd.to_datetime(
 
 df = df.dropna(subset=["fecha_homologada"])
 
-# ==============================
+# ============================================================
 # FILTRAR PERÍODO COMÚN HOMOLOGADO
-# ==============================
+# ============================================================
 
 df_grafico = df[
-    (df["año_homologado"] >= 2014) &
-    (df["año_homologado"] <= 2024)
+    (df["anio_homologado"] >= 2014) &
+    (df["anio_homologado"] <= 2024)
 ].copy()
 
-# ==============================
+# ============================================================
+# GUARDAR BASES GENERADAS
+# ============================================================
+
+guardar_csv(
+    base_chile,
+    os.path.join(carpeta_chile, "base_chile_completa.csv")
+)
+
+guardar_csv(
+    base_noruega,
+    os.path.join(carpeta_noruega, "base_noruega_completa.csv")
+)
+
+guardar_csv(
+    df,
+    os.path.join(carpeta_base, "base_chile_noruega_completa.csv")
+)
+
+guardar_csv(
+    df_grafico,
+    os.path.join(carpeta_base, "base_chile_noruega_completa_homologada.csv")
+)
+
+print("\nBases guardadas correctamente.")
+print("Base Chile:", base_chile.shape)
+print("Base Noruega:", base_noruega.shape)
+print("Base conjunta:", df.shape)
+print("Base homologada:", df_grafico.shape)
+
+# ============================================================
 # BOXPLOT 1: POR PAÍS
-# ==============================
+# ============================================================
 
 paises = ["Chile", "Noruega"]
 
@@ -198,11 +512,11 @@ plt.close()
 
 print(f"Guardado: {ruta_boxplot_pais}")
 
-# ==============================
+# ============================================================
 # BOXPLOT 2: POR ESTACIÓN HOMOLOGADA Y PAÍS
-# ==============================
+# ============================================================
 
-orden_estaciones = ["Verano", "Otoño", "Invierno", "Primavera"]
+orden_estaciones = ["Invierno", "Primavera", "Verano", "Otoño"]
 
 plt.figure(figsize=(12, 6))
 
@@ -249,9 +563,9 @@ plt.close()
 
 print(f"Guardado: {ruta_boxplot_estacion}")
 
-# ==============================
+# ============================================================
 # BOXPLOT 3: POR REGIÓN / MACROZONA
-# ==============================
+# ============================================================
 
 orden_zonas = [
     "Los Lagos",
@@ -295,9 +609,9 @@ plt.close()
 
 print(f"Guardado: {ruta_boxplot_zona}")
 
-# ==============================
+# ============================================================
 # GRÁFICO TEMPORAL HOMOLOGADO SIMPLE
-# ==============================
+# ============================================================
 
 df_temporal = (
     df_grafico
@@ -335,16 +649,15 @@ plt.close()
 
 print(f"Guardado: {ruta_linea_simple}")
 
-# ==============================
+# ============================================================
 # GRÁFICO TEMPORAL HOMOLOGADO CON FONDO ESTACIONAL
-# VERSIÓN LIMPIA Y SUAVIZADA
-# ==============================
+# ============================================================
 
 colores_estacion = {
-    "Verano": "#FFB3B3",      # rojo suave
-    "Otoño": "#F6D7B0",       # naranja suave
-    "Invierno": "#BFD7EA",    # azul suave
-    "Primavera": "#CDECCF"    # verde suave
+    "Invierno": "#BFD7EA",
+    "Primavera": "#CDECCF",
+    "Verano": "#FFB3B3",
+    "Otoño": "#F6D7B0"
 }
 
 colores_pais = {
@@ -352,7 +665,6 @@ colores_pais = {
     "Noruega": "#ff7f0e"
 }
 
-# Promedio semanal por país
 df_temporal_hom = (
     df_grafico
     .groupby(["pais", "fecha_homologada"], as_index=False)["parasitos_totales"]
@@ -360,7 +672,6 @@ df_temporal_hom = (
     .sort_values(["pais", "fecha_homologada"])
 )
 
-# Suavizado con promedio móvil de 4 semanas
 df_temporal_hom["parasitos_suavizados"] = (
     df_temporal_hom
     .groupby("pais")["parasitos_totales"]
@@ -372,15 +683,11 @@ fecha_max = df_temporal_hom["fecha_homologada"].max()
 
 fig, ax = plt.subplots(figsize=(15, 6))
 
-# ==============================
-# FONDO ESTACIONAL
-# ==============================
-
 rangos_estaciones = [
-    ("Verano", 1, 13),
-    ("Otoño", 14, 26),
-    ("Invierno", 27, 39),
-    ("Primavera", 40, 52)
+    ("Invierno", 1, 13),
+    ("Primavera", 14, 26),
+    ("Verano", 27, 39),
+    ("Otoño", 40, 52)
 ]
 
 for anio in range(2014, 2025):
@@ -412,10 +719,6 @@ for anio in range(2014, 2025):
             zorder=0
         )
 
-# ==============================
-# LÍNEAS SUAVIZADAS
-# ==============================
-
 for pais in paises:
     datos = df_temporal_hom[
         df_temporal_hom["pais"] == pais
@@ -430,10 +733,6 @@ for pais in paises:
         zorder=3
     )
 
-# ==============================
-# FORMATO DEL GRÁFICO
-# ==============================
-
 ax.set_title("Evolución temporal homologada de parásitos totales por país")
 ax.set_xlabel("Año homologado")
 ax.set_ylabel("Parásitos totales promedio")
@@ -445,10 +744,10 @@ ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
 ax.grid(True, axis="y", alpha=0.25)
 
 leyenda_estaciones = [
-    Patch(facecolor=colores_estacion["Verano"], alpha=0.50, label="Verano"),
-    Patch(facecolor=colores_estacion["Otoño"], alpha=0.50, label="Otoño"),
     Patch(facecolor=colores_estacion["Invierno"], alpha=0.50, label="Invierno"),
-    Patch(facecolor=colores_estacion["Primavera"], alpha=0.50, label="Primavera")
+    Patch(facecolor=colores_estacion["Primavera"], alpha=0.50, label="Primavera"),
+    Patch(facecolor=colores_estacion["Verano"], alpha=0.50, label="Verano"),
+    Patch(facecolor=colores_estacion["Otoño"], alpha=0.50, label="Otoño")
 ]
 
 handles_lineas, labels_lineas = ax.get_legend_handles_labels()
@@ -473,22 +772,5 @@ plt.close()
 
 print(f"Guardado: {ruta_linea_estacional}")
 
-# ==============================
-# GUARDAR DATASET HOMOLOGADO
-# ==============================
-
-ruta_dataset_homologado = os.path.join(
-    "dataset",
-    "base_chile_noruega_completa_homologada.csv"
-)
-
-df_grafico.to_csv(
-    ruta_dataset_homologado,
-    index=False,
-    encoding="utf-8-sig",
-    na_rep="NA"
-)
-
-print(f"Dataset homologado guardado en: {ruta_dataset_homologado}")
-
-print("\nListo. Se generaron los gráficos con homologación temporal corregida y suavizada.")
+print("\nListo. Se usaron los CSV originales de datasetchile y datasetnoruega.")
+print("Homologación aplicada según el criterio: S_N = S_C + 26.")
