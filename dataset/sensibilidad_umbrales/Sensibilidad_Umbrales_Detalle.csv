@@ -1,0 +1,10 @@
+﻿region_chile,region_noruega,total_semanas,semanas_comparables,promedio_dif_temp_C,promedio_dif_sal_PSU,porcentaje_comparabilidad,escenario,umbral_temperatura_C,umbral_salinidad_PSU,par_territorial,orden_escenario,orden_par
+Los Lagos,Sur/Oeste,546,205,2.577,1.029,37.55,Estricto_2_2,2,2,Los Lagos - Sur/Oeste,1,1
+Aysén,Centro,546,278,2.016,1.166,50.92,Estricto_2_2,2,2,Aysén - Centro,1,2
+Magallanes,Norte,546,451,1.2,0.699,82.6,Estricto_2_2,2,2,Magallanes - Norte,1,3
+Los Lagos,Sur/Oeste,546,319,2.577,1.029,58.42,Principal_3_3,3,3,Los Lagos - Sur/Oeste,2,1
+Aysén,Centro,546,396,2.016,1.166,72.53,Principal_3_3,3,3,Aysén - Centro,2,2
+Magallanes,Norte,546,502,1.2,0.699,91.94,Principal_3_3,3,3,Magallanes - Norte,2,3
+Los Lagos,Sur/Oeste,546,413,2.577,1.029,75.64,Flexible_4_4,4,4,Los Lagos - Sur/Oeste,3,1
+Aysén,Centro,546,501,2.016,1.166,91.76,Flexible_4_4,4,4,Aysén - Centro,3,2
+Magallanes,Norte,546,526,1.2,0.699,96.34,Flexible_4_4,4,4,Magallanes - Norte,3,3

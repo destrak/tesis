@@ -1,0 +1,10 @@
+﻿escenario,umbral_temperatura_C,umbral_salinidad_PSU,par_territorial,total_semanas,semanas_comparables,porcentaje_comparabilidad
+Estricto_2_2,2,2,Los Lagos - Sur/Oeste,546,205,37.55
+Estricto_2_2,2,2,Aysén - Centro,546,278,50.92
+Estricto_2_2,2,2,Magallanes - Norte,546,451,82.6
+Principal_3_3,3,3,Los Lagos - Sur/Oeste,546,319,58.42
+Principal_3_3,3,3,Aysén - Centro,546,396,72.53
+Principal_3_3,3,3,Magallanes - Norte,546,502,91.94
+Flexible_4_4,4,4,Los Lagos - Sur/Oeste,546,413,75.64
+Flexible_4_4,4,4,Aysén - Centro,546,501,91.76
+Flexible_4_4,4,4,Magallanes - Norte,546,526,96.34
