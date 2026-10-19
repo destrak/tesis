@@ -24,13 +24,13 @@ Las descripciones corresponden a los **33 scripts Python revisados**. Los modelo
 | --- | --- |
 | `limpiarcsvchile.py` | Filtra y organiza los registros parasitarios chilenos de un centro seleccionado, estandariza las semanas y prepara un CSV para el análisis. |
 | `limpiarcsvbarentwatch.py` | Limpia y adapta los registros de piojo de mar obtenidos desde BarentsWatch, normalizando columnas para los análisis posteriores. |
-| `datosnoruega(1).py` | Consulta la API de BarentsWatch y descarga registros semanales de infestación para una localidad noruega (configurada en el script como **32677**). **Requiere credenciales propias.** |
-| `datoscentrolagos102424(1).py` | Descarga desde Copernicus Marine archivos NetCDF de temperatura y salinidad para el centro **102424**, en Los Lagos. |
-| `datoscentroayzen110758(1).py` | Descarga variables oceanográficas desde Copernicus Marine para el centro **110758**, en Aysén. |
-| `datoscentromagallanes120128(1).py` | Descarga temperatura y salinidad para el centro **120128**, en Magallanes. |
-| `datossuroeste33077(1).py` | Descarga variables ambientales para el centro noruego **33077**, en Sur/Oeste. |
-| `datoszonacentronoruega32677(1).py` | Descarga variables ambientales para el centro noruego **32677**, en la zona Centro. |
-| `datoszonanortenoruega24175(1).py` | Descarga variables ambientales para el centro noruego **24175**, en la zona Norte. |
+| `datosnoruega.py` | Consulta la API de BarentsWatch y descarga registros semanales de infestación para una localidad noruega (configurada en el script como **32677**). **Requiere credenciales propias.** |
+| `datoscentrolagos102424.py` | Descarga desde Copernicus Marine archivos NetCDF de temperatura y salinidad para el centro **102424**, en Los Lagos. |
+| `datoscentroayzen110758.py` | Descarga variables oceanográficas desde Copernicus Marine para el centro **110758**, en Aysén. |
+| `datoscentromagallanes120128.py` | Descarga temperatura y salinidad para el centro **120128**, en Magallanes. |
+| `datossuroeste33077.py` | Descarga variables ambientales para el centro noruego **33077**, en Sur/Oeste. |
+| `datoszonacentronoruega32677.py` | Descarga variables ambientales para el centro noruego **32677**, en la zona Centro. |
+| `datoszonanortenoruega24175.py` | Descarga variables ambientales para el centro noruego **24175**, en la zona Norte. |
 | `procesar_nc.py` | Lee los archivos NetCDF descargados y consolida los valores de temperatura y salinidad en una base tabular; su configuración original corresponde al centro **120128**. |
 | `promedio_semanal.py` | Agrega los registros ambientales a promedios semanales de temperatura y salinidad. |
 | `juntardatasets.py` | Une los registros parasitarios y ambientales mediante las claves temporales correspondientes para construir una base integrada; el archivo de ejemplo está configurado para un centro específico. |
@@ -40,14 +40,14 @@ Las descripciones corresponden a los **33 scripts Python revisados**. Los modelo
 
 | **Script** | **Función** |
 | --- | --- |
-| `comparar(1).py` | Compara un par de centros de Chile y Noruega tras aplicar el desfase de 26 semanas y calcula diferencias y cumplimiento de los umbrales ambientales de **±3 °C** y **±3 PSU**. |
-| `comparartodo(1).py` | Extiende la comparación a los tres pares de macrozonas y analiza la sensibilidad de las semanas comparables frente a umbrales **±2/±2**, **±3/±3** y **±4/±4**. |
+| `comparar.py` | Compara un par de centros de Chile y Noruega tras aplicar el desfase de 26 semanas y calcula diferencias y cumplimiento de los umbrales ambientales de **±3 °C** y **±3 PSU**. |
+| `comparartodo.py` | Extiende la comparación a los tres pares de macrozonas y analiza la sensibilidad de las semanas comparables frente a umbrales **±2/±2**, **±3/±3** y **±4/±4**. |
 | `Wilcoxonsigned-rank.py` | Homologa temporalmente las observaciones de Chile y Noruega, contrasta la normalidad de las diferencias mediante Shapiro–Wilk y aplica una prueba pareada (t de Student o Wilcoxon, según corresponda), además de resumir la comparabilidad ambiental. |
 | `graficar.py` | Genera gráficos de temperatura, salinidad y diferencias ambientales de un par de centros, mostrando los umbrales de comparación. |
 | `graficartodo.py` | Genera series temporales y visualizaciones de temperatura y salinidad para Chile, Noruega y el conjunto de observaciones. |
 | `parasitosenconjunto.py` | Integra los centros de ambos países, aplica homologación estacional y produce bases procesadas, **diagramas de caja** y **series temporales** de carga parasitaria. |
 | `parasitosseparadosporzona.py` | Construye gráficos de evolución parasitaria por región o macrozona, organizados por país y sobre semanas homologadas. |
-| `clustering(1).py` | Aplica **K-means** a variables parasitarias y ambientales; evalúa el número de grupos con métodos de codo y silueta, y presenta los conglomerados mediante **PCA** y otros gráficos descriptivos. |
+| `clustering.py` | Aplica **K-means** a variables parasitarias y ambientales; evalúa el número de grupos con métodos de codo y silueta, y presenta los conglomerados mediante **PCA** y otros gráficos descriptivos. |
 | `heatmap_correlacion.py` | Genera un mapa de calor de correlaciones entre variables del conjunto de datos utilizado en Random Forest. |
 | `heatmap_shap.py` | Compara visualmente las importancias de variables obtenidas mediante **SHAP** para los modelos de Chile, Noruega y el conjunto combinado. |
 
@@ -55,7 +55,7 @@ Las descripciones corresponden a los **33 scripts Python revisados**. Los modelo
 
 | **Script** | **Función** |
 | --- | --- |
-| `randomforest(1).py` | Versión exploratoria que evalúa variables originales y variables de identificación temporal o territorial, con interpretación de importancia mediante **SHAP agrupado**. |
+| `randomforest.py` | Versión exploratoria que evalúa variables originales y variables de identificación temporal o territorial, con interpretación de importancia mediante **SHAP agrupado**. |
 | `radomforestmejorado.py` | Desarrolla un Random Forest con variables históricas, rezagos, estadísticas móviles y análisis **SHAP** para la predicción semanal. Se conserva la escritura original del nombre del archivo. |
 | `random_forest_gridsearch.py` | Evalúa combinaciones de hiperparámetros mediante **GridSearchCV** y genera resultados de evaluación e importancia de variables. |
 | `random_forest_reducido_1.py` | Prueba una configuración reducida de predictores, excluyendo variables de identificación temporal y territorial (*proxies*). |
