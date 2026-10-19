@@ -16,7 +16,7 @@ El flujo de trabajo comprende cinco etapas:
 
 ## Archivos del proyecto
 
-Las descripciones corresponden a los **31 scripts Python revisados**. Los modelos predictivos definitivos son **`random_forest_final.py`** y **`lstm_final.py`**. Los demás scripts de Random Forest y LSTM documentan pruebas, selección de hiperparámetros y análisis complementarios.
+Las descripciones corresponden a los **33 scripts Python revisados**. Los modelos predictivos definitivos son **`random_forest_final.py`** y **`lstm_final.py`**. Los demás scripts de Random Forest y LSTM documentan pruebas, selección de hiperparámetros y análisis complementarios.
 
 ### Obtención y preparación de datos
 
@@ -34,6 +34,7 @@ Las descripciones corresponden a los **31 scripts Python revisados**. Los modelo
 | `procesar_nc.py` | Lee los archivos NetCDF descargados y consolida los valores de temperatura y salinidad en una base tabular; su configuración original corresponde al centro **120128**. |
 | `promedio_semanal.py` | Agrega los registros ambientales a promedios semanales de temperatura y salinidad. |
 | `juntardatasets.py` | Une los registros parasitarios y ambientales mediante las claves temporales correspondientes para construir una base integrada; el archivo de ejemplo está configurado para un centro específico. |
+| `agregarestacionyparasitostotales.py` | Asigna estaciones del año según el país y la semana, calcula `parasitos_totales` a partir de las categorías parasitarias y genera bases consolidadas para Chile, Noruega y el conjunto. **Sobrescribe algunos CSV originales** según su configuración. |
 
 ### Comparaciones, gráficos y agrupamiento
 
@@ -41,6 +42,7 @@ Las descripciones corresponden a los **31 scripts Python revisados**. Los modelo
 | --- | --- |
 | `comparar(1).py` | Compara un par de centros de Chile y Noruega tras aplicar el desfase de 26 semanas y calcula diferencias y cumplimiento de los umbrales ambientales de **±3 °C** y **±3 PSU**. |
 | `comparartodo(1).py` | Extiende la comparación a los tres pares de macrozonas y analiza la sensibilidad de las semanas comparables frente a umbrales **±2/±2**, **±3/±3** y **±4/±4**. |
+| `Wilcoxonsigned-rank.py` | Homologa temporalmente las observaciones de Chile y Noruega, contrasta la normalidad de las diferencias mediante Shapiro–Wilk y aplica una prueba pareada (t de Student o Wilcoxon, según corresponda), además de resumir la comparabilidad ambiental. |
 | `graficar.py` | Genera gráficos de temperatura, salinidad y diferencias ambientales de un par de centros, mostrando los umbrales de comparación. |
 | `graficartodo.py` | Genera series temporales y visualizaciones de temperatura y salinidad para Chile, Noruega y el conjunto de observaciones. |
 | `parasitosenconjunto.py` | Integra los centros de ambos países, aplica homologación estacional y produce bases procesadas, **diagramas de caja** y **series temporales** de carga parasitaria. |
