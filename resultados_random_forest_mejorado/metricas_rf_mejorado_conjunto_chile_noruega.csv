@@ -1,0 +1,2 @@
+﻿modelo,n_entrenamiento,n_prueba,MAE_RF,RMSE_RF,R2_RF,MAE_base_persistencia,RMSE_base_persistencia,R2_base_persistencia
+conjunto_chile_noruega,1587,278,1.697429986881374,3.3696540585149366,0.5658335356583777,1.833273381294964,3.8849226634155056,0.4229009003369092

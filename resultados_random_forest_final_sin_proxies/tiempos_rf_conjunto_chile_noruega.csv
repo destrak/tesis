@@ -1,0 +1,2 @@
+﻿modelo,tiempo_entrenamiento_s,tiempo_prediccion_s,tiempo_importancia_permutacion_s,tiempo_shap_s,tiempo_total_modelo_s,tiempo_entrenamiento,tiempo_prediccion,tiempo_importancia_permutacion,tiempo_shap,tiempo_total_modelo
+conjunto_chile_noruega,0.9981039999984205,0.04679850023239851,7.684237299952656,7.35926409997046,17.552599800284952,1.00 s,0.05 s,7.68 s,7.36 s,17.55 s

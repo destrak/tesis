@@ -1,0 +1,4 @@
+﻿comparacion,n_pares,temperatura_media_chile,temperatura_media_noruega,diferencia_media_chile_menos_noruega,desviacion_diferencias,p_shapiro,normalidad_diferencias,prueba_aplicada,estadistico,p_value,conclusion
+Los_Lagos_vs_Sur_Oeste,546,12.6802,10.2719,2.4084,1.9076,1.713e-05,No normal,Wilcoxon signed-rank,5582.5,0.0,Existe diferencia estadísticamente significativa
+Aysen_vs_Centro,546,11.2889,9.716,1.5729,1.824,9.4e-07,No normal,Wilcoxon signed-rank,17387.5,0.0,Existe diferencia estadísticamente significativa
+Magallanes_vs_Norte,546,7.233,7.8045,-0.5715,1.5659,0.0,No normal,Wilcoxon signed-rank,49547.0,0.0,Existe diferencia estadísticamente significativa

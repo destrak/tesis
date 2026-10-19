@@ -1,0 +1,4 @@
+﻿modelo,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+conjunto_chile_noruega,300,20,2,2,log2,True
+chile,300,20,2,2,log2,True
+noruega,300,20,2,2,log2,True

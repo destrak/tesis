@@ -1,0 +1,13 @@
+﻿variable_original,shap_importancia_media_abs,tipo
+parasitos_totales,1.1397977590805506,no_proxy
+adultos_moviles,0.936658741874074,no_proxy
+hembras_ovigeras,0.6104961498759701,no_proxy
+juveniles,0.5610861559050191,no_proxy
+temperatura,0.2510663729556983,no_proxy
+zona,0.17093472639442508,proxy
+semana_cos,0.13532297960739229,no_proxy
+localidad,0.12359260734797203,proxy
+salinidad,0.1042725230373432,no_proxy
+estacion,0.07877381857176305,proxy
+anio,0.04771898196214552,proxy
+semana_sin,0.03319113743728964,no_proxy

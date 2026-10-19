@@ -1,0 +1,13 @@
+﻿base,modelo,n_entrenamiento,n_prueba,n_variables_numericas,n_variables_categoricas,MAE,RMSE,R2
+conjunto_chile_noruega,persistencia,,278,1,0,1.833,3.885,0.423
+conjunto_chile_noruega,ambiental_temporal_territorial,1587.0,278,5,4,3.495,5.391,-0.111
+conjunto_chile_noruega,ambiental_temporal_mas_carga_actual,1587.0,278,9,4,1.784,3.326,0.577
+conjunto_chile_noruega,modelo_completo_historico,1587.0,278,49,4,1.679,3.327,0.577
+chile,persistencia,,144,1,0,2.529,4.97,0.302
+chile,ambiental_temporal_territorial,714.0,144,5,4,4.349,6.786,-0.301
+chile,ambiental_temporal_mas_carga_actual,714.0,144,9,4,2.37,4.231,0.494
+chile,modelo_completo_historico,714.0,144,49,4,2.351,4.15,0.513
+noruega,persistencia,,134,1,0,1.086,2.183,0.221
+noruega,ambiental_temporal_territorial,873.0,134,5,4,2.69,3.414,-0.906
+noruega,ambiental_temporal_mas_carga_actual,873.0,134,9,4,1.325,2.088,0.287
+noruega,modelo_completo_historico,873.0,134,49,4,1.031,1.895,0.413

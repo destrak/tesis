@@ -1,0 +1,2 @@
+﻿modelo,n_entrenamiento,n_prueba,MAE_RF,RMSE_RF,R2_RF,MAE_base_persistencia,RMSE_base_persistencia,R2_base_persistencia,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+noruega,873,134,1.0112445574664686,1.8262201823138873,0.4547281723662334,1.0860447761194032,2.182884747506272,0.22094450297810864,300,20,2,2,log2,True

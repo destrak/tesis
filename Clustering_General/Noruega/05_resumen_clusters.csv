@@ -1,0 +1,4 @@
+﻿cluster,semanas,promedio_hembras_ovigeras,promedio_adultos_moviles,promedio_juveniles,promedio_parasitos_totales,promedio_temperatura,promedio_salinidad,orden_carga,interpretacion
+0,69,0.912,6.5,4.045,11.457,9.642,32.409,1,Mayor carga parasitaria
+1,342,0.202,1.231,0.526,1.959,13.364,32.108,2,Carga parasitaria intermedia
+2,649,0.128,0.592,0.338,1.059,7.356,33.466,3,Menor carga parasitaria

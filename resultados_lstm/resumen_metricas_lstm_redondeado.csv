@@ -1,0 +1,10 @@
+﻿base,modelo,ventana_semanas,n_entrenamiento,n_validacion,n_prueba,MAE_LSTM,RMSE_LSTM,R2_LSTM,MAE_persistencia,RMSE_persistencia,R2_persistencia,epocas_entrenadas
+conjunto_chile_noruega,LSTM,4,1144,285,263,2.117,3.622,0.513,1.917,3.989,0.409,30
+conjunto_chile_noruega,LSTM,8,1004,250,243,2.101,3.651,0.531,1.994,4.127,0.401,33
+conjunto_chile_noruega,LSTM,12,885,221,225,2.486,4.01,0.46,2.1,4.276,0.386,36
+chile,LSTM,4,532,132,138,2.796,4.959,0.315,2.602,5.07,0.284,32
+chile,LSTM,8,480,120,130,2.731,4.851,0.379,2.688,5.211,0.283,34
+chile,LSTM,12,433,108,122,2.915,5.078,0.347,2.796,5.367,0.27,40
+noruega,LSTM,4,612,153,125,1.77,2.477,0.037,1.16,2.26,0.198,36
+noruega,LSTM,8,524,130,113,1.788,2.776,-0.169,1.196,2.32,0.183,38
+noruega,LSTM,12,452,113,103,1.882,2.967,-0.267,1.276,2.412,0.163,44

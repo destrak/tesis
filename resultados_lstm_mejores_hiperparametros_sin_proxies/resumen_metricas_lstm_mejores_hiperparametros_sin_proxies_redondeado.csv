@@ -1,0 +1,4 @@
+﻿base,modelo,ventana_semanas,lstm_units,dropout,dense_units,learning_rate,batch_size,n_entrenamiento,n_validacion,n_prueba,MAE_LSTM,RMSE_LSTM,R2_LSTM,MAE_persistencia,RMSE_persistencia,R2_persistencia,epocas_entrenadas
+conjunto_chile_noruega,LSTM_mejores_hiperparametros_sin_proxies,4,32,0.1,8,0.0005,32,1144,285,263,1.781,3.577,0.525,1.917,3.989,0.409,50
+chile,LSTM_mejores_hiperparametros_sin_proxies,4,16,0.2,8,0.001,32,532,132,138,2.487,4.737,0.375,2.602,5.07,0.284,47
+noruega,LSTM_mejores_hiperparametros_sin_proxies,4,32,0.1,16,0.001,32,612,153,125,1.201,2.053,0.338,1.16,2.26,0.198,43

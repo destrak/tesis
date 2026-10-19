@@ -1,0 +1,4 @@
+﻿comparacion,n_total_semanas,n_cumple_temperatura,porcentaje_cumple_temperatura,n_cumple_salinidad,porcentaje_cumple_salinidad,n_cumple_ambas,porcentaje_cumple_ambas,delta_temperatura_media_abs,delta_salinidad_media_abs,cumple_promedio_temperatura,cumple_promedio_salinidad,cumple_promedio_ambas
+Los_Lagos_vs_Sur_Oeste,546,321,58.79,544,99.63,319,58.42,2.5774,1.0295,Sí,Sí,Sí
+Aysen_vs_Centro,546,396,72.53,545,99.82,396,72.53,2.0162,1.1664,Sí,Sí,Sí
+Magallanes_vs_Norte,546,502,91.94,546,100.0,502,91.94,1.1995,0.6986,Sí,Sí,Sí

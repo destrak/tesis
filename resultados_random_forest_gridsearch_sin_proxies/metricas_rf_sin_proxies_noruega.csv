@@ -1,0 +1,2 @@
+﻿modelo,n_entrenamiento,n_prueba,mejor_RMSE_validacion,MAE_RF,RMSE_RF,R2_RF,MAE_base_persistencia,RMSE_base_persistencia,R2_base_persistencia,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap,variables_proxy_excluidas
+noruega,873,134,2.9105658587783956,1.0197755966917943,1.8716478479172722,0.4272632350685791,1.0860447761194032,2.182884747506272,0.22094450297810864,300,20,4,1,log2,True,"anio, zona, localidad, estacion"

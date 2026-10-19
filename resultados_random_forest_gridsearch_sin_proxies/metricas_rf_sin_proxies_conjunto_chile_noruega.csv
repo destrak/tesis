@@ -1,0 +1,2 @@
+﻿modelo,n_entrenamiento,n_prueba,mejor_RMSE_validacion,MAE_RF,RMSE_RF,R2_RF,MAE_base_persistencia,RMSE_base_persistencia,R2_base_persistencia,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap,variables_proxy_excluidas
+conjunto_chile_noruega,1587,278,2.3768172684528284,1.7125218427819657,3.4126224247249723,0.5546903344614367,1.833273381294964,3.8849226634155056,0.4229009003369092,300,,8,1,log2,True,"anio, zona, localidad, estacion"

@@ -1,0 +1,4 @@
+﻿base,modelo,ventana_semanas,lstm_units,dropout,dense_units,learning_rate,batch_size,epocas_finales,n_entrenamiento_total,n_prueba,MAE_LSTM,RMSE_LSTM,R2_LSTM,MAE_persistencia,RMSE_persistencia,R2_persistencia
+conjunto_chile_noruega,LSTM_optimizada_sin_proxies,4,32,0.1,8,0.0005,32,28,1429,263,1.834,3.674,0.498,1.917,3.989,0.409
+chile,LSTM_optimizada_sin_proxies,4,16,0.2,8,0.001,32,24,664,138,2.448,4.625,0.404,2.602,5.07,0.284
+noruega,LSTM_optimizada_sin_proxies,4,32,0.1,16,0.001,32,51,765,125,1.367,2.237,0.214,1.16,2.26,0.198
